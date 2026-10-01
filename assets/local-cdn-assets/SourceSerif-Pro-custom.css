@@ -1,0 +1,18 @@
+﻿/*
+ * Custom CSS for Font Loading
+ * Based on Google Fonts request for "Source Serif Pro" with weight 700.
+ * Using provided IRANSansWeb CDN links as per user instruction.
+ */
+
+/* Weight: 700 */
+@font-face {
+  font-family: 'SourceSerifProCustom'; /* Using a custom family name to avoid confusion */
+  font-style: normal;
+  font-weight: 700;
+  src: url('IRANSansWeb.woff2') format('woff2'),
+       url('IRANSansWeb.woff') format('woff'); /* Fallback */
+  unicode-range: U+0000-00FF, U+0131, U+0370-03FF, U+0400-04FF, U+1E00-1EFF; /* Latin and Cyrillic */
+}
+
+/* Display=True (swap behavior handled by the browser when the @font-face rules are processed) */
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ico</title>
+    <g id="Add-Element:-Element-Teasers-(July-2025)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="add-element-window-teaser" transform="translate(-49, -191)">
+            <g id="templatera" transform="translate(29, 168)">
+                <g id="ico" transform="translate(20, 23)">
+                    <path d="M0,19 L23,19 L23,50 L10,50 C4.4771525,50 -1.43817996e-15,45.5228475 -1.77635684e-15,40 L0,19 L0,19 Z" id="Rectangle" fill="#10C248"></path>
+                    <path d="M27,19 L50,19 L50,50 L37,50 C31.4771525,50 27,45.5228475 27,40 L27,19 L27,19 Z" id="Rectangle" fill="#0972CE" transform="translate(38.5, 34.5) scale(-1, 1) translate(-38.5, -34.5)"></path>
+                    <path d="M10,0 L40,0 C45.5228475,-1.01453063e-15 50,4.4771525 50,10 L50,15 L50,15 L0,15 L0,10 C-6.76353751e-16,4.4771525 4.4771525,6.76353751e-16 10,0 Z" id="Rectangle" fill="#F4B642"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

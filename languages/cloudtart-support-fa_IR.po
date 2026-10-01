@@ -1,0 +1,2820 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CloudTart Support Services Plugin\n"
+"POT-Creation-Date: 2026-06-01 00:00+0330\n"
+"PO-Revision-Date: 2026-06-01 00:00+0330\n"
+"Last-Translator: CloudTart <support@cloudtart.com>\n"
+"Language-Team: CloudTart <support@cloudtart.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: CloudTart build-translations.php\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: admin/class-admin.php:268
+msgid "Plugin default"
+msgstr "پیش‌فرض افزونه"
+
+#: admin/class-admin.php:289 admin/class-admin.php:504
+msgid "User upload"
+msgstr "آپلود کاربر"
+
+#: admin/class-admin.php:366 admin/class-admin.php:437
+#: admin/class-admin.php:1949 admin/class-admin.php:1974
+#: admin/class-admin.php:2063 admin/class-admin.php:2087
+#: includes/class-api.php:740 includes/class-expiry-manager.php:272
+#: includes/class-expiry-manager.php:350 includes/class-expiry-manager.php:410
+#: includes/class-expiry-manager.php:458 includes/class-expiry-manager.php:506
+msgid "You do not have permission to perform this action."
+msgstr "شما اجازه انجام این عمل را ندارید."
+
+#: admin/class-admin.php:441
+msgid "No file was uploaded."
+msgstr "هیچ فایلی آپلود نشد."
+
+#: admin/class-admin.php:469
+msgid "Invalid file type."
+msgstr "نوع فایل نامعتبر است."
+
+#: admin/class-admin.php:500 admin/class-admin.php:1070
+msgid "File uploaded successfully."
+msgstr "فایل با موفقیت آپلود شد."
+
+#: admin/class-admin.php:509
+msgid "Unknown upload error."
+msgstr "خطای نامشخص در آپلود فایل."
+
+#: admin/class-admin.php:518
+msgid "CloudTart Support Settings"
+msgstr "تنظیمات پشتیبانی کلادتارت"
+
+#: admin/class-admin.php:519 admin/class-admin.php:1677
+msgid "CloudTart Support"
+msgstr "پشتیبانی کلادتارت"
+
+#: admin/class-admin.php:539
+msgid "Main Settings"
+msgstr "تنظیمات اصلی"
+
+#: admin/class-admin.php:546
+msgid "API Key"
+msgstr "کلید API"
+
+#: admin/class-admin.php:554
+msgid "Debug Mode"
+msgstr "حالت دیباگ"
+
+#: admin/class-admin.php:562
+msgid "Automatically Send Fatal Error Logs"
+msgstr "ارسال خودکار لاگ‌های خطای بحرانی"
+
+#: admin/class-admin.php:577
+msgid "Expiry Settings"
+msgstr "تنظیمات انقضا"
+
+#: admin/class-admin.php:584
+msgid "Domain Expiry Date"
+msgstr "تاریخ انقضای دامنه"
+
+#: admin/class-admin.php:592
+msgid "Domain Renewal Period"
+msgstr "دوره تمدید دامنه"
+
+#: admin/class-admin.php:600
+msgid "Hosting Expiry Date"
+msgstr "تاریخ انقضای هاست"
+
+#: admin/class-admin.php:608
+msgid "Hosting Renewal Period"
+msgstr "دوره تمدید هاست"
+
+#: admin/class-admin.php:616
+msgid "Notification Emails"
+msgstr "ایمیل‌های اطلاع‌رسانی"
+
+#: admin/class-admin.php:624
+msgid "Days Before Expiry for Notification"
+msgstr "تعداد روزهای قبل از انقضا برای اطلاع‌رسانی"
+
+#: admin/class-admin.php:639
+msgid "Site Monitoring Settings"
+msgstr "تنظیمات مانیتورینگ سایت"
+
+#: admin/class-admin.php:646
+msgid "Site Status Monitoring"
+msgstr "پایش وضعیت سایت"
+
+#: admin/class-admin.php:654
+msgid "PHP Error Monitoring"
+msgstr "پایش خطاهای PHP"
+
+#: admin/class-admin.php:662
+msgid "Notification Email"
+msgstr "ایمیل اعلان"
+
+#: admin/class-admin.php:670
+msgid "Check Interval"
+msgstr "بازه بررسی"
+
+#: admin/class-admin.php:685
+msgid "Manage Add-on Plugins"
+msgstr "مدیریت افزونه‌های جانبی"
+
+#: admin/class-admin.php:692
+msgid "Digits plugin — IranPayamak SMS gateway"
+msgstr "افزونه Digits — درگاه پیامک ایران پیامک"
+
+#: admin/class-admin.php:700
+msgid "Dokan Multivendor plugin — coupon fix"
+msgstr "افزونه Dokan Multivendor — رفع مشکل کوپن"
+
+#: admin/class-admin.php:708
+msgid "FS WooCommerce Wallet plugin — withdrawals as orders"
+msgstr "افزونه FS WooCommerce Wallet — درخواست برداشت به‌صورت سفارش ووکامرس"
+
+#: admin/class-admin.php:716
+msgid "Persian WooCommerce SMS plugin — IranPayamak gateway"
+msgstr "افزونه پیامک ووکامرس فارسی — درگاه ایران پیامک"
+
+#: admin/class-admin.php:731 admin/class-admin.php:1694
+msgid "Internal CDN Settings"
+msgstr "تنظیمات اینترنت داخلی"
+
+#: admin/class-admin.php:738
+msgid "File redirects"
+msgstr "ریدایرکت فایل‌ها"
+
+#: admin/class-admin.php:746
+msgid "Replacement rules"
+msgstr "قوانین جایگزینی"
+
+#: admin/class-admin.php:754
+msgid "Block external requests"
+msgstr "مسدودسازی درخواست‌های خارجی"
+
+#: admin/class-admin.php:762
+msgid "Allowed domains"
+msgstr "دامنه‌های مجاز"
+
+#: admin/class-admin.php:770
+msgid "Allowed keywords"
+msgstr "کلمات کلیدی مجاز"
+
+#: admin/class-admin.php:778
+msgid "Block domains"
+msgstr "مسدودسازی دامنه‌ها"
+
+#: admin/class-admin.php:786
+msgid "Blocked domains"
+msgstr "دامنه‌های مسدود شده"
+
+#: admin/class-admin.php:794
+msgid "Log file management"
+msgstr "مدیریت فایل لاگ"
+
+#: admin/class-admin.php:831 admin/class-admin.php:832
+#: admin/class-admin.php:1779
+msgid "Enabled"
+msgstr "فعال"
+
+#: admin/class-admin.php:831 admin/class-admin.php:832
+#: admin/class-admin.php:1781
+msgid "Disabled"
+msgstr "غیرفعال"
+
+#: admin/class-admin.php:844
+msgid "Started validating monitoring settings"
+msgstr "اعتبارسنجی تنظیمات مانیتورینگ آغاز شد"
+
+#: admin/class-admin.php:881
+msgid "Monitoring settings validated."
+msgstr "تنظیمات مانیتورینگ اعتبارسنجی شد."
+
+#: admin/class-admin.php:892
+msgid "Started validating plugin settings"
+msgstr "اعتبارسنجی تنظیمات افزونه آغاز شد"
+
+#: admin/class-admin.php:946
+msgid "Started validating internal CDN settings"
+msgstr "شروع اعتبارسنجی تنظیمات اینترنت داخلی"
+
+#: admin/class-admin.php:1019
+msgid "Internal CDN settings validated."
+msgstr "تنظیمات اینترنت داخلی اعتبارسنجی شد."
+
+#: admin/class-admin.php:1053
+msgid "Testing..."
+msgstr "در حال تست..."
+
+#: admin/class-admin.php:1054
+msgid "Testing connection..."
+msgstr "در حال تست اتصال..."
+
+#: admin/class-admin.php:1055 admin/class-admin.php:1808
+msgid "Test Server Connection"
+msgstr "تست اتصال سرور"
+
+#: admin/class-admin.php:1056
+msgid "Server connection error."
+msgstr "خطای اتصال به سرور."
+
+#: admin/class-admin.php:1057
+msgid "Loading..."
+msgstr "در حال بارگذاری..."
+
+#: admin/class-admin.php:1058 admin/class-admin.php:1736
+msgid "Refresh Logs"
+msgstr "تازه‌سازی لاگ‌ها"
+
+#: admin/class-admin.php:1059
+msgid "Error fetching logs: "
+msgstr "خطا در دریافت لاگ‌ها: "
+
+#: admin/class-admin.php:1060
+msgid "Server Version:"
+msgstr "نسخه سرور:"
+
+#: admin/class-admin.php:1061
+msgid "Server Status:"
+msgstr "وضعیت سرور:"
+
+#: admin/class-admin.php:1062 includes/class-expiry-manager.php:1182
+msgid "Please enter the domain name and expiry date."
+msgstr "لطفاً نام دامنه و تاریخ انقضا را وارد کنید."
+
+#: admin/class-admin.php:1063 includes/class-expiry-manager.php:1197
+msgid "Adding domain..."
+msgstr "در حال افزودن دامنه..."
+
+#: admin/class-admin.php:1064
+msgid "Are you sure you want to delete this domain?"
+msgstr "آیا از حذف این دامنه مطمئن هستید؟"
+
+#: admin/class-admin.php:1065 includes/class-expiry-manager.php:1133
+#: includes/class-expiry-manager.php:1241
+msgid "No domains have been added."
+msgstr "هیچ دامنه‌ای اضافه نشده است."
+
+#: admin/class-admin.php:1066 admin/class-admin.php:1212
+#: admin/class-admin.php:1225 admin/class-admin.php:1289
+#: admin/class-admin.php:1297 admin/class-admin.php:1326
+#: admin/class-admin.php:1333 admin/class-admin.php:1362
+#: admin/class-admin.php:1369 includes/class-expiry-manager.php:1161
+msgid "Remove"
+msgstr "حذف"
+
+#: admin/class-admin.php:1067
+msgid "Uploading..."
+msgstr "در حال آپلود..."
+
+#: admin/class-admin.php:1068 admin/class-admin.php:1232
+msgid "Upload"
+msgstr "آپلود"
+
+#: admin/class-admin.php:1069
+msgid "Please choose a file first."
+msgstr "لطفاً ابتدا یک فایل انتخاب کنید."
+
+#: admin/class-admin.php:1071
+msgid "File upload failed."
+msgstr "آپلود فایل ناموفق بود."
+
+#: admin/class-admin.php:1072 admin/class-admin.php:1238
+msgid "Add Rule"
+msgstr "افزودن قانون"
+
+#: admin/class-admin.php:1073 admin/class-admin.php:1301
+#: admin/class-admin.php:1337 includes/class-expiry-manager.php:1115
+msgid "Add Domain"
+msgstr "افزودن دامنه"
+
+#: admin/class-admin.php:1074 admin/class-admin.php:1373
+msgid "Add Keyword"
+msgstr "افزودن کلمه کلیدی"
+
+#: admin/class-admin.php:1083
+msgid "Enter CloudTart support settings here."
+msgstr "تنظیمات پشتیبانی کلادتارت را اینجا وارد کنید."
+
+#: admin/class-admin.php:1090
+msgid ""
+"Enter domain and hosting expiry dates so the system can notify you before "
+"expiry."
+msgstr ""
+"تاریخ‌های انقضای دامنه و هاست را وارد کنید تا سیستم پیش از انقضا به شما "
+"اطلاع دهد."
+
+#: admin/class-admin.php:1097
+msgid "Configure site status and PHP error monitoring here."
+msgstr "تنظیمات پایش وضعیت سایت و خطاهای PHP را اینجا انجام دهید."
+
+#: admin/class-admin.php:1104
+msgid "Enable or disable add-on plugins and extra features here."
+msgstr "افزونه‌های جانبی و قابلیت‌های اضافی را اینجا فعال یا غیرفعال کنید."
+
+#: admin/class-admin.php:1112
+msgid ""
+"In this section you can manage redirects from external CDN files to local "
+"files, block external requests, manage allowed domains and allowed keywords,"
+" and block specific domains."
+msgstr ""
+"در این بخش می‌توانید ریدایرکت فایل‌های CDN خارجی به فایل‌های داخلی، "
+"مسدودسازی درخواست‌های خارجی، دامنه‌های مجاز/کلمات کلیدی مجاز و مسدودسازی "
+"دامنه‌ها را مدیریت کنید."
+
+#: admin/class-admin.php:1114
+msgid "The blocked requests log file has been deleted."
+msgstr "فایل لاگ درخواست‌های بلاک‌شده حذف شد."
+
+#: admin/class-admin.php:1116
+msgid "The log file was not found for download or deletion."
+msgstr "فایل لاگ برای دانلود یا حذف پیدا نشد."
+
+#: admin/class-admin.php:1118
+msgid ""
+"Could not delete the log file. Please check the file permissions or the "
+"path."
+msgstr "حذف فایل لاگ انجام نشد. سطح دسترسی فایل یا مسیر را بررسی کنید."
+
+#: admin/class-admin.php:1130
+msgid "Enable file redirects (JS/CSS and static assets)"
+msgstr "فعال‌سازی ریدایرکت فایل‌ها (JS/CSS و منابع استاتیک)"
+
+#: admin/class-admin.php:1132
+msgid ""
+"When enabled, replacement rules are activated and the defined assets are "
+"redirected to the target files."
+msgstr ""
+"در صورت فعال بودن، قوانین جایگزینی فعال می‌شوند و منابع تعریف‌شده به فایل "
+"مقصد هدایت خواهند شد."
+
+#: admin/class-admin.php:1153
+msgid "Enable request logging"
+msgstr "فعال‌سازی لاگ درخواست‌ها"
+
+#: admin/class-admin.php:1155
+msgid ""
+"When enabled, blocked URLs and URLs redirected to local files are recorded "
+"in the log file."
+msgstr ""
+"در صورت فعال بودن، آدرس‌های بلاک‌شده و آدرس‌هایی که به فایل مقصد ریدایرکت "
+"شده‌اند در فایل لاگ ثبت می‌شوند."
+
+#: admin/class-admin.php:1156
+#, php-format
+msgid "Log file path: %s"
+msgstr "مسیر فایل لاگ: %s"
+
+#: admin/class-admin.php:1161
+#, php-format
+msgid "Last modified: %1$s | File size: %2$s"
+msgstr "آخرین تغییر: %1$s | حجم فایل: %2$s"
+
+#: admin/class-admin.php:1168
+msgid "Download log file"
+msgstr "دانلود فایل لاگ"
+
+#: admin/class-admin.php:1169
+msgid "Are you sure you want to delete the log file?"
+msgstr "آیا از حذف فایل لاگ مطمئن هستید؟"
+
+#: admin/class-admin.php:1169
+msgid "Delete log file"
+msgstr "حذف فایل لاگ"
+
+#: admin/class-admin.php:1172
+msgid ""
+"No log file has been created yet. Enable logging first; once the first "
+"blocked or redirected request is recorded, the file will be available here "
+"to download or delete."
+msgstr ""
+"هنوز فایل لاگی ایجاد نشده است. ابتدا لاگ‌گیری را فعال کنید و پس از ثبت اولین"
+" مورد بلاک‌شده یا ریدایرکت‌شده، فایل در این بخش قابل دانلود یا حذف خواهد "
+"بود."
+
+#: admin/class-admin.php:1191
+msgid ""
+"To enable this section, first turn on the \"Enable file redirects\" option."
+msgstr ""
+"برای فعال شدن این بخش، ابتدا گزینهٔ «فعال‌سازی ریدایرکت فایل‌ها» را روشن "
+"کنید."
+
+#: admin/class-admin.php:1197
+msgid "Original URL"
+msgstr "آدرس اصلی"
+
+#: admin/class-admin.php:1198
+msgid "Target file"
+msgstr "فایل مقصد"
+
+#: admin/class-admin.php:1199 admin/class-admin.php:1281
+#: admin/class-admin.php:1319 admin/class-admin.php:1355
+#: includes/class-expiry-manager.php:1127
+msgid "Actions"
+msgstr "اقدامات"
+
+#: admin/class-admin.php:1230
+msgid "Upload a new file"
+msgstr "آپلود فایل جدید"
+
+#: admin/class-admin.php:1233
+#, php-format
+msgid ""
+"New files are stored at %s so they are not removed when the plugin updates."
+msgstr "فایل‌های جدید در مسیر %s ذخیره می‌شوند تا با آپدیت افزونه حذف نشوند."
+
+#: admin/class-admin.php:1234
+msgid ""
+"Allowed formats: JS, CSS, HTML, JSON, WOFF, WOFF2, TTF, EOT, SVG, PNG, JPG, "
+"GIF, MP4. After uploading, pick the file from the list below and assign it "
+"to the desired URL."
+msgstr ""
+"فرمت‌های مجاز: JS, CSS, HTML, JSON, WOFF, WOFF2, TTF, EOT, SVG, PNG, JPG, "
+"GIF, MP4. پس از آپلود، فایل را از لیست پایین انتخاب کنید و روی لینک موردنظر "
+"تنظیم نمایید."
+
+#: admin/class-admin.php:1239
+msgid ""
+"Connect each external URL to one of the plugin's bundled default files or to"
+" a file you uploaded yourself."
+msgstr ""
+"هر لینک خارجی را به یکی از فایل‌های پیش‌فرض همراه افزونه یا فایل‌های آپلودی "
+"خودتان متصل کنید."
+
+#: admin/class-admin.php:1252
+msgid "Block undefined external requests"
+msgstr "مسدودسازی درخواست‌های خارجیِ تعریف‌نشده"
+
+#: admin/class-admin.php:1254
+msgid ""
+"When enabled, if a URL has no replacement rule and is not in the allowed "
+"domains/keywords list, its request is blocked."
+msgstr ""
+"در صورت فعال بودن، اگر برای یک URL قانون جایگزینی تعریف نشده باشد و آن URL "
+"در دامنه‌ها/کلیدواژه‌های مجاز نباشد، درخواست آن مسدود می‌شود."
+
+#: admin/class-admin.php:1263
+msgid "Enable domain blocking (for HTTP requests)"
+msgstr "فعال‌سازی مسدودسازی دامنه‌ها (برای درخواست‌های HTTP)"
+
+#: admin/class-admin.php:1265
+msgid ""
+"When enabled, HTTP requests to the domains in the blocked list are short-"
+"circuited with an empty response."
+msgstr ""
+"در صورت فعال بودن، درخواست‌های HTTP به دامنه‌های موجود در لیست دامنه‌های "
+"مسدود شده با پاسخ خالی متوقف می‌شوند."
+
+#: admin/class-admin.php:1274
+msgid ""
+"To enable the blocked domains list, first turn on the \"Enable domain "
+"blocking\" option."
+msgstr ""
+"برای فعال شدن لیست دامنه‌های مسدود شده، ابتدا گزینهٔ «فعال‌سازی مسدودسازی "
+"دامنه‌ها» را روشن کنید."
+
+#: admin/class-admin.php:1280
+msgid "Domain"
+msgstr "دامنه"
+
+#: admin/class-admin.php:1302
+msgid ""
+"HTTP requests to these domains are short-circuited with an empty response."
+msgstr "درخواست‌های HTTP به این دامنه‌ها با پاسخ خالی متوقف می‌شوند."
+
+#: admin/class-admin.php:1312 admin/class-admin.php:1348
+msgid ""
+"This section only applies when \"Block undefined external requests\" is "
+"enabled."
+msgstr ""
+"این بخش فقط زمانی کاربرد دارد که گزینهٔ «مسدودسازی درخواست‌های خارجیِ "
+"تعریف‌نشده» فعال باشد."
+
+#: admin/class-admin.php:1318
+msgid "Allowed domain"
+msgstr "دامنهٔ مجاز"
+
+#: admin/class-admin.php:1338
+msgid ""
+"If a domain is in this list, its static assets are allowed through without "
+"being blocked."
+msgstr ""
+"اگر دامنه‌ای در این لیست باشد، فایل‌های استاتیک آن بدون بلاک شدن اجازهٔ عبور"
+" دارند."
+
+#: admin/class-admin.php:1354
+msgid "Keyword"
+msgstr "کلمهٔ کلیدی"
+
+#: admin/class-admin.php:1374
+msgid ""
+"If a URL contains any of these keywords, it is allowed even if no "
+"replacement rule is defined."
+msgstr ""
+"اگر URL شامل یکی از این کلمات باشد، حتی در صورت نداشتن قانون جایگزینی، مجاز "
+"محسوب می‌شود."
+
+#: admin/class-admin.php:1395
+msgid "Enable the IranPayamak (FarazSMS) SMS gateway inside the \"Digits\" plugin"
+msgstr ""
+"فعال‌سازی درگاه پیامک ایران پیامک (فراز اس‌ام‌اس) درون افزونهٔ «Digits»"
+
+#: admin/class-admin.php:1397
+msgid ""
+"When enabled, the IranPayamak SMS gateway is added to the Digits plugin "
+"(Digits — WordPress Mobile Number Signup and Login)."
+msgstr ""
+"با فعال شدن این گزینه، درگاه پیامک ایران پیامک به افزونهٔ Digits (Digits — "
+"WordPress Mobile Number Signup and Login) اضافه می‌شود."
+
+#: admin/class-admin.php:1399
+msgid ""
+"To enable this option, install and activate the \"Digits — WordPress Mobile "
+"Number Signup and Login\" plugin first."
+msgstr ""
+"برای فعال‌سازی این گزینه ابتدا افزونهٔ «Digits — WordPress Mobile Number "
+"Signup and Login» را نصب و فعال کنید."
+
+#: admin/class-admin.php:1420
+msgid "Enable the coupon limitation fix for the \"Dokan Multivendor\" plugin"
+msgstr "فعال‌سازی رفع مشکل محدودیت کوپن افزونهٔ «Dokan Multivendor»"
+
+#: admin/class-admin.php:1422
+msgid ""
+"This option fixes coupon restriction issues introduced by the Dokan plugin "
+"(Dokan – Best WooCommerce Multivendor Marketplace Solution) and restores the"
+" default WooCommerce coupon validation behavior."
+msgstr ""
+"این گزینه مشکلات محدودیت کوپن ایجادشده توسط افزونهٔ Dokan (Dokan – Best "
+"WooCommerce Multivendor Marketplace Solution) را برطرف می‌کند و رفتار "
+"پیش‌فرض اعتبارسنجی کوپن ووکامرس را بازمی‌گرداند."
+
+#: admin/class-admin.php:1424
+msgid ""
+"To enable this option, install and activate the \"Dokan – Best WooCommerce "
+"Multivendor Marketplace Solution\" plugin first."
+msgstr ""
+"برای فعال‌سازی این گزینه ابتدا افزونهٔ «Dokan – Best WooCommerce Multivendor"
+" Marketplace Solution» را نصب و فعال کنید."
+
+#: admin/class-admin.php:1445
+msgid ""
+"Manage withdrawal requests of the \"FS WooCommerce Wallet\" plugin as "
+"WooCommerce orders"
+msgstr ""
+"مدیریت درخواست‌های برداشت افزونهٔ «FS WooCommerce Wallet» به‌صورت سفارش "
+"ووکامرس"
+
+#: admin/class-admin.php:1447
+msgid ""
+"When enabled, withdrawal requests submitted through the FS WooCommerce "
+"Wallet plugin create dedicated WooCommerce orders, and admins can settle or "
+"reject payouts using custom order statuses."
+msgstr ""
+"با فعال‌سازی این گزینه، درخواست‌های برداشت ارسال‌شده از طریق افزونهٔ FS "
+"WooCommerce Wallet، سفارش‌های اختصاصی در ووکامرس ایجاد می‌کنند و مدیران "
+"می‌توانند پرداخت یا رد آن‌ها را از طریق وضعیت‌های سفارشِ سفارشی انجام دهند."
+
+#: admin/class-admin.php:1449
+msgid ""
+"To enable this option, install and activate the \"FS WooCommerce Wallet\" "
+"plugin first."
+msgstr ""
+"برای فعال‌سازی این گزینه ابتدا افزونهٔ «FS WooCommerce Wallet» را نصب و فعال"
+" کنید."
+
+#: admin/class-admin.php:1470
+msgid ""
+"Enable the IranPayamak (FarazSMS) gateway inside the \"Persian WooCommerce "
+"SMS\" plugin"
+msgstr ""
+"فعال‌سازی درگاه ایران پیامک (فراز اس‌ام‌اس) درون افزونهٔ «Persian "
+"WooCommerce SMS»"
+
+#: admin/class-admin.php:1472
+msgid ""
+"When enabled, a dedicated IranPayamak gateway (with API Key authentication) "
+"is added to the Persian WooCommerce SMS plugin."
+msgstr ""
+"با فعال‌سازی این گزینه، یک درگاه اختصاصی ایران پیامک (با احراز هویت کلید "
+"API) به افزونهٔ Persian WooCommerce SMS اضافه می‌شود."
+
+#: admin/class-admin.php:1474
+msgid ""
+"To enable this option, install and activate the \"Persian WooCommerce SMS\" "
+"plugin first."
+msgstr ""
+"برای فعال‌سازی این گزینه ابتدا افزونهٔ «Persian WooCommerce SMS» را نصب و "
+"فعال کنید."
+
+#: admin/class-admin.php:1486
+msgid "This key is used to authenticate with the CloudTart support server."
+msgstr "این کلید برای احراز هویت با سرور پشتیبانی کلادتارت استفاده می‌شود."
+
+#: admin/class-admin.php:1498
+msgid "Enable debug mode (more logs for troubleshooting)"
+msgstr "فعال‌سازی حالت دیباگ (لاگ‌های بیشتر برای عیب‌یابی)"
+
+#: admin/class-admin.php:1500
+msgid ""
+"When enabled, plugin activity logs are stored under the uploads directory so"
+" they survive plugin updates."
+msgstr ""
+"در صورت فعال بودن، لاگ فعالیت‌های افزونه در دایرکتوری uploads ذخیره می‌شود "
+"تا با آپدیت افزونه از بین نرود."
+
+#: admin/class-admin.php:1512
+msgid "Automatically send Fatal Error logs to the support server"
+msgstr "ارسال خودکار لاگ‌های خطای بحرانی به سرور پشتیبانی"
+
+#: admin/class-admin.php:1514
+msgid ""
+"When enabled, Fatal PHP error logs are sent to the support server "
+"automatically."
+msgstr ""
+"در صورت فعال بودن، لاگ‌های خطای بحرانی PHP به‌صورت خودکار به سرور پشتیبانی "
+"ارسال می‌شوند."
+
+#: admin/class-admin.php:1525
+msgid "Enter the site domain expiry date."
+msgstr "تاریخ انقضای دامنه سایت را وارد کنید."
+
+#: admin/class-admin.php:1538 admin/class-admin.php:1567
+#: admin/class-admin.php:1568
+#, php-format
+msgid "%s year"
+msgstr "%s سال"
+
+#: admin/class-admin.php:1542
+msgid "Select the domain renewal period."
+msgstr "دوره تمدید دامنه را انتخاب کنید."
+
+#: admin/class-admin.php:1553
+msgid "Enter the hosting expiry date."
+msgstr "تاریخ انقضای هاست را وارد کنید."
+
+#: admin/class-admin.php:1564 admin/class-admin.php:1565
+#: admin/class-admin.php:1566
+#, php-format
+msgid "%s month"
+msgstr "%s ماه"
+
+#: admin/class-admin.php:1570
+msgid "Select the hosting renewal period."
+msgstr "دوره تمدید هاست را انتخاب کنید."
+
+#: admin/class-admin.php:1581
+msgid ""
+"Enter email addresses for notifications. Use commas for multiple addresses "
+"(max 5)."
+msgstr ""
+"ایمیل‌های اطلاع‌رسانی را وارد کنید. برای چند ایمیل از ویرگول استفاده کنید "
+"(حداکثر ۵ مورد)."
+
+#: admin/class-admin.php:1592
+msgid "How many days before expiry should notifications be sent?"
+msgstr "چند روز قبل از انقضا اعلان ارسال شود؟"
+
+#: admin/class-admin.php:1604
+msgid ""
+"Enable site status checks and HTTP error notifications (e.g., 503, 403)"
+msgstr "فعال‌سازی بررسی وضعیت سایت و اعلان خطاهای HTTP (مثلاً 503، 403)"
+
+#: admin/class-admin.php:1617
+msgid "Enable logging and notifications for PHP errors"
+msgstr "فعال‌سازی لاگ‌گیری و اعلان خطاهای PHP"
+
+#: admin/class-admin.php:1629
+msgid "Enter email addresses to receive error reports."
+msgstr "ایمیل‌های دریافت گزارش خطا را وارد کنید."
+
+#: admin/class-admin.php:1640
+msgid "Hourly"
+msgstr "ساعتی"
+
+#: admin/class-admin.php:1641
+msgid "Twice Daily"
+msgstr "روزی دو بار"
+
+#: admin/class-admin.php:1642
+msgid "Daily"
+msgstr "روزانه"
+
+#: admin/class-admin.php:1644
+msgid "Status check interval."
+msgstr "بازه بررسی وضعیت."
+
+#: admin/class-admin.php:1669
+msgid "Save All Settings"
+msgstr "ذخیره همه تنظیمات"
+
+#: admin/class-admin.php:1678
+msgid "Manage your site settings and monitoring."
+msgstr "تنظیمات و مانیتورینگ سایت را مدیریت کنید."
+
+#: admin/class-admin.php:1684
+msgid "All settings across every tab have been saved."
+msgstr "تنظیمات تمام تب‌ها با موفقیت ذخیره شد."
+
+#: admin/class-admin.php:1689
+msgid "Expiry Dates"
+msgstr "تاریخ‌های انقضا"
+
+#: admin/class-admin.php:1690
+msgid "Monitoring"
+msgstr "مانیتورینگ"
+
+#: admin/class-admin.php:1691
+msgid "Logs"
+msgstr "لاگ‌ها"
+
+#: admin/class-admin.php:1692
+msgid "Support Settings"
+msgstr "تنظیمات پشتیبانی"
+
+#: admin/class-admin.php:1693
+msgid "Other Plugin Settings"
+msgstr "تنظیمات دیگر افزونه‌ها"
+
+#: admin/class-admin.php:1695
+msgid "About Us"
+msgstr "درباره ما"
+
+#: admin/class-admin.php:1734
+msgid "Recent Logs"
+msgstr "لاگ‌های اخیر"
+
+#: admin/class-admin.php:1740
+msgid "PHP Error Logs"
+msgstr "لاگ‌های خطای PHP"
+
+#: admin/class-admin.php:1759
+msgid "System Status"
+msgstr "وضعیت سیستم"
+
+#: admin/class-admin.php:1762
+msgid "Plugin Version:"
+msgstr "نسخه افزونه:"
+
+#: admin/class-admin.php:1766
+msgid "Connection Status:"
+msgstr "وضعیت اتصال:"
+
+#: admin/class-admin.php:1769
+msgid "API key is not set"
+msgstr "کلید API تنظیم نشده است"
+
+#: admin/class-admin.php:1771
+msgid "Ready to receive updates"
+msgstr "آماده دریافت به‌روزرسانی‌ها"
+
+#: admin/class-admin.php:1776
+msgid "Debug Status:"
+msgstr "وضعیت دیباگ:"
+
+#: admin/class-admin.php:1786
+msgid "Log Path:"
+msgstr "مسیر لاگ:"
+
+#: admin/class-admin.php:1794
+#, php-format
+msgid "%1$s (writable)"
+msgstr "%1$s (قابل نوشتن)"
+
+#: admin/class-admin.php:1796
+#, php-format
+msgid "%1$s (not writable)"
+msgstr "%1$s (غیرقابل نوشتن)"
+
+#: admin/class-admin.php:1798
+msgid "Log directory has not been created yet"
+msgstr "پوشه لاگ هنوز ایجاد نشده است"
+
+#: admin/class-admin.php:1806
+msgid "Connection Test"
+msgstr "تست اتصال"
+
+#: admin/class-admin.php:1807
+msgid ""
+"Use the button below to test the connection to the CloudTart support server."
+msgstr "با دکمه زیر اتصال به سرور پشتیبانی کلادتارت را تست کنید."
+
+#: admin/class-admin.php:1833
+msgid "CloudTart"
+msgstr "کلادتارت"
+
+#: admin/class-admin.php:1834
+msgid "CloudTart | Beyond code, the art of digital architecture"
+msgstr "کلادتارت | فراتر از کد، هنر معماری دیجیتال"
+
+#: admin/class-admin.php:1835
+msgid ""
+"With minimalist and distinctive designs, we turn your website into an "
+"unforgettable experience."
+msgstr ""
+"با طراحی‌های مینیمال و متمایز، وب‌سایت شما را به تجربه‌ای فراموش‌نشدنی تبدیل"
+" می‌کنیم."
+
+#: admin/class-admin.php:1840
+msgid "Our Story"
+msgstr "داستان ما"
+
+#: admin/class-admin.php:1841
+msgid ""
+"With a team of creative specialists, CloudTart brings over a decade of "
+"experience in designing and developing professional websites. We believe "
+"every project is an opportunity to create beauty and performance."
+msgstr ""
+"با تیمی از متخصصان خلاق، کلادتارت بیش از یک دهه تجربه در طراحی و توسعه "
+"وب‌سایت‌های حرفه‌ای دارد. ما معتقدیم هر پروژه فرصتی برای خلق زیبایی و کارایی"
+" است."
+
+#: admin/class-admin.php:1845
+msgid "Our Services"
+msgstr "خدمات ما"
+
+#: admin/class-admin.php:1854
+msgid "Custom Design"
+msgstr "طراحی اختصاصی"
+
+#: admin/class-admin.php:1855
+msgid "Beautiful, user-friendly interfaces with attention to detail."
+msgstr "رابط‌های زیبا و کاربرپسند با توجه به جزئیات."
+
+#: admin/class-admin.php:1863
+msgid "Advanced Development"
+msgstr "توسعه پیشرفته"
+
+#: admin/class-admin.php:1864
+msgid "Powerful websites with clean, optimized code for high performance."
+msgstr "وب‌سایت‌های قدرتمند با کد تمیز و بهینه برای عملکرد بالا."
+
+#: admin/class-admin.php:1874
+msgid "SEO and Marketing"
+msgstr "سئو و بازاریابی"
+
+#: admin/class-admin.php:1875
+msgid "Smart strategies to boost engagement and grow your business."
+msgstr "استراتژی‌های هوشمند برای افزایش تعامل و رشد کسب‌وکار."
+
+#: admin/class-admin.php:1883
+msgid "Digital Marketing"
+msgstr "بازاریابی دیجیتال"
+
+#: admin/class-admin.php:1884
+msgid "Creative campaigns to attract target audiences and increase sales."
+msgstr "کمپین‌های خلاقانه برای جذب مخاطبان هدف و افزایش فروش."
+
+#: admin/class-admin.php:1893
+msgid "Full Support"
+msgstr "پشتیبانی کامل"
+
+#: admin/class-admin.php:1894
+msgid ""
+"Dedicated after-sales services focused on complete customer satisfaction."
+msgstr "خدمات پس از فروش اختصاصی با تمرکز بر رضایت کامل مشتری."
+
+#: admin/class-admin.php:1904
+msgid "Digital Branding"
+msgstr "برندسازی دیجیتال"
+
+#: admin/class-admin.php:1905
+msgid "Create a unique visual identity for your brand online."
+msgstr "ایجاد هویت بصری منحصربه‌فرد برای برند شما در فضای آنلاین."
+
+#: admin/class-admin.php:1911
+msgid "Why CloudTart?"
+msgstr "چرا کلادتارت؟"
+
+#: admin/class-admin.php:1915
+msgid "Luxury, minimalist designs that set your brand apart."
+msgstr "طراحی‌های لوکس و مینیمال که برند شما را متمایز می‌کند."
+
+#: admin/class-admin.php:1919
+msgid "Optimized performance and speed for excellent user experience."
+msgstr "عملکرد و سرعت بهینه برای تجربه کاربری عالی."
+
+#: admin/class-admin.php:1923
+msgid "Advanced security and adherence to global standards."
+msgstr "امنیت پیشرفته و پایبندی به استانداردهای جهانی."
+
+#: admin/class-admin.php:1927
+msgid "Growth-focused strategies for long-term success."
+msgstr "استراتژی‌های رشد‌محور برای موفقیت بلندمدت."
+
+#: admin/class-admin.php:1933
+msgid "Ready to get started?"
+msgstr "برای شروع آماده‌اید؟"
+
+#: admin/class-admin.php:1934
+msgid "Contact us and bring your dream project to life."
+msgstr "با ما تماس بگیرید و پروژه رؤیایی خود را به واقعیت تبدیل کنید."
+
+#: admin/class-admin.php:1936
+msgid "Contact Us"
+msgstr "تماس با ما"
+
+#: admin/class-admin.php:1937
+msgid "Learn More"
+msgstr "اطلاعات بیشتر"
+
+#: admin/class-admin.php:2008
+msgid "Check History"
+msgstr "تاریخچه بررسی"
+
+#: admin/class-admin.php:2011
+msgid "No checks have been performed yet."
+msgstr "هنوز بررسی‌ای انجام نشده است."
+
+#: admin/class-admin.php:2016
+msgid "Date"
+msgstr "تاریخ"
+
+#: admin/class-admin.php:2017
+msgid "Type"
+msgstr "نوع"
+
+#: admin/class-admin.php:2018 includes/class-expiry-manager.php:1126
+msgid "Status"
+msgstr "وضعیت"
+
+#: admin/class-admin.php:2019
+msgid "Details"
+msgstr "جزئیات"
+
+#: admin/class-admin.php:2035
+msgid "Success"
+msgstr "موفق"
+
+#: admin/class-admin.php:2038
+msgid "Warning"
+msgstr "هشدار"
+
+#: admin/class-admin.php:2041
+msgid "Error"
+msgstr "خطا"
+
+#: cloudtart-support.php:89
+msgid "Every 5 minutes"
+msgstr "هر ۵ دقیقه"
+
+#: includes/class-api.php:105
+msgid "API request rejected due to rate limit."
+msgstr "درخواست API به‌دلیل محدودیت نرخ رد شد."
+
+#: includes/class-api.php:112
+msgid "API request rejected due to invalid key."
+msgstr "درخواست API به‌دلیل کلید نامعتبر رد شد."
+
+#: includes/class-api.php:128
+msgid "Action not specified."
+msgstr "اقدام مشخص نشده است."
+
+#: includes/class-api.php:150
+msgid "Invalid action."
+msgstr "اقدام نامعتبر است."
+
+#: includes/class-api.php:172 includes/class-api.php:212
+#: includes/class-api.php:282
+msgid "Invalid type."
+msgstr "نوع نامعتبر است."
+
+#: includes/class-api.php:185
+#, php-format
+msgid "Check for %1$s/%2$s: %3$s"
+msgstr "بررسی %1$s/%2$s: %3$s"
+
+#: includes/class-api.php:188
+msgid "Found"
+msgstr "یافت شد"
+
+#: includes/class-api.php:188
+msgid "Not found"
+msgstr "یافت نشد"
+
+#: includes/class-api.php:201 includes/class-api.php:234
+#: includes/class-api.php:266
+msgid "Incomplete data."
+msgstr "داده‌ها ناقص است."
+
+#: includes/class-api.php:291
+msgid "Target folder does not exist. Creating a new folder..."
+msgstr "پوشه مقصد وجود ندارد. در حال ایجاد پوشه جدید..."
+
+#: includes/class-api.php:293 includes/class-api.php:294
+#: includes/class-api.php:297
+msgid "Error creating destination folder."
+msgstr "خطا در ایجاد پوشه مقصد."
+
+#: includes/class-api.php:314
+msgid "Error decoding file data."
+msgstr "خطا در رمزگشایی داده‌های فایل."
+
+#: includes/class-api.php:320
+msgid "Error saving temporary file."
+msgstr "خطا در ذخیره فایل موقت."
+
+#: includes/class-api.php:326
+msgid "Received file failed integrity check."
+msgstr "فایل دریافت‌شده از بررسی صحت عبور نکرد."
+
+#: includes/class-api.php:327 includes/class-api.php:330
+msgid "Received file is invalid."
+msgstr "فایل دریافت‌شده نامعتبر است."
+
+#: includes/class-api.php:349
+msgid "Update processing started."
+msgstr "پردازش به‌روزرسانی آغاز شد."
+
+#: includes/class-api.php:358 includes/class-api.php:666
+#, php-format
+msgid "Update error: %s"
+msgstr "خطای به‌روزرسانی: %s"
+
+#: includes/class-api.php:363 includes/class-api.php:664
+msgid "Update failed."
+msgstr "به‌روزرسانی ناموفق بود."
+
+#: includes/class-api.php:441
+#, php-format
+msgid "Error extracting ZIP file: %s"
+msgstr "خطا در استخراج فایل ZIP: %s"
+
+#: includes/class-api.php:445
+#, php-format
+msgid "Error extracting file: %s"
+msgstr "خطا در استخراج فایل: %s"
+
+#: includes/class-api.php:452
+msgid "Error removing previous folder."
+msgstr "خطا در حذف پوشه قبلی."
+
+#: includes/class-api.php:457
+msgid "Error creating target folder."
+msgstr "خطا در ایجاد پوشه هدف."
+
+#: includes/class-api.php:469
+msgid "Error copying files."
+msgstr "خطا در کپی فایل‌ها."
+
+#: includes/class-api.php:472
+#, php-format
+msgid "Files in folder %s were updated successfully."
+msgstr "فایل‌های پوشه %s با موفقیت به‌روزرسانی شدند."
+
+#: includes/class-api.php:475
+msgid "Update completed successfully."
+msgstr "به‌روزرسانی با موفقیت انجام شد."
+
+#: includes/class-api.php:478
+#, php-format
+msgid "Error: %s"
+msgstr "خطا: %s"
+
+#: includes/class-api.php:644
+msgid "Update job is invalid."
+msgstr "وظیفهٔ به‌روزرسانی نامعتبر است."
+
+#: includes/class-api.php:659
+#, php-format
+msgid "Update completed successfully for %1$s/%2$s"
+msgstr "به‌روزرسانی برای %1$s/%2$s با موفقیت انجام شد"
+
+#: includes/class-api.php:705
+#, php-format
+msgid "Update result notify failed: %s"
+msgstr "اطلاع‌رسانی نتیجهٔ به‌روزرسانی ناموفق بود: %s"
+
+#: includes/class-api.php:745
+msgid "API key is not set. Please enter the API key in settings."
+msgstr "کلید API تنظیم نشده است. لطفاً کلید API را در تنظیمات وارد کنید."
+
+#: includes/class-api.php:773
+#, php-format
+msgid "Support server connection test initiated: %s"
+msgstr "تست اتصال به سرور پشتیبانی آغاز شد: %s"
+
+#: includes/class-api.php:796
+#, php-format
+msgid "Server communication error (code: %s)"
+msgstr "خطای ارتباط با سرور (کد: %s)"
+
+#: includes/class-api.php:798
+#, php-format
+msgid "Server response error: %s"
+msgstr "خطای پاسخ سرور: %s"
+
+#: includes/class-api.php:812
+msgid "Connection to support server established successfully."
+msgstr "اتصال به سرور پشتیبانی با موفقیت برقرار شد."
+
+#: includes/class-api.php:813
+#, php-format
+msgid "Connection established with server: %s"
+msgstr "اتصال با سرور برقرار شد: %s"
+
+#: includes/class-cloudtart-support.php:175
+msgid "CloudTart support plugin activated."
+msgstr "افزونه پشتیبانی کلادتارت فعال شد."
+
+#: includes/class-cloudtart-support.php:201
+msgid "CloudTart support plugin deactivated."
+msgstr "افزونه پشتیبانی کلادتارت غیرفعال شد."
+
+#: includes/class-expiry-manager.php:76
+#, php-format
+msgid "Domains database table updated: %1$s to version %2$s"
+msgstr "جدول پایگاه‌داده دامنه‌ها به‌روزرسانی شد: %1$s به نسخه %2$s"
+
+#: includes/class-expiry-manager.php:80
+#, php-format
+msgid "Domains database table created: %s"
+msgstr "جدول پایگاه‌داده دامنه‌ها ایجاد شد: %s"
+
+#: includes/class-expiry-manager.php:137
+msgid "Domain data migrated successfully to the new database."
+msgstr "داده‌های دامنه با موفقیت به پایگاه‌داده جدید منتقل شد."
+
+#: includes/class-expiry-manager.php:205
+msgid "Applying..."
+msgstr "در حال اعمال..."
+
+#: includes/class-expiry-manager.php:215
+msgid "Renewal recorded."
+msgstr "تمدید با موفقیت ثبت شد."
+
+#: includes/class-expiry-manager.php:217
+msgid "New expiry date:"
+msgstr "تاریخ انقضای جدید:"
+
+#: includes/class-expiry-manager.php:227
+msgid "Error: "
+msgstr "خطا: "
+
+#: includes/class-expiry-manager.php:232
+#: includes/class-expiry-manager.php:1211
+#: includes/class-expiry-manager.php:1251
+msgid "Error connecting to server."
+msgstr "خطا در اتصال به سرور."
+
+#: includes/class-expiry-manager.php:241
+msgid ""
+"Confirm that the domain has been renewed. The next expiry date will be auto-"
+"calculated from the saved renewal period. Continue?"
+msgstr ""
+"تأیید می‌کنید که دامنه تمدید شده است؟ تاریخ انقضای بعدی بر اساس دورهٔ تمدید "
+"ذخیره‌شده محاسبه می‌شود. ادامه می‌دهید؟"
+
+#: includes/class-expiry-manager.php:248
+msgid ""
+"Confirm that the hosting has been renewed. The next expiry date will be "
+"auto-calculated from the saved renewal period. Continue?"
+msgstr ""
+"تأیید می‌کنید که هاست تمدید شده است؟ تاریخ انقضای بعدی بر اساس دورهٔ تمدید "
+"ذخیره‌شده محاسبه می‌شود. ادامه می‌دهید؟"
+
+#: includes/class-expiry-manager.php:257
+msgid ""
+"Confirm that this domain has been renewed. The next expiry date will be "
+"auto-calculated from the saved renewal period. Continue?"
+msgstr ""
+"تأیید می‌کنید که این دامنه تمدید شده است؟ تاریخ انقضای بعدی بر اساس دورهٔ "
+"تمدید ذخیره‌شده محاسبه می‌شود. ادامه می‌دهید؟"
+
+#: includes/class-expiry-manager.php:280
+msgid "Domain name and expiry date are required."
+msgstr "نام دامنه و تاریخ انقضا الزامی است."
+
+#: includes/class-expiry-manager.php:286
+msgid "Invalid domain name format."
+msgstr "فرمت نام دامنه نامعتبر است."
+
+#: includes/class-expiry-manager.php:298
+msgid "This domain has already been added."
+msgstr "این دامنه قبلاً اضافه شده است."
+
+#: includes/class-expiry-manager.php:314
+msgid "Error saving domain."
+msgstr "خطا در ذخیره دامنه."
+
+#: includes/class-expiry-manager.php:319
+#, php-format
+msgid ""
+"New domain added: %1$s with expiry: %2$s and renewal period: %3$s years"
+msgstr "دامنه جدید اضافه شد: %1$s با انقضا: %2$s و دوره تمدید: %3$s سال"
+
+#: includes/class-expiry-manager.php:329
+msgid "Domain added successfully."
+msgstr "دامنه با موفقیت اضافه شد."
+
+#: includes/class-expiry-manager.php:335
+#, php-format
+msgid "Error adding domain: %s"
+msgstr "خطا در افزودن دامنه: %s"
+
+#: includes/class-expiry-manager.php:356
+msgid "Invalid domain index."
+msgstr "اندیس دامنه نامعتبر است."
+
+#: includes/class-expiry-manager.php:368 includes/class-expiry-manager.php:524
+msgid "Domain not found."
+msgstr "دامنه یافت نشد."
+
+#: includes/class-expiry-manager.php:381
+msgid "Error deleting domain."
+msgstr "خطا در حذف دامنه."
+
+#: includes/class-expiry-manager.php:386
+#, php-format
+msgid "Domain removed: %s"
+msgstr "دامنه حذف شد: %s"
+
+#: includes/class-expiry-manager.php:390
+#, php-format
+msgid "Domain %s removed successfully."
+msgstr "دامنه %s با موفقیت حذف شد."
+
+#: includes/class-expiry-manager.php:395
+#, php-format
+msgid "Error removing domain: %s"
+msgstr "خطا در حذف دامنه: %s"
+
+#: includes/class-expiry-manager.php:418
+msgid "Domain expiry date or renewal period settings not found."
+msgstr "تنظیمات تاریخ انقضای دامنه یا دوره تمدید یافت نشد."
+
+#: includes/class-expiry-manager.php:432
+#, php-format
+msgid "Main domain renewed. New expiry date: %s"
+msgstr "دامنه اصلی تمدید شد. تاریخ انقضای جدید: %s"
+
+#: includes/class-expiry-manager.php:436
+msgid "Main domain renewed successfully."
+msgstr "دامنه اصلی با موفقیت تمدید شد."
+
+#: includes/class-expiry-manager.php:443
+#, php-format
+msgid "Error renewing main domain: %s"
+msgstr "خطا در تمدید دامنه اصلی: %s"
+
+#: includes/class-expiry-manager.php:466
+msgid "Hosting expiry date or renewal period settings not found."
+msgstr "تنظیمات تاریخ انقضای هاست یا دوره تمدید یافت نشد."
+
+#: includes/class-expiry-manager.php:480
+#, php-format
+msgid "Hosting renewed. New expiry date: %s"
+msgstr "هاست تمدید شد. تاریخ انقضای جدید: %s"
+
+#: includes/class-expiry-manager.php:484
+msgid "Hosting renewed successfully."
+msgstr "هاست با موفقیت تمدید شد."
+
+#: includes/class-expiry-manager.php:491
+#, php-format
+msgid "Error renewing hosting: %s"
+msgstr "خطا در تمدید هاست: %s"
+
+#: includes/class-expiry-manager.php:512
+msgid "Invalid domain ID."
+msgstr "شناسه دامنه نامعتبر است."
+
+#: includes/class-expiry-manager.php:544
+msgid "Error updating domain expiry date."
+msgstr "خطا در به‌روزرسانی تاریخ انقضای دامنه."
+
+#: includes/class-expiry-manager.php:549
+#, php-format
+msgid "Domain %1$s renewed. New expiry date: %2$s"
+msgstr "دامنه %1$s تمدید شد. تاریخ انقضای جدید: %2$s"
+
+#: includes/class-expiry-manager.php:553
+#, php-format
+msgid "Domain %s renewed successfully."
+msgstr "دامنه %s با موفقیت تمدید شد."
+
+#: includes/class-expiry-manager.php:560
+#, php-format
+msgid "Error renewing domain: %s"
+msgstr "خطا در تمدید دامنه: %s"
+
+#: includes/class-expiry-manager.php:597
+#, php-format
+msgid "Warning: domain expiry is near. %s days remaining."
+msgstr "هشدار: زمان انقضای دامنه نزدیک است. %s روز باقی مانده است."
+
+#: includes/class-expiry-manager.php:601
+#, php-format
+msgid "Reminder: domain renewal for site %s is due soon"
+msgstr "یادآوری: تمدید دامنه برای سایت %s به‌زودی سررسید می‌شود"
+
+#: includes/class-expiry-manager.php:602 includes/class-expiry-manager.php:636
+#: includes/class-expiry-manager.php:681
+msgid "Hello,"
+msgstr "سلام،"
+
+#: includes/class-expiry-manager.php:603
+msgid "This email is a reminder to renew your site domain:"
+msgstr "این ایمیل یادآوری برای تمدید دامنه سایت شما است:"
+
+#: includes/class-expiry-manager.php:604 includes/class-expiry-manager.php:638
+#, php-format
+msgid "Site name: %s"
+msgstr "نام سایت: %s"
+
+#: includes/class-expiry-manager.php:605 includes/class-expiry-manager.php:639
+#: includes/class-monitoring.php:153 includes/class-monitoring.php:187
+#, php-format
+msgid "Site URL: %s"
+msgstr "آدرس سایت: %s"
+
+#: includes/class-expiry-manager.php:606
+#, php-format
+msgid "Domain expiry date: %s"
+msgstr "تاریخ انقضای دامنه: %s"
+
+#: includes/class-expiry-manager.php:607 includes/class-expiry-manager.php:641
+#: includes/class-expiry-manager.php:685
+#, php-format
+msgid "Days remaining: %1$s days"
+msgstr "روزهای باقی‌مانده: %1$s روز"
+
+#: includes/class-expiry-manager.php:608 includes/class-expiry-manager.php:686
+#: includes/class-expiry-manager.php:729 includes/class-expiry-manager.php:805
+msgid "Please renew the domain as soon as possible."
+msgstr "لطفاً دامنه را در اسرع وقت تمدید کنید."
+
+#: includes/class-expiry-manager.php:609 includes/class-expiry-manager.php:643
+#: includes/class-expiry-manager.php:687
+msgid "Thank you,"
+msgstr "با تشکر،"
+
+#: includes/class-expiry-manager.php:610 includes/class-expiry-manager.php:644
+#: includes/class-expiry-manager.php:688
+msgid "CloudTart Support System"
+msgstr "سیستم پشتیبانی کلادتارت"
+
+#: includes/class-expiry-manager.php:619
+#, php-format
+msgid "Error: domain expiry has passed. %s days overdue."
+msgstr "خطا: تاریخ انقضای دامنه گذشته است. %s روز دیرکرد."
+
+#: includes/class-expiry-manager.php:631
+#, php-format
+msgid "Warning: hosting expiry is near. %s days remaining."
+msgstr "هشدار: زمان انقضای هاست نزدیک است. %s روز باقی مانده است."
+
+#: includes/class-expiry-manager.php:635
+#, php-format
+msgid "Reminder: hosting renewal for site %s is due soon"
+msgstr "یادآوری: تمدید هاست برای سایت %s به‌زودی سررسید می‌شود"
+
+#: includes/class-expiry-manager.php:637
+msgid "This email is a reminder to renew your site hosting:"
+msgstr "این ایمیل یادآوری برای تمدید هاست سایت شما است:"
+
+#: includes/class-expiry-manager.php:640
+#, php-format
+msgid "Hosting expiry date: %s"
+msgstr "تاریخ انقضای هاست: %s"
+
+#: includes/class-expiry-manager.php:642 includes/class-expiry-manager.php:761
+msgid "Please renew the hosting as soon as possible."
+msgstr "لطفاً هاست را در اسرع وقت تمدید کنید."
+
+#: includes/class-expiry-manager.php:653
+#, php-format
+msgid "Error: hosting expiry has passed. %s days overdue."
+msgstr "خطا: تاریخ انقضای هاست گذشته است. %s روز دیرکرد."
+
+#: includes/class-expiry-manager.php:676
+#, php-format
+msgid "Warning: domain %1$s expiry is near. %2$s days remaining."
+msgstr "هشدار: زمان انقضای دامنه %1$s نزدیک است. %2$s روز باقی مانده است."
+
+#: includes/class-expiry-manager.php:680
+#, php-format
+msgid "Reminder: domain %s renewal is due soon"
+msgstr "یادآوری: تمدید دامنه %s به‌زودی سررسید می‌شود"
+
+#: includes/class-expiry-manager.php:682
+msgid "This email is a reminder to renew the domain:"
+msgstr "این ایمیل یادآوری برای تمدید دامنه است:"
+
+#: includes/class-expiry-manager.php:683
+#, php-format
+msgid "Domain name: %s"
+msgstr "نام دامنه: %s"
+
+#: includes/class-expiry-manager.php:684
+#, php-format
+msgid "Expiry date: %s"
+msgstr "تاریخ انقضا: %s"
+
+#: includes/class-expiry-manager.php:697
+#, php-format
+msgid "Error: domain %1$s expiry has passed. %2$s days overdue."
+msgstr "خطا: تاریخ انقضای دامنه %1$s گذشته است. %2$s روز دیرکرد."
+
+#: includes/class-expiry-manager.php:727 includes/class-expiry-manager.php:803
+msgid "Domain Renewal Warning:"
+msgstr "هشدار تمدید دامنه:"
+
+#: includes/class-expiry-manager.php:728
+#, php-format
+msgid "%s days remaining until the site domain expires."
+msgstr "تا انقضای دامنه سایت %s روز باقی مانده است."
+
+#: includes/class-expiry-manager.php:730 includes/class-expiry-manager.php:742
+#: includes/class-expiry-manager.php:762 includes/class-expiry-manager.php:774
+#: includes/class-expiry-manager.php:806 includes/class-expiry-manager.php:818
+#: includes/class-expiry-manager.php:1163
+msgid "I have renewed it"
+msgstr "تمدید کردم"
+
+#: includes/class-expiry-manager.php:731 includes/class-expiry-manager.php:743
+#: includes/class-expiry-manager.php:763 includes/class-expiry-manager.php:775
+#: includes/class-expiry-manager.php:807 includes/class-expiry-manager.php:819
+msgid "Open expiry settings"
+msgstr "باز کردن تنظیمات انقضا"
+
+#: includes/class-expiry-manager.php:739 includes/class-expiry-manager.php:771
+#: includes/class-expiry-manager.php:815
+msgid "Alert:"
+msgstr "هشدار:"
+
+#: includes/class-expiry-manager.php:740
+#, php-format
+msgid "%s days have passed since the site domain expired!"
+msgstr "از انقضای دامنه سایت %s روز گذشته است!"
+
+#: includes/class-expiry-manager.php:741 includes/class-expiry-manager.php:817
+msgid "Please renew the domain immediately."
+msgstr "لطفاً دامنه را فوراً تمدید کنید."
+
+#: includes/class-expiry-manager.php:759
+msgid "Hosting Renewal Warning:"
+msgstr "هشدار تمدید هاست:"
+
+#: includes/class-expiry-manager.php:760
+#, php-format
+msgid "%s days remaining until the site hosting expires."
+msgstr "تا انقضای هاست سایت %s روز باقی مانده است."
+
+#: includes/class-expiry-manager.php:772
+#, php-format
+msgid "%s days have passed since the site hosting expired!"
+msgstr "از انقضای هاست سایت %s روز گذشته است!"
+
+#: includes/class-expiry-manager.php:773
+msgid "Please renew the hosting immediately."
+msgstr "لطفاً هاست را فوراً تمدید کنید."
+
+#: includes/class-expiry-manager.php:804
+#, php-format
+msgid "%1$s days remaining until domain %2$s expires."
+msgstr "%1$s روز تا انقضای دامنه %2$s باقی مانده است."
+
+#: includes/class-expiry-manager.php:816
+#, php-format
+msgid "%1$s days have passed since domain %2$s expired!"
+msgstr "%1$s روز از انقضای دامنه %2$s گذشته است!"
+
+#: includes/class-expiry-manager.php:879 includes/class-monitoring.php:551
+#, php-format
+msgid "Email sent to %1$s with subject: %2$s"
+msgstr "ایمیل به %1$s با موضوع %2$s ارسال شد"
+
+#: includes/class-expiry-manager.php:885 includes/class-monitoring.php:556
+#, php-format
+msgid "Error sending email to %s"
+msgstr "خطا در ارسال ایمیل به %s"
+
+#: includes/class-expiry-manager.php:900 includes/class-expiry-manager.php:945
+msgid "Expiry date is not set."
+msgstr "تاریخ انقضا تنظیم نشده است."
+
+#: includes/class-expiry-manager.php:914 includes/class-expiry-manager.php:959
+#: includes/class-expiry-manager.php:1143
+#, php-format
+msgid "Expired (%s days ago)"
+msgstr "منقضی شده (%s روز پیش)"
+
+#: includes/class-expiry-manager.php:922 includes/class-expiry-manager.php:967
+#: includes/class-expiry-manager.php:1146
+#, php-format
+msgid "Near expiry (%s days remaining)"
+msgstr "نزدیک به انقضا (%s روز باقی مانده)"
+
+#: includes/class-expiry-manager.php:930 includes/class-expiry-manager.php:975
+#: includes/class-expiry-manager.php:1149
+#, php-format
+msgid "Valid (%s days remaining)"
+msgstr "معتبر (%s روز باقی مانده)"
+
+#: includes/class-expiry-manager.php:1058
+msgid "Status Preview"
+msgstr "پیش‌نمایش وضعیت"
+
+#: includes/class-expiry-manager.php:1063
+msgid "Domain Status:"
+msgstr "وضعیت دامنه:"
+
+#: includes/class-expiry-manager.php:1077
+msgid "Hosting Status:"
+msgstr "وضعیت هاست:"
+
+#: includes/class-expiry-manager.php:1101
+msgid "Manage Multiple Domains"
+msgstr "مدیریت چند دامنه"
+
+#: includes/class-expiry-manager.php:1102
+msgid "Manage multiple domains in this section."
+msgstr "چند دامنه را در این بخش مدیریت کنید."
+
+#: includes/class-expiry-manager.php:1106
+msgid "Domain name (e.g., example.com)"
+msgstr "نام دامنه (مثلاً example.com)"
+
+#: includes/class-expiry-manager.php:1107
+msgid "Expiry date"
+msgstr "تاریخ انقضا"
+
+#: includes/class-expiry-manager.php:1109
+#, php-format
+msgid "Renewal period: %s year"
+msgstr "دوره تمدید: %s سال"
+
+#: includes/class-expiry-manager.php:1110
+#: includes/class-expiry-manager.php:1111
+#: includes/class-expiry-manager.php:1112
+#: includes/class-expiry-manager.php:1113
+#, php-format
+msgid "Renewal period: %s years"
+msgstr "دوره تمدید: %s سال"
+
+#: includes/class-expiry-manager.php:1123
+msgid "Domain Name"
+msgstr "نام دامنه"
+
+#: includes/class-expiry-manager.php:1124
+msgid "Expiry Date"
+msgstr "تاریخ انقضا"
+
+#: includes/class-expiry-manager.php:1125
+msgid "Renewal Period"
+msgstr "دوره تمدید"
+
+#: includes/class-expiry-manager.php:1158
+#, php-format
+msgid "%s years"
+msgstr "%s سال"
+
+#: includes/class-expiry-manager.php:1220
+msgid "Are you sure you want to remove this domain?"
+msgstr "آیا از حذف این دامنه مطمئن هستید؟"
+
+#: includes/class-logger.php:82
+msgid "No logs found."
+msgstr "هیچ لاگی پیدا نشد."
+
+#: includes/class-logger.php:88
+msgid "Error reading log file."
+msgstr "خطا در خواندن فایل لاگ."
+
+#: includes/class-logger.php:116
+msgid "No error logs found."
+msgstr "هیچ لاگ خطایی پیدا نشد."
+
+#: includes/class-logger.php:122
+msgid "Error reading error log file."
+msgstr "خطا در خواندن فایل لاگ خطا."
+
+#: includes/class-monitoring.php:89
+#, php-format
+msgid "PHP error on site %s"
+msgstr "خطای PHP در سایت %s"
+
+#: includes/class-monitoring.php:90
+msgid "A PHP error occurred on your site:"
+msgstr "یک خطای PHP در سایت شما رخ داد:"
+
+#: includes/class-monitoring.php:91
+#, php-format
+msgid "Site: %1$s (%2$s)"
+msgstr "سایت: %1$s (%2$s)"
+
+#: includes/class-monitoring.php:92 includes/class-monitoring.php:235
+#, php-format
+msgid "Error type: %s"
+msgstr "نوع خطا: %s"
+
+#: includes/class-monitoring.php:93 includes/class-monitoring.php:155
+#: includes/class-monitoring.php:236
+#, php-format
+msgid "Error message: %s"
+msgstr "پیام خطا: %s"
+
+#: includes/class-monitoring.php:94
+#, php-format
+msgid "File: %s"
+msgstr "فایل: %s"
+
+#: includes/class-monitoring.php:95
+#, php-format
+msgid "Line: %s"
+msgstr "خط: %s"
+
+#: includes/class-monitoring.php:96 includes/class-monitoring.php:253
+#, php-format
+msgid "Occurrence time: %s"
+msgstr "زمان رخداد: %s"
+
+#: includes/class-monitoring.php:97 includes/class-monitoring.php:254
+#, php-format
+msgid "Page URL: %s"
+msgstr "آدرس صفحه: %s"
+
+#: includes/class-monitoring.php:97 includes/class-monitoring.php:254
+#: includes/class-monitoring.php:255 includes/class-monitoring.php:351
+#: includes/class-monitoring.php:391 includes/class-monitoring.php:392
+#: includes/class-monitoring.php:436
+msgid "Unknown"
+msgstr "نامشخص"
+
+#: includes/class-monitoring.php:98 includes/class-monitoring.php:157
+#: includes/class-monitoring.php:190 includes/class-monitoring.php:256
+msgid "This message was sent by CloudTart Monitoring Service."
+msgstr "این پیام توسط سرویس مانیتورینگ کلادتارت ارسال شده است."
+
+#: includes/class-monitoring.php:106
+#, php-format
+msgid "[%1$s] %2$s in %3$s on line %4$s"
+msgstr "[%1$s] %2$s در %3$s خط %4$s"
+
+#: includes/class-monitoring.php:122
+#, php-format
+msgid "Checking site status: %s"
+msgstr "در حال بررسی وضعیت سایت: %s"
+
+#: includes/class-monitoring.php:136
+msgid "Site status is normal."
+msgstr "وضعیت سایت عادی است."
+
+#: includes/class-monitoring.php:142 includes/class-monitoring.php:164
+#, php-format
+msgid "Error accessing site: %s"
+msgstr "خطا در دسترسی به سایت: %s"
+
+#: includes/class-monitoring.php:151
+#, php-format
+msgid "Alert: site access error on %s"
+msgstr "هشدار: خطای دسترسی به سایت در %s"
+
+#: includes/class-monitoring.php:152
+msgid "Your site is experiencing an issue:"
+msgstr "سایت شما با مشکل مواجه است:"
+
+#: includes/class-monitoring.php:154
+msgid "Error type: Connection error"
+msgstr "نوع خطا: خطای اتصال"
+
+#: includes/class-monitoring.php:156 includes/class-monitoring.php:189
+#, php-format
+msgid "Detected at: %s"
+msgstr "شناسایی در: %s"
+
+#: includes/class-monitoring.php:175
+#, php-format
+msgid "HTTP error while accessing site. Status code: %s"
+msgstr "خطای HTTP هنگام دسترسی به سایت. کد وضعیت: %s"
+
+#: includes/class-monitoring.php:185
+#, php-format
+msgid "Alert: HTTP error code %1$s on %2$s"
+msgstr "هشدار: کد خطای HTTP %1$s در %2$s"
+
+#: includes/class-monitoring.php:186
+msgid "Your site returned an HTTP error code:"
+msgstr "سایت شما یک کد خطای HTTP برگرداند:"
+
+#: includes/class-monitoring.php:188
+#, php-format
+msgid "Status code: %s"
+msgstr "کد وضعیت: %s"
+
+#: includes/class-monitoring.php:197
+#, php-format
+msgid "HTTP error: status code %s"
+msgstr "خطای HTTP: کد وضعیت %s"
+
+#: includes/class-monitoring.php:200
+#, php-format
+msgid "Site status is normal. Status code: %s"
+msgstr "وضعیت سایت عادی است. کد وضعیت: %s"
+
+#: includes/class-monitoring.php:207
+#, php-format
+msgid "Warning: site response time is high: %s seconds"
+msgstr "هشدار: زمان پاسخ سایت بالا است: %s ثانیه"
+
+#: includes/class-monitoring.php:210
+#, php-format
+msgid "Slow response time: %s seconds"
+msgstr "زمان پاسخ کند: %s ثانیه"
+
+#: includes/class-monitoring.php:237
+#, php-format
+msgid "File: %1$s (line %2$s)"
+msgstr "فایل: %1$s (خط %2$s)"
+
+#: includes/class-monitoring.php:249
+#, php-format
+msgid "Critical PHP error on site %s"
+msgstr "خطای بحرانی PHP در سایت %s"
+
+#: includes/class-monitoring.php:251
+msgid "A critical PHP error occurred on your site:"
+msgstr "یک خطای بحرانی PHP در سایت شما رخ داد:"
+
+#: includes/class-monitoring.php:255
+#, php-format
+msgid "User agent: %s"
+msgstr "عامل کاربر: %s"
+
+#: includes/class-monitoring.php:291
+#: modules/digits-gateways/class-digits-ippanel-loader.php:183
+msgid "Unknown error"
+msgstr "خطای نامشخص"
+
+#: includes/class-monitoring.php:342
+#, php-format
+msgid "Error sending site status to server: %s"
+msgstr "خطا در ارسال وضعیت سایت به سرور: %s"
+
+#: includes/class-monitoring.php:355
+msgid "Site status sent successfully to support server."
+msgstr "وضعیت سایت با موفقیت به سرور پشتیبانی ارسال شد."
+
+#: includes/class-monitoring.php:420
+#, php-format
+msgid "Error sending fatal error log to server: %s"
+msgstr "خطا در ارسال لاگ خطای بحرانی به سرور: %s"
+
+#: includes/class-monitoring.php:433
+msgid "Fatal error log sent successfully to support server."
+msgstr "لاگ خطای بحرانی با موفقیت به سرور پشتیبانی ارسال شد."
+
+#: includes/class-monitoring.php:539
+msgid "wp_mail function not found. Unable to send email."
+msgstr "تابع wp_mail یافت نشد. امکان ارسال ایمیل وجود ندارد."
+
+#: includes/class-updater.php:193
+msgid "Changelog information is not available."
+msgstr "اطلاعات تغییرات در دسترس نیست."
+
+#: includes/class-updater.php:284 includes/class-updater.php:309
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/class-updater.php:285
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:22
+#: modules/digits-gateways/class-digits-ippanel-loader.php:23
+#: modules/digits-gateways/class-digits-ippanel-loader.php:32
+#: modules/digits-gateways/class-digits-ippanel-loader.php:33
+msgid "About CloudTart"
+msgstr "درباره کلادتارت"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:51
+msgid "IranPayamak (FarazSMS API)"
+msgstr "ایران پیامک (FarazSMS API)"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:53
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:54
+msgid "IranPayamak API Key"
+msgstr "کلید API ایران پیامک"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:56
+msgid ""
+"To get an API key, go to Developers > Access Keys in the IranPayamak panel."
+msgstr ""
+"برای دریافت کلید API به مسیر Developers > Access Keys در پنل ایران پیامک "
+"مراجعه کنید."
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:58
+msgid "Sender"
+msgstr "فرستنده"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:62
+msgid "Enter your service sender line number. Default: 90008361"
+msgstr "شمارهٔ خط ارسال‌کنندهٔ خدمات خود را وارد کنید. پیش‌فرض: 90008361"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:64
+msgid "Send by pattern"
+msgstr "ارسال بر اساس الگو"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:66
+msgid "No"
+msgstr "خیر"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:67
+msgid "Yes"
+msgstr "بله"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:71
+msgid "Enable this to send OTP using a pattern template."
+msgstr ""
+"برای ارسال کد یک‌بارمصرف (OTP) با استفاده از قالب پترن، این گزینه را فعال "
+"کنید."
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:73
+msgid "Pattern Code"
+msgstr "کد الگو"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:77
+msgid "Enter the pattern code (e.g., abc12345)."
+msgstr "کد الگو را وارد کنید (مثلاً abc12345)."
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:79
+msgid "Pattern Variable"
+msgstr "متغیر الگو"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:83
+msgid "Pattern variable name (e.g., verification-code)."
+msgstr "نام متغیر الگو (مثلاً verification-code)."
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:137
+msgid "IranPayamak gateway settings not found."
+msgstr "تنظیمات درگاه ایران پیامک پیدا نشد."
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:170
+msgid "Send successful: "
+msgstr "ارسال موفق: "
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:171
+msgid "Send failed: "
+msgstr "ارسال ناموفق: "
+
+#: modules/dokan-fix/class-dokan-fix.php:175
+#: modules/dokan-fix/class-dokan-fix.php:229
+#, php-format
+msgid "The minimum spend for this coupon is %s."
+msgstr "حداقل مبلغ این کوپن %s است."
+
+#: modules/dokan-fix/class-dokan-fix.php:199
+#: modules/dokan-fix/class-dokan-fix.php:238
+#, php-format
+msgid "The maximum spend for this coupon is %s."
+msgstr "حداکثر مبلغ این کوپن %s است."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:23
+msgid "IranPayamak - FarazSMS"
+msgstr "ایران پیامک — فراز اس ام اس"
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:43
+msgid "The IranPayamak API key is not set."
+msgstr "کلید API ایران پیامک تنظیم نشده است."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:47
+msgid "The SMS sender line number is not set."
+msgstr "شمارهٔ خط ارسال‌کنندهٔ پیامک تنظیم نشده است."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:58
+msgid "The recipient number is invalid."
+msgstr "شمارهٔ گیرنده نامعتبر است."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:139
+msgid "Did not receive a valid response from the IranPayamak web service."
+msgstr "پاسخ معتبری از وب‌سرویس ایران پیامک دریافت نشد."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:144
+msgid "The IranPayamak response format is invalid."
+msgstr "فرمت پاسخ ایران پیامک معتبر نیست."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:159
+msgid "Unknown error while sending the SMS via IranPayamak."
+msgstr "خطای نامشخص در ارسال پیامک از طریق ایران پیامک."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:202
+msgid "The pattern message structure is invalid."
+msgstr "ساختار پیام پترنی معتبر نیست."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:207
+msgid ""
+"The first pattern line must follow the format `pcode:YOUR_PATTERN_CODE`."
+msgstr "فرمت خط اول پترن باید به شکل `pcode:YOUR_PATTERN_CODE` باشد."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:212
+msgid "No pattern code was provided on the first line."
+msgstr "کد پترن در خط اول وارد نشده است."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:234
+msgid "At least one pattern variable must be provided in `key:value` format."
+msgstr "حداقل یک متغیر پترن باید با فرمت `key:value` ثبت شود."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:39
+msgid "IranPayamak - FarazSMS - iranpayamak - farazsms"
+msgstr "ایران پیامک — فراز اس ام اس - iranpayamak - farazsms"
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:57
+msgid ""
+"Only for the \"IranPayamak - FarazSMS\" gateway. To obtain this key, go to "
+"Developers > Access Keys in the IranPayamak panel."
+msgstr ""
+"فقط برای درگاه «ایران پیامک — فراز اس ام اس». این کلید از بخش Developers > "
+"Access Keys در پنل ایران‌پیامک دریافت می‌شود."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:121
+msgid ""
+"Suggested format for IranPayamak pattern messages: first line "
+"`pcode:PATTERN_CODE`, then one `key:{shortcode}` per following line."
+msgstr ""
+"فرمت پیشنهادی ارسال پترن ایران‌پیامک: خط اول `pcode:کدپترن` و در هر خط بعدی "
+"یک متغیر `key:{shortcode}`."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:122
+msgid "Example:"
+msgstr "نمونه:"
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:280
+msgid "Quick guide to IranPayamak pattern messages"
+msgstr "راهنمای سریع ارسال پترنی ایران‌پیامک"
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:285
+#, php-format
+msgid ""
+"To send a pattern message, write %1$s (the approved pattern code) on the "
+"first line of each text box, then add variables in %2$s format on the next "
+"lines."
+msgstr ""
+"برای ارسال با پترن، داخل هر باکس متنی ابتدا %1$s (کد پترن تایید‌شده) را "
+"بنویسید و در خطوط بعدی متغیرها را با فرمت %2$s ثبت کنید."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:297
+#, php-format
+msgid ""
+"The left side (key) must exactly match the variable name defined in the "
+"IranPayamak panel; the right side (value) can be a WooCommerce shortcode "
+"such as %1$s or %2$s."
+msgstr ""
+"سمت چپ (key) باید دقیقاً نام متغیر تعریف‌شده در پنل ایران‌پیامک باشد و سمت "
+"راست (value) می‌تواند شورت‌کد ووکامرس مثل %1$s یا %2$s باشد."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:32
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:78
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:85
+msgid "Wallet withdrawal requested"
+msgstr "درخواست برداشت کیف پول"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:37
+#, php-format
+msgid "Wallet withdrawal requested <span class=\"count\">(%s)</span>"
+msgid_plural "Wallet withdrawal requested <span class=\"count\">(%s)</span>"
+msgstr[0] "درخواست برداشت کیف پول <span class=\"count\">(%s)</span>"
+msgstr[1] "درخواست برداشت کیف پول <span class=\"count\">(%s)</span>"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:45
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:79
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:89
+msgid "Wallet withdrawal paid out"
+msgstr "برداشت کیف پول تسویه شد"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:50
+#, php-format
+msgid "Wallet withdrawal paid out <span class=\"count\">(%s)</span>"
+msgid_plural "Wallet withdrawal paid out <span class=\"count\">(%s)</span>"
+msgstr[0] "برداشت کیف پول تسویه شد <span class=\"count\">(%s)</span>"
+msgstr[1] "برداشت کیف پول تسویه شد <span class=\"count\">(%s)</span>"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:58
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:80
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:93
+msgid "Wallet withdrawal rejected"
+msgstr "درخواست برداشت کیف پول رد شد"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:63
+#, php-format
+msgid "Wallet withdrawal rejected <span class=\"count\">(%s)</span>"
+msgid_plural "Wallet withdrawal rejected <span class=\"count\">(%s)</span>"
+msgstr[0] "درخواست برداشت کیف پول رد شد <span class=\"count\">(%s)</span>"
+msgstr[1] "درخواست برداشت کیف پول رد شد <span class=\"count\">(%s)</span>"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:159
+msgid ""
+"The withdrawal request had already been approved on the wallet side; the "
+"order has been synced accordingly."
+msgstr ""
+"درخواست برداشت از سمت کیف پول قبلاً تایید شده بود و سفارش با آن همگام شد."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:170
+msgid ""
+"The withdrawal request had already been rejected on the wallet side; the "
+"order has been synced accordingly."
+msgstr ""
+"درخواست برداشت از سمت کیف پول قبلاً رد شده بود و سفارش با آن همگام شد."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:231
+msgid "The withdrawal request record to reject was not found."
+msgstr "رکورد درخواست برداشت برای رد کردن یافت نشد."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:246
+msgid ""
+"The withdrawal request has already been paid out and can no longer be "
+"rejected."
+msgstr "درخواست برداشت قبلاً تسویه شده و قابل رد کردن نیست."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:253
+#, php-format
+msgid "The current withdrawal request status cannot be rejected: %s"
+msgstr "وضعیت درخواست برداشت قابل رد کردن نیست: %s"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:267
+msgid ""
+"An error occurred while unlocking the wallet funds. Please check the logs."
+msgstr "خطا در آزادسازی وجه قفل‌شدهٔ کیف پول رخ داد. لاگ را بررسی کنید."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:285
+msgid ""
+"Failed to update the rejection status in the database. Please review it "
+"manually."
+msgstr "وضعیت رد شدن درخواست در دیتابیس بروزرسانی نشد. لطفاً دستی بررسی کنید."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:296
+#, php-format
+msgid ""
+"Wallet withdrawal request for user #%d was rejected and the locked funds "
+"were released."
+msgstr "درخواست برداشت کیف پول برای کاربر #%d رد شد و وجه قفل‌شده آزاد شد."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:323
+msgid "The withdrawal request record was not found in the database."
+msgstr "رکورد درخواست برداشت در دیتابیس یافت نشد."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:340
+#, php-format
+msgid "The current withdrawal request status cannot be settled: %s"
+msgstr "وضعیت درخواست برداشت قابل تسویه نیست: %s"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:357
+#, php-format
+msgid "Wallet withdrawal payout - Order #%d"
+msgstr "تسویهٔ برداشت کیف پول — سفارش #%d"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:365
+#, php-format
+msgid "Wallet withdrawal fee - Order #%d"
+msgstr "کارمزد برداشت کیف پول — سفارش #%d"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:369
+msgid ""
+"An error occurred while settling the wallet withdrawal. Please check the "
+"logs."
+msgstr "خطا در تسویهٔ برداشت کیف پول رخ داد. لاگ را بررسی کنید."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:387
+msgid ""
+"Failed to update the withdrawal request status in the database. Please "
+"review it manually."
+msgstr "وضعیت درخواست برداشت در دیتابیس بروزرسانی نشد. لطفاً دستی بررسی کنید."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:398
+#, php-format
+msgid "Wallet withdrawal for user #%1$d settled for the amount of %2$s."
+msgstr "برداشت کیف پول برای کاربر #%1$d با مبلغ %2$s تسویه شد."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:445
+msgid "Wallet withdrawal request"
+msgstr "درخواست برداشت وجه کیف پول"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:461
+msgid "Wallet withdrawal request submitted and awaiting review."
+msgstr "درخواست برداشت کیف پول ثبت شد و در انتظار بررسی است."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:493
+msgid "Full name"
+msgstr "نام کامل"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:494
+msgid "Billing address 1"
+msgstr "آدرس صورتحساب ۱"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:495
+msgid "Billing address 2"
+msgstr "آدرس صورتحساب ۲"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:496
+msgid "Billing address 3"
+msgstr "آدرس صورتحساب ۳"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:497
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:534
+msgid "City"
+msgstr "شهر"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:498
+msgid "State/Province"
+msgstr "استان/ایالت"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:499
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:533
+msgid "Postal code"
+msgstr "کد پستی"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:500
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:536
+msgid "Country"
+msgstr "کشور"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:501
+msgid "Bank account holder name"
+msgstr "نام صاحب حساب بانکی"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:502
+msgid "Account number / IBAN"
+msgstr "شمارهٔ حساب/IBAN"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:503
+msgid "SWIFT code"
+msgstr "کد SWIFT"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:504
+msgid "Bank full name"
+msgstr "نام کامل بانک"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:505
+msgid "Bank branch city"
+msgstr "شهر شعبهٔ بانک"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:506
+msgid "Bank branch country"
+msgstr "کشور شعبهٔ بانک"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:507
+msgid "Intermediary bank code"
+msgstr "کد بانک واسط"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:508
+msgid "Intermediary bank name"
+msgstr "نام بانک واسط"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:509
+msgid "Intermediary bank city"
+msgstr "شهر بانک واسط"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:510
+msgid "Intermediary bank country"
+msgstr "کشور بانک واسط"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:513
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:521
+msgid "Account holder name"
+msgstr "نام صاحب حساب"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:514
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:522
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:537
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:544
+msgid "Bank name"
+msgstr "نام بانک"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:515
+msgid "Branch/Agency number"
+msgstr "شمارهٔ شعبه/Agency"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:516
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:524
+msgid "Bank account number"
+msgstr "شمارهٔ حساب بانکی"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:517
+msgid "CPF"
+msgstr "CPF"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:518
+msgid "Account type"
+msgstr "نوع حساب"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:523
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:538
+msgid "IBAN"
+msgstr "IBAN"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:527
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:542
+msgid "First name"
+msgstr "نام"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:528
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:543
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:529
+msgid "Tax code"
+msgstr "کد مالیاتی"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:530
+msgid "Gender"
+msgstr "جنسیت"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:531
+msgid "Phone number"
+msgstr "شمارهٔ تلفن"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:532
+msgid "Address (street/square and number)"
+msgstr "آدرس (خیابان/میدان و شماره)"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:535
+msgid "Province"
+msgstr "استان"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:539
+msgid "BIC/SWIFT"
+msgstr "BIC/SWIFT"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:545
+msgid "Account number"
+msgstr "شمارهٔ حساب"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:546
+msgid "Sort code"
+msgstr "کد شعبه"
+
+#: admin/class-admin.php:786
+msgid "WooCommerce — stream purchased audio files"
+msgstr "ووکامرس — پخش آنلاین فایل‌های صوتی خریداری‌شده"
+
+#: admin/class-admin.php:794
+msgid "Audio streaming options"
+msgstr "گزینه‌های پخش آنلاین صوت"
+
+#: admin/class-admin.php:1611
+msgid ""
+"Show purchased audio files as streamable tracks instead of download links"
+msgstr ""
+"نمایش فایل‌های صوتی خریداری‌شده به‌صورت ترک قابل پخش به‌جای لینک دانلود"
+
+#: admin/class-admin.php:1613
+msgid ""
+"In My Account → Downloads and on the order page, audio files (MP3, M4A, WAV,"
+" OGG, FLAC, …) get a play button and are served through a signed, expiring "
+"streaming link. Other file types keep their normal download link."
+msgstr ""
+"در «حساب کاربری ← دانلودها» و صفحه‌ی سفارش، فایل‌های صوتی (MP3، M4A، WAV، "
+"OGG، FLAC و …) دکمه‌ی پخش می‌گیرند و از طریق یک لینک استریم امضاشده و موقت "
+"ارائه می‌شوند. سایر فرمت‌ها لینک دانلود عادی خود را حفظ می‌کنند."
+
+#: admin/class-admin.php:1615
+msgid ""
+"To enable this option, install and activate the \"WooCommerce\" plugin "
+"first."
+msgstr ""
+"برای فعال‌کردن این گزینه، ابتدا افزونهٔ «WooCommerce» را نصب و فعال کنید."
+
+#: admin/class-admin.php:1630
+msgid ""
+"To configure these options, first turn on \"WooCommerce — stream purchased "
+"audio files\"."
+msgstr ""
+"برای تنظیم این گزینه‌ها، ابتدا «ووکامرس — پخش آنلاین فایل‌های صوتی "
+"خریداری‌شده» را روشن کنید."
+
+#: admin/class-admin.php:1637
+msgid "Allow direct download as well"
+msgstr "امکان دانلود مستقیم هم فعال باشد"
+
+#: admin/class-admin.php:1639
+msgid ""
+"When off, the WooCommerce download link for audio files is removed and "
+"direct download requests are blocked; customers can only listen online. When"
+" on, a download icon is shown next to each play button."
+msgstr ""
+"وقتی خاموش باشد، لینک دانلود ووکامرس برای فایل‌های صوتی حذف و درخواست‌های "
+"دانلود مستقیم مسدود می‌شوند؛ مشتری فقط می‌تواند آنلاین گوش دهد. وقتی روشن "
+"باشد، کنار هر دکمه‌ی پخش یک آیکون دانلود نمایش داده می‌شود."
+
+#: admin/class-admin.php:1646
+msgid "Show the sticky playlist player"
+msgstr "نمایش پلیر چسبان با لیست پخش"
+
+#: admin/class-admin.php:1648
+msgid ""
+"A fixed player at the bottom of the page lists every audio track of that "
+"page and plays them in order. When off, each track gets a simple inline "
+"player instead."
+msgstr ""
+"یک پلیر ثابت در پایین صفحه، همه‌ی ترک‌های صوتی همان صفحه را فهرست می‌کند و "
+"به‌ترتیب پخش می‌کند. وقتی خاموش باشد، هر ترک به‌جای آن یک پلیر ساده‌ی "
+"درون‌خطی می‌گیرد."
+
+#: admin/class-admin.php:1652
+msgid "Player theme"
+msgstr "تم پلیر"
+
+#: admin/class-admin.php:1654
+msgid "Dark"
+msgstr "تیره"
+
+#: admin/class-admin.php:1655
+msgid "Light"
+msgstr "روشن"
+
+#: admin/class-admin.php:1035
+msgid ""
+"Plugin settings validated. Digits IranPayamak gateway: %1$s, Dokan coupon "
+"fix: %2$s, Wallet withdraw orders: %3$s, Persian WooCommerce SMS "
+"IranPayamak: %4$s, WooCommerce audio streaming: %5$s"
+msgstr ""
+"تنظیمات افزونه‌ها اعتبارسنجی شد. درگاه ایران‌پیامک Digits: %1$s، اصلاح کوپن "
+"Dokan: %2$s، سفارش‌های برداشت کیف پول: %3$s، ایران‌پیامک پیامک ووکامرس "
+"فارسی: %4$s، پخش آنلاین صوت ووکامرس: %5$s"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:172
+#: modules/wc-audio-stream/class-wc-audio-stream.php:550
+msgid "Play %s"
+msgstr "پخش %s"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:551
+msgid "Pause %s"
+msgstr "توقف %s"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:548
+#: modules/wc-audio-stream/class-wc-audio-stream.php:578
+msgid "Play"
+msgstr "پخش"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:549
+msgid "Pause"
+msgstr "توقف"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:190
+msgid "Download"
+msgstr "دانلود"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:215
+msgid "Listen online in your account"
+msgstr "پخش آنلاین در حساب کاربری شما"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:247
+msgid ""
+"This audio file is available for online listening only and cannot be "
+"downloaded."
+msgstr ""
+"این فایل صوتی فقط به‌صورت آنلاین قابل شنیدن است و امکان دانلود آن وجود "
+"ندارد."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:248
+msgid "Open my downloads"
+msgstr "رفتن به دانلودهای من"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:249
+msgid "Streaming only"
+msgstr "فقط پخش آنلاین"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:259
+msgid "Streaming error"
+msgstr "خطای پخش آنلاین"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:272
+#: modules/wc-audio-stream/class-wc-audio-stream.php:281
+msgid "Invalid streaming link."
+msgstr "لینک پخش نامعتبر است."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:276
+msgid "This streaming link has expired. Please reload the page."
+msgstr "اعتبار این لینک پخش تمام شده است. لطفاً صفحه را دوباره بارگذاری کنید."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:286
+msgid "This order does not allow access to its files."
+msgstr "این سفارش اجازه‌ی دسترسی به فایل‌هایش را نمی‌دهد."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:291
+#: modules/wc-audio-stream/class-wc-audio-stream.php:296
+#: modules/wc-audio-stream/class-wc-audio-stream.php:386
+#: modules/wc-audio-stream/class-wc-audio-stream.php:432
+#: modules/wc-audio-stream/class-wc-audio-stream.php:488
+msgid "File not found."
+msgstr "فایل پیدا نشد."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:310
+#: modules/wc-audio-stream/class-wc-audio-stream.php:325
+#: modules/wc-audio-stream/class-wc-audio-stream.php:328
+msgid "You do not have access to this file."
+msgstr "شما به این فایل دسترسی ندارید."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:316
+msgid "Access to this file has expired."
+msgstr "مهلت دسترسی به این فایل به پایان رسیده است."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:321
+msgid "Please log in to listen to this file."
+msgstr "برای شنیدن این فایل لطفاً وارد حساب کاربری شوید."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:552
+msgid "This track could not be played. Please reload the page and try again."
+msgstr ""
+"این ترک پخش نشد. لطفاً صفحه را دوباره بارگذاری کنید و دوباره تلاش کنید."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:553
+msgid "Now playing"
+msgstr "در حال پخش"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:554
+msgid "%d tracks"
+msgstr "%d ترک"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:564
+msgid "Audio player"
+msgstr "پلیر صوتی"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:577
+msgid "Previous track"
+msgstr "ترک قبلی"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:581
+msgid "Next track"
+msgstr "ترک بعدی"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:589
+msgid "Seek"
+msgstr "جابه‌جایی در ترک"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:596
+msgid "Mute"
+msgstr "بی‌صدا"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:597
+msgid "Volume"
+msgstr "میزان صدا"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:599
+msgid "Playlist"
+msgstr "لیست پخش"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:600
+msgid "Close player"
+msgstr "بستن پلیر"
+
+#: cloudtart-support-connector/includes/class-connector-reporter.php
+msgid "API key is not set."
+msgstr "کلید API تنظیم نشده است."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "API request rejected: %s"
+msgstr "درخواست API رد شد: %s"
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "API request rejected: no API key is configured on this site."
+msgstr "درخواست API رد شد: هیچ کلید API روی این سایت تنظیم نشده است."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "API request rejected: unsigned request while signatures are required."
+msgstr "درخواست API رد شد: درخواست بدون امضا در حالی که امضا الزامی است."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Authentication failed."
+msgstr "احراز هویت ناموفق بود."
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+#: cloudtart-support-connector/includes/class-connector-admin.php
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "CloudTart Connection"
+msgstr "اتصال به کلادتارت"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid ""
+"CloudTart Support Connector is active but no API key has been entered yet. "
+"Add the key in the \"CloudTart Connection\" tab to enable remote updates."
+msgstr ""
+"کانکتور پشتیبانی کلادتارت فعال است اما هنوز کلید API وارد نشده است. برای "
+"فعال‌شدن آپدیت‌های از راه دور، کلید را در تب «اتصال به کلادتارت» وارد کنید."
+
+#: cloudtart-support-connector/cloudtart-support-connector.php
+msgid ""
+"CloudTart Support Connector requires the \"CloudTart Support Services "
+"Plugin\" to be installed and active. The connector has been deactivated."
+msgstr ""
+"کانکتور پشتیبانی کلادتارت به نصب و فعال بودن «افزونه‌ی خدمات پشتیبانی "
+"کلادتارت» نیاز دارد. کانکتور غیرفعال شد."
+
+#: includes/class-cloudtart-support.php
+msgid "CloudTart Support Connector was activated automatically."
+msgstr "کانکتور پشتیبانی کلادتارت به‌صورت خودکار فعال شد."
+
+#: admin/class-admin.php
+msgid "CloudTart support services"
+msgstr "خدمات پشتیبانی کلادتارت"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "Connector Version:"
+msgstr "نسخهٔ کانکتور:"
+
+#: cloudtart-support-connector/includes/class-connector.php
+msgid "Could not activate pushed plugin %1$s: %2$s"
+msgstr "فعال‌سازی افزونهٔ ارسال‌شده %1$s ممکن نشد: %2$s"
+
+#: includes/class-cloudtart-support.php
+msgid "Could not activate the CloudTart Support Connector: %s"
+msgstr "فعال‌سازی کانکتور پشتیبانی کلادتارت ممکن نشد: %s"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid ""
+"Every update pushed by the platform is signed with its private key and "
+"verified here with the embedded public key. Keep this on; turn it off only "
+"temporarily if the platform asks you to."
+msgstr ""
+"هر آپدیتی که پلتفرم ارسال می‌کند با کلید خصوصی آن امضا و در اینجا با کلید "
+"عمومی تعبیه‌شده بررسی می‌شود. این گزینه را روشن نگه دارید و فقط اگر پلتفرم "
+"خواست، موقتاً خاموش کنید."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Invalid folder name."
+msgstr "نام پوشه نامعتبر است."
+
+#: admin/class-admin.php
+msgid "Main settings saved. Debug mode: %s"
+msgstr "تنظیمات اصلی ذخیره شد. حالت دیباگ: %s"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "Only accept requests that carry a valid CloudTart platform signature"
+msgstr "فقط درخواست‌هایی پذیرفته شوند که امضای معتبر پلتفرم کلادتارت دارند"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid ""
+"OpenSSL is not available on this server, so signatures cannot be verified. "
+"Requests fall back to API key authentication."
+msgstr ""
+"OpenSSL روی این سرور در دسترس نیست و امضاها قابل بررسی نیستند. درخواست‌ها "
+"فقط با کلید API احراز هویت می‌شوند."
+
+#: includes/class-cloudtart-support.php
+msgid "Plugin upgraded to version %s."
+msgstr "افزونه به نسخهٔ %s ارتقا یافت."
+
+#: cloudtart-support-connector/includes/class-connector.php
+msgid "Pushed plugin %s was activated."
+msgstr "افزونهٔ ارسال‌شده %s فعال شد."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Received archive is empty."
+msgstr "آرشیو دریافت‌شده خالی است."
+
+#: admin/class-admin.php
+msgid ""
+"Remote updates, uptime reporting and error forwarding are available to "
+"CloudTart support customers. If you need CloudTart support services, please "
+"contact us."
+msgstr ""
+"آپدیت از راه دور، گزارش در دسترس بودن سایت و ارسال خطاها برای مشتریان "
+"پشتیبانی کلادتارت فراهم است. در صورت نیاز به خدمات پشتیبانی کلادتارت با ما "
+"تماس بگیرید."
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "Report site availability to the support platform every 5 minutes"
+msgstr "گزارش در دسترس بودن سایت به پلتفرم پشتیبانی هر ۵ دقیقه"
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Request signature could not be verified."
+msgstr "امضای درخواست تأیید نشد."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Requests to this site must be signed by the support platform."
+msgstr "درخواست‌ها به این سایت باید توسط پلتفرم پشتیبانی امضا شده باشند."
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "Signed requests"
+msgstr "درخواست‌های امضاشده"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "Status reporting"
+msgstr "گزارش وضعیت"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid ""
+"The platform delivers updates to this address. It only answers signed, key-"
+"authenticated requests."
+msgstr ""
+"پلتفرم آپدیت‌ها را به این آدرس ارسال می‌کند. این آدرس فقط به درخواست‌های "
+"امضاشده و دارای کلید معتبر پاسخ می‌دهد."
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid ""
+"These settings link this site to the CloudTart support platform. Only sites "
+"with an active support contract receive an API key."
+msgstr ""
+"این تنظیمات سایت شما را به پلتفرم پشتیبانی کلادتارت متصل می‌کند. فقط "
+"سایت‌های دارای قرارداد پشتیبانی فعال کلید API دریافت می‌کنند."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "This site is not connected to a support platform."
+msgstr "این سایت به پلتفرم پشتیبانی متصل نیست."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Too many failed attempts. Try again later."
+msgstr "تلاش‌های ناموفق زیاد. بعداً دوباره تلاش کنید."
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "Update endpoint"
+msgstr "نشانی دریافت آپدیت"
+
+#: admin/class-admin.php
+msgid ""
+"This site has a CloudTart support API key, but the \"CloudTart Support "
+"Connector\" plugin is not active. Remote updates and status reporting stay "
+"paused until the connector is installed and activated."
+msgstr ""
+"این سایت کلید API پشتیبانی کلادتارت دارد اما افزونه‌ی «CloudTart Support "
+"Connector» فعال نیست. تا نصب و فعال‌شدن کانکتور، آپدیت از راه دور و گزارش "
+"وضعیت متوقف می‌ماند."
+
+#: cloudtart-support/admin/class-admin.php
+msgid ""
+"The CloudTart Support Connector could not be installed automatically. "
+"Details are in the plugin log; you can also upload the connector zip from "
+"Plugins → Add New."
+msgstr ""
+"کانکتور پشتیبانی کلادتارت به‌صورت خودکار نصب نشد. جزئیات در لاگ افزونه ثبت "
+"شده است؛ می‌توانید فایل zip کانکتور را از «افزونه‌ها ← افزودن» هم آپلود "
+"کنید."
+
+#: cloudtart-support/admin/class-admin.php
+msgid ""
+"This site has a CloudTart support API key, but the \"CloudTart Support "
+"Connector\" plugin is not active. Remote updates stay paused until the "
+"connector is installed and activated."
+msgstr ""
+"این سایت کلید API پشتیبانی کلادتارت دارد اما افزونه‌ی «CloudTart Support "
+"Connector» فعال نیست. تا زمانی که کانکتور نصب و فعال نشود، بروزرسانی از راه "
+"دور متوقف می‌ماند."
+
+#: cloudtart-support/admin/class-admin.php
+msgid "Install and activate the connector"
+msgstr "نصب و فعال‌سازی کانکتور"
+
+#: cloudtart-support/includes/class-cloudtart-support.php
+msgid "This site has no CloudTart support API key."
+msgstr "این سایت کلید API پشتیبانی کلادتارت ندارد."
+
+#: cloudtart-support/includes/class-cloudtart-support.php
+msgid ""
+"The connector package address could not be read from the update server."
+msgstr "آدرس بسته‌ی کانکتور از سرور بروزرسانی خوانده نشد."
+
+#: cloudtart-support/includes/class-cloudtart-support.php
+msgid ""
+"Installing the connector failed (the host may require FTP credentials for "
+"plugin installs)."
+msgstr ""
+"نصب کانکتور ناموفق بود (ممکن است هاست برای نصب افزونه اطلاعات FTP بخواهد)."
+
+#: cloudtart-support/includes/class-cloudtart-support.php
+#, php-format
+msgid "Could not install the CloudTart Support Connector: %s"
+msgstr "نصب کانکتور پشتیبانی کلادتارت ممکن نشد: %s"
+
+#: cloudtart-support/includes/class-cloudtart-support.php
+msgid "CloudTart Support Connector was installed and activated automatically."
+msgstr "کانکتور پشتیبانی کلادتارت به‌صورت خودکار نصب و فعال شد."
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "Support Core Connection"
+msgstr "اتصال به هسته پشتیبانی"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid ""
+"CloudTart Support Connector is active but no API key has been entered yet. "
+"Add the key in the \"Support Core Connection\" tab to enable remote updates."
+msgstr ""
+"کانکتور پشتیبانی کلادتارت فعال است اما هنوز کلید API وارد نشده است. برای "
+"فعال شدن بروزرسانی از راه دور، کلید را در تب «اتصال به هسته پشتیبانی» وارد "
+"کنید."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+#, php-format
+msgid ""
+"Not enough free disk space on this host (free: %1$s, needed about: %2$s)."
+msgstr ""
+"فضای خالی کافی روی این هاست وجود ندارد (فضای آزاد: %1$s، فضای لازم حدود: "
+"%2$s)."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Upload session not found. Start the upload again."
+msgstr "جلسه‌ی آپلود پیدا نشد. آپلود را دوباره شروع کنید."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+#, php-format
+msgid "Chunk %1$d arrived incomplete (%2$d of %3$d bytes)."
+msgstr "قطعه‌ی %1$d ناقص رسید (%2$d از %3$d بایت)."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+#, php-format
+msgid "%d chunks are still missing."
+msgstr "%d قطعه هنوز نرسیده است."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Upload cancelled."
+msgstr "آپلود لغو شد."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid ""
+"The chunk is larger than upload_max_filesize/post_max_size on this host."
+msgstr ""
+"اندازه‌ی قطعه از upload_max_filesize/post_max_size این هاست بزرگ‌تر است."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "The chunk arrived incomplete."
+msgstr "قطعه ناقص رسید."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid ""
+"This host cannot store uploaded files (temporary folder is missing or not "
+"writable)."
+msgstr ""
+"این هاست نمی‌تواند فایل‌های آپلودشده را ذخیره کند (پوشه‌ی موقت وجود ندارد یا"
+" قابل نوشتن نیست)."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid ""
+"No chunk was received (the request may exceed post_max_size on this host)."
+msgstr ""
+"هیچ قطعه‌ای دریافت نشد (ممکن است درخواست از post_max_size این هاست بزرگ‌تر "
+"باشد)."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "The archive contains an invalid path."
+msgstr "فایل فشرده شامل یک مسیر نامعتبر است."
+
+#: cloudtart-support/admin/class-admin.php
+msgid "Intranet mode (server requests)"
+msgstr "حالت اینترانت (درخواست‌های سرور)"
+
+#: cloudtart-support/admin/class-admin.php
+msgid "Iranian domains"
+msgstr "دامنه‌های ایرانی"
+
+#: cloudtart-support/admin/class-admin.php
+msgid "Block every server request to foreign hosts except the allowed list"
+msgstr ""
+"مسدود کردن همه‌ی درخواست‌های سرور به میزبان‌های خارجی به‌جز فهرست مجاز"
+
+#: cloudtart-support/admin/class-admin.php
+msgid ""
+"Use only while international internet is cut. Update checks of WordPress, "
+"plugins and themes, license checks and other API calls to foreign servers "
+"are answered instantly with an empty response instead of waiting for a "
+"timeout. The site itself, local/private addresses, allowed domains and "
+"keywords, Iranian domains (if enabled below) and CloudTart services keep "
+"working."
+msgstr ""
+"فقط هنگام قطع اینترنت بین‌الملل فعال کنید. بررسی آپدیت وردپرس، افزونه‌ها و "
+"قالب‌ها، بررسی لایسنس و سایر درخواست‌های API به سرورهای خارجی به‌جای انتظار "
+"تا پایان زمان، بلافاصله با پاسخ خالی برگردانده می‌شوند. خود سایت، آدرس‌های "
+"محلی/داخلی، دامنه‌ها و کلیدواژه‌های مجاز، دامنه‌های ایرانی (در صورت فعال "
+"بودن گزینه‌ی زیر) و سرویس‌های کلادتارت همچنان کار می‌کنند."
+
+#: cloudtart-support/admin/class-admin.php
+msgid "Always allow .ir domains"
+msgstr "دامنه‌های .ir همیشه مجاز باشند"
+
+#: cloudtart-support/admin/class-admin.php
+msgid ""
+"Domestic domains stay reachable on the national network, so payment "
+"gateways, SMS panels and other Iranian services are not blocked."
+msgstr ""
+"دامنه‌های داخلی در شبکه‌ی ملی در دسترس می‌مانند؛ بنابراین درگاه‌های پرداخت، "
+"پنل‌های پیامک و سایر سرویس‌های ایرانی مسدود نمی‌شوند."
+
+#: cloudtart-support/admin/class-admin.php
+msgid ""
+"This list is used when \"Block undefined external requests\" or intranet "
+"mode is enabled."
+msgstr ""
+"این فهرست وقتی استفاده می‌شود که «مسدودسازی درخواست‌های خارجیِ تعریف‌نشده» "
+"یا حالت اینترانت فعال باشد."
+
+#: cloudtart-support/admin/class-admin.php
+msgid ""
+"If the host name of a URL contains any of these keywords (for example "
+"shaparak or payamak), it is allowed even if no replacement rule is defined."
+msgstr ""
+"اگر نام میزبان یک آدرس شامل هر یک از این کلیدواژه‌ها باشد (مثلاً shaparak یا"
+" payamak)، حتی بدون قانون جایگزینی مجاز است."
+
+#: includes/class-updater.php
+msgid ""
+"Plugin information could not be retrieved from the CloudTart update server. "
+"Please try again later."
+msgstr ""
+"اطلاعات افزونه از سرور آپدیت کلادتارت دریافت نشد. لطفاً بعداً دوباره تلاش "
+"کنید."

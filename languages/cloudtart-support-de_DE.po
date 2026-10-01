@@ -1,0 +1,2901 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CloudTart Support Services Plugin\n"
+"POT-Creation-Date: 2026-06-01 00:00+0330\n"
+"PO-Revision-Date: 2026-06-01 00:00+0330\n"
+"Last-Translator: CloudTart <support@cloudtart.com>\n"
+"Language-Team: CloudTart <support@cloudtart.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: CloudTart build-translations.php\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: admin/class-admin.php:268
+msgid "Plugin default"
+msgstr "Plugin-Standard"
+
+#: admin/class-admin.php:289 admin/class-admin.php:504
+msgid "User upload"
+msgstr "Benutzer-Upload"
+
+#: admin/class-admin.php:366 admin/class-admin.php:437
+#: admin/class-admin.php:1949 admin/class-admin.php:1974
+#: admin/class-admin.php:2063 admin/class-admin.php:2087
+#: includes/class-api.php:740 includes/class-expiry-manager.php:272
+#: includes/class-expiry-manager.php:350 includes/class-expiry-manager.php:410
+#: includes/class-expiry-manager.php:458 includes/class-expiry-manager.php:506
+msgid "You do not have permission to perform this action."
+msgstr "Sie haben keine Berechtigung, diese Aktion auszuführen."
+
+#: admin/class-admin.php:441
+msgid "No file was uploaded."
+msgstr "Es wurde keine Datei hochgeladen."
+
+#: admin/class-admin.php:469
+msgid "Invalid file type."
+msgstr "Ungültiger Dateityp."
+
+#: admin/class-admin.php:500 admin/class-admin.php:1070
+msgid "File uploaded successfully."
+msgstr "Datei erfolgreich hochgeladen."
+
+#: admin/class-admin.php:509
+msgid "Unknown upload error."
+msgstr "Unbekannter Upload-Fehler."
+
+#: admin/class-admin.php:518
+msgid "CloudTart Support Settings"
+msgstr "CloudTart-Support-Einstellungen"
+
+#: admin/class-admin.php:519 admin/class-admin.php:1677
+msgid "CloudTart Support"
+msgstr "CloudTart-Support"
+
+#: admin/class-admin.php:539
+msgid "Main Settings"
+msgstr "Haupteinstellungen"
+
+#: admin/class-admin.php:546
+msgid "API Key"
+msgstr "API-Schlüssel"
+
+#: admin/class-admin.php:554
+msgid "Debug Mode"
+msgstr "Debug-Modus"
+
+#: admin/class-admin.php:562
+msgid "Automatically Send Fatal Error Logs"
+msgstr "Schwerwiegende Fehlerprotokolle automatisch senden"
+
+#: admin/class-admin.php:577
+msgid "Expiry Settings"
+msgstr "Ablaufeinstellungen"
+
+#: admin/class-admin.php:584
+msgid "Domain Expiry Date"
+msgstr "Ablaufdatum der Domain"
+
+#: admin/class-admin.php:592
+msgid "Domain Renewal Period"
+msgstr "Verlängerungszeitraum der Domain"
+
+#: admin/class-admin.php:600
+msgid "Hosting Expiry Date"
+msgstr "Ablaufdatum des Hostings"
+
+#: admin/class-admin.php:608
+msgid "Hosting Renewal Period"
+msgstr "Verlängerungszeitraum des Hostings"
+
+#: admin/class-admin.php:616
+msgid "Notification Emails"
+msgstr "Benachrichtigungs-E-Mails"
+
+#: admin/class-admin.php:624
+msgid "Days Before Expiry for Notification"
+msgstr "Tage vor Ablauf für Benachrichtigung"
+
+#: admin/class-admin.php:639
+msgid "Site Monitoring Settings"
+msgstr "Einstellungen für Website-Monitoring"
+
+#: admin/class-admin.php:646
+msgid "Site Status Monitoring"
+msgstr "Überwachung des Website-Status"
+
+#: admin/class-admin.php:654
+msgid "PHP Error Monitoring"
+msgstr "Überwachung von PHP-Fehlern"
+
+#: admin/class-admin.php:662
+msgid "Notification Email"
+msgstr "Benachrichtigungs-E-Mail"
+
+#: admin/class-admin.php:670
+msgid "Check Interval"
+msgstr "Prüfintervall"
+
+#: admin/class-admin.php:685
+msgid "Manage Add-on Plugins"
+msgstr "Add-on-Plugins verwalten"
+
+#: admin/class-admin.php:692
+msgid "Digits plugin — IranPayamak SMS gateway"
+msgstr "Plugin Digits — SMS-Gateway IranPayamak"
+
+#: admin/class-admin.php:700
+msgid "Dokan Multivendor plugin — coupon fix"
+msgstr "Plugin Dokan Multivendor — Gutschein-Fix"
+
+#: admin/class-admin.php:708
+msgid "FS WooCommerce Wallet plugin — withdrawals as orders"
+msgstr "Plugin FS WooCommerce Wallet — Auszahlungen als Bestellungen"
+
+#: admin/class-admin.php:716
+msgid "Persian WooCommerce SMS plugin — IranPayamak gateway"
+msgstr "Plugin Persian WooCommerce SMS — IranPayamak-Gateway"
+
+#: admin/class-admin.php:731 admin/class-admin.php:1694
+msgid "Internal CDN Settings"
+msgstr "Interne CDN-Einstellungen"
+
+#: admin/class-admin.php:738
+msgid "File redirects"
+msgstr "Datei-Weiterleitungen"
+
+#: admin/class-admin.php:746
+msgid "Replacement rules"
+msgstr "Ersetzungsregeln"
+
+#: admin/class-admin.php:754
+msgid "Block external requests"
+msgstr "Externe Anfragen blockieren"
+
+#: admin/class-admin.php:762
+msgid "Allowed domains"
+msgstr "Erlaubte Domains"
+
+#: admin/class-admin.php:770
+msgid "Allowed keywords"
+msgstr "Erlaubte Schlüsselwörter"
+
+#: admin/class-admin.php:778
+msgid "Block domains"
+msgstr "Domains blockieren"
+
+#: admin/class-admin.php:786
+msgid "Blocked domains"
+msgstr "Blockierte Domains"
+
+#: admin/class-admin.php:794
+msgid "Log file management"
+msgstr "Verwaltung der Log-Datei"
+
+#: admin/class-admin.php:831 admin/class-admin.php:832
+#: admin/class-admin.php:1779
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: admin/class-admin.php:831 admin/class-admin.php:832
+#: admin/class-admin.php:1781
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: admin/class-admin.php:844
+msgid "Started validating monitoring settings"
+msgstr "Validierung der Monitoring-Einstellungen gestartet"
+
+#: admin/class-admin.php:881
+msgid "Monitoring settings validated."
+msgstr "Monitoring-Einstellungen validiert."
+
+#: admin/class-admin.php:892
+msgid "Started validating plugin settings"
+msgstr "Validierung der Plugin-Einstellungen gestartet"
+
+#: admin/class-admin.php:946
+msgid "Started validating internal CDN settings"
+msgstr "Validierung der internen CDN-Einstellungen gestartet"
+
+#: admin/class-admin.php:1019
+msgid "Internal CDN settings validated."
+msgstr "Interne CDN-Einstellungen validiert."
+
+#: admin/class-admin.php:1053
+msgid "Testing..."
+msgstr "Teste..."
+
+#: admin/class-admin.php:1054
+msgid "Testing connection..."
+msgstr "Verbindung wird getestet..."
+
+#: admin/class-admin.php:1055 admin/class-admin.php:1808
+msgid "Test Server Connection"
+msgstr "Serververbindung testen"
+
+#: admin/class-admin.php:1056
+msgid "Server connection error."
+msgstr "Serververbindungsfehler."
+
+#: admin/class-admin.php:1057
+msgid "Loading..."
+msgstr "Laden..."
+
+#: admin/class-admin.php:1058 admin/class-admin.php:1736
+msgid "Refresh Logs"
+msgstr "Logs aktualisieren"
+
+#: admin/class-admin.php:1059
+msgid "Error fetching logs: "
+msgstr "Fehler beim Abrufen der Logs: "
+
+#: admin/class-admin.php:1060
+msgid "Server Version:"
+msgstr "Serverversion:"
+
+#: admin/class-admin.php:1061
+msgid "Server Status:"
+msgstr "Serverstatus:"
+
+#: admin/class-admin.php:1062 includes/class-expiry-manager.php:1182
+msgid "Please enter the domain name and expiry date."
+msgstr "Bitte Domainnamen und Ablaufdatum eingeben."
+
+#: admin/class-admin.php:1063 includes/class-expiry-manager.php:1197
+msgid "Adding domain..."
+msgstr "Domain wird hinzugefügt..."
+
+#: admin/class-admin.php:1064
+msgid "Are you sure you want to delete this domain?"
+msgstr "Möchten Sie diese Domain wirklich löschen?"
+
+#: admin/class-admin.php:1065 includes/class-expiry-manager.php:1133
+#: includes/class-expiry-manager.php:1241
+msgid "No domains have been added."
+msgstr "Es wurden keine Domains hinzugefügt."
+
+#: admin/class-admin.php:1066 admin/class-admin.php:1212
+#: admin/class-admin.php:1225 admin/class-admin.php:1289
+#: admin/class-admin.php:1297 admin/class-admin.php:1326
+#: admin/class-admin.php:1333 admin/class-admin.php:1362
+#: admin/class-admin.php:1369 includes/class-expiry-manager.php:1161
+msgid "Remove"
+msgstr "Entfernen"
+
+#: admin/class-admin.php:1067
+msgid "Uploading..."
+msgstr "Wird hochgeladen..."
+
+#: admin/class-admin.php:1068 admin/class-admin.php:1232
+msgid "Upload"
+msgstr "Hochladen"
+
+#: admin/class-admin.php:1069
+msgid "Please choose a file first."
+msgstr "Bitte wähle zuerst eine Datei aus."
+
+#: admin/class-admin.php:1071
+msgid "File upload failed."
+msgstr "Datei-Upload fehlgeschlagen."
+
+#: admin/class-admin.php:1072 admin/class-admin.php:1238
+msgid "Add Rule"
+msgstr "Regel hinzufügen"
+
+#: admin/class-admin.php:1073 admin/class-admin.php:1301
+#: admin/class-admin.php:1337 includes/class-expiry-manager.php:1115
+msgid "Add Domain"
+msgstr "Domain hinzufügen"
+
+#: admin/class-admin.php:1074 admin/class-admin.php:1373
+msgid "Add Keyword"
+msgstr "Schlüsselwort hinzufügen"
+
+#: admin/class-admin.php:1083
+msgid "Enter CloudTart support settings here."
+msgstr "Geben Sie hier die CloudTart-Support-Einstellungen ein."
+
+#: admin/class-admin.php:1090
+msgid ""
+"Enter domain and hosting expiry dates so the system can notify you before "
+"expiry."
+msgstr ""
+"Geben Sie Ablaufdaten für Domain und Hosting ein, damit das System Sie vor "
+"Ablauf benachrichtigt."
+
+#: admin/class-admin.php:1097
+msgid "Configure site status and PHP error monitoring here."
+msgstr ""
+"Konfigurieren Sie hier die Überwachung des Website-Status und von PHP-"
+"Fehlern."
+
+#: admin/class-admin.php:1104
+msgid "Enable or disable add-on plugins and extra features here."
+msgstr ""
+"Aktivieren oder deaktivieren Sie hier Add-on-Plugins und Zusatzfunktionen."
+
+#: admin/class-admin.php:1112
+msgid ""
+"In this section you can manage redirects from external CDN files to local "
+"files, block external requests, manage allowed domains and allowed keywords,"
+" and block specific domains."
+msgstr ""
+"In diesem Bereich kannst du Weiterleitungen externer CDN-Dateien auf lokale "
+"Dateien verwalten, externe Anfragen blockieren, erlaubte Domains und "
+"Schlüsselwörter verwalten sowie bestimmte Domains blockieren."
+
+#: admin/class-admin.php:1114
+msgid "The blocked requests log file has been deleted."
+msgstr "Die Log-Datei der blockierten Anfragen wurde gelöscht."
+
+#: admin/class-admin.php:1116
+msgid "The log file was not found for download or deletion."
+msgstr "Die Log-Datei wurde zum Herunterladen oder Löschen nicht gefunden."
+
+#: admin/class-admin.php:1118
+msgid ""
+"Could not delete the log file. Please check the file permissions or the "
+"path."
+msgstr ""
+"Die Log-Datei konnte nicht gelöscht werden. Bitte prüfe die "
+"Datei­berechtigungen oder den Pfad."
+
+#: admin/class-admin.php:1130
+msgid "Enable file redirects (JS/CSS and static assets)"
+msgstr "Datei-Weiterleitungen aktivieren (JS/CSS und statische Assets)"
+
+#: admin/class-admin.php:1132
+msgid ""
+"When enabled, replacement rules are activated and the defined assets are "
+"redirected to the target files."
+msgstr ""
+"Wenn aktiviert, werden die Ersetzungsregeln aktiv und die definierten Assets"
+" auf die Zieldateien umgeleitet."
+
+#: admin/class-admin.php:1153
+msgid "Enable request logging"
+msgstr "Anfragen-Protokollierung aktivieren"
+
+#: admin/class-admin.php:1155
+msgid ""
+"When enabled, blocked URLs and URLs redirected to local files are recorded "
+"in the log file."
+msgstr ""
+"Wenn aktiviert, werden blockierte URLs und auf lokale Dateien umgeleitete "
+"URLs in der Log-Datei protokolliert."
+
+#: admin/class-admin.php:1156
+#, php-format
+msgid "Log file path: %s"
+msgstr "Pfad der Log-Datei: %s"
+
+#: admin/class-admin.php:1161
+#, php-format
+msgid "Last modified: %1$s | File size: %2$s"
+msgstr "Zuletzt geändert: %1$s | Dateigröße: %2$s"
+
+#: admin/class-admin.php:1168
+msgid "Download log file"
+msgstr "Log-Datei herunterladen"
+
+#: admin/class-admin.php:1169
+msgid "Are you sure you want to delete the log file?"
+msgstr "Möchtest du die Log-Datei wirklich löschen?"
+
+#: admin/class-admin.php:1169
+msgid "Delete log file"
+msgstr "Log-Datei löschen"
+
+#: admin/class-admin.php:1172
+msgid ""
+"No log file has been created yet. Enable logging first; once the first "
+"blocked or redirected request is recorded, the file will be available here "
+"to download or delete."
+msgstr ""
+"Es wurde noch keine Log-Datei erstellt. Aktiviere zuerst das Protokollieren;"
+" sobald die erste blockierte oder umgeleitete Anfrage gespeichert ist, kann "
+"die Datei hier heruntergeladen oder gelöscht werden."
+
+#: admin/class-admin.php:1191
+msgid ""
+"To enable this section, first turn on the \"Enable file redirects\" option."
+msgstr ""
+"Um diesen Bereich zu aktivieren, schalte zuerst die Option „Datei-"
+"Weiterleitungen aktivieren“ ein."
+
+#: admin/class-admin.php:1197
+msgid "Original URL"
+msgstr "Ursprüngliche URL"
+
+#: admin/class-admin.php:1198
+msgid "Target file"
+msgstr "Zieldatei"
+
+#: admin/class-admin.php:1199 admin/class-admin.php:1281
+#: admin/class-admin.php:1319 admin/class-admin.php:1355
+#: includes/class-expiry-manager.php:1127
+msgid "Actions"
+msgstr "Aktionen"
+
+#: admin/class-admin.php:1230
+msgid "Upload a new file"
+msgstr "Neue Datei hochladen"
+
+#: admin/class-admin.php:1233
+#, php-format
+msgid ""
+"New files are stored at %s so they are not removed when the plugin updates."
+msgstr ""
+"Neue Dateien werden in %s gespeichert, damit sie bei Plugin-Updates nicht "
+"gelöscht werden."
+
+#: admin/class-admin.php:1234
+msgid ""
+"Allowed formats: JS, CSS, HTML, JSON, WOFF, WOFF2, TTF, EOT, SVG, PNG, JPG, "
+"GIF, MP4. After uploading, pick the file from the list below and assign it "
+"to the desired URL."
+msgstr ""
+"Erlaubte Formate: JS, CSS, HTML, JSON, WOFF, WOFF2, TTF, EOT, SVG, PNG, JPG,"
+" GIF, MP4. Nach dem Hochladen die Datei aus der Liste auswählen und der "
+"gewünschten URL zuweisen."
+
+#: admin/class-admin.php:1239
+msgid ""
+"Connect each external URL to one of the plugin's bundled default files or to"
+" a file you uploaded yourself."
+msgstr ""
+"Verbinde jede externe URL mit einer der mitgelieferten Standarddateien oder "
+"mit einer von dir hochgeladenen Datei."
+
+#: admin/class-admin.php:1252
+msgid "Block undefined external requests"
+msgstr "Nicht definierte externe Anfragen blockieren"
+
+#: admin/class-admin.php:1254
+msgid ""
+"When enabled, if a URL has no replacement rule and is not in the allowed "
+"domains/keywords list, its request is blocked."
+msgstr ""
+"Wenn aktiviert: Hat eine URL keine Ersetzungsregel und steht nicht in der "
+"Liste erlaubter Domains/Schlüsselwörter, wird ihre Anfrage blockiert."
+
+#: admin/class-admin.php:1263
+msgid "Enable domain blocking (for HTTP requests)"
+msgstr "Domain-Sperre aktivieren (für HTTP-Anfragen)"
+
+#: admin/class-admin.php:1265
+msgid ""
+"When enabled, HTTP requests to the domains in the blocked list are short-"
+"circuited with an empty response."
+msgstr ""
+"Wenn aktiviert, werden HTTP-Anfragen an Domains aus der Sperrliste mit einer"
+" leeren Antwort kurzgeschlossen."
+
+#: admin/class-admin.php:1274
+msgid ""
+"To enable the blocked domains list, first turn on the \"Enable domain "
+"blocking\" option."
+msgstr ""
+"Um die Liste blockierter Domains zu aktivieren, schalte zuerst die Option "
+"„Domain-Sperre aktivieren“ ein."
+
+#: admin/class-admin.php:1280
+msgid "Domain"
+msgstr "Domain"
+
+#: admin/class-admin.php:1302
+msgid ""
+"HTTP requests to these domains are short-circuited with an empty response."
+msgstr ""
+"HTTP-Anfragen an diese Domains werden mit einer leeren Antwort beendet."
+
+#: admin/class-admin.php:1312 admin/class-admin.php:1348
+msgid ""
+"This section only applies when \"Block undefined external requests\" is "
+"enabled."
+msgstr ""
+"Dieser Bereich gilt nur, wenn „Nicht definierte externe Anfragen blockieren“"
+" aktiviert ist."
+
+#: admin/class-admin.php:1318
+msgid "Allowed domain"
+msgstr "Erlaubte Domain"
+
+#: admin/class-admin.php:1338
+msgid ""
+"If a domain is in this list, its static assets are allowed through without "
+"being blocked."
+msgstr ""
+"Steht eine Domain in dieser Liste, dürfen ihre statischen Assets ohne Sperre"
+" durchgereicht werden."
+
+#: admin/class-admin.php:1354
+msgid "Keyword"
+msgstr "Schlüsselwort"
+
+#: admin/class-admin.php:1374
+msgid ""
+"If a URL contains any of these keywords, it is allowed even if no "
+"replacement rule is defined."
+msgstr ""
+"Enthält eine URL eines dieser Schlüsselwörter, ist sie auch ohne "
+"Ersetzungsregel erlaubt."
+
+#: admin/class-admin.php:1395
+msgid "Enable the IranPayamak (FarazSMS) SMS gateway inside the \"Digits\" plugin"
+msgstr ""
+"Das SMS-Gateway IranPayamak (FarazSMS) innerhalb des Plugins „Digits“ "
+"aktivieren"
+
+#: admin/class-admin.php:1397
+msgid ""
+"When enabled, the IranPayamak SMS gateway is added to the Digits plugin "
+"(Digits — WordPress Mobile Number Signup and Login)."
+msgstr ""
+"Wenn aktiviert, wird das SMS-Gateway IranPayamak im Plugin Digits (Digits — "
+"WordPress Mobile Number Signup and Login) ergänzt."
+
+#: admin/class-admin.php:1399
+msgid ""
+"To enable this option, install and activate the \"Digits — WordPress Mobile "
+"Number Signup and Login\" plugin first."
+msgstr ""
+"Installiere und aktiviere zuerst das Plugin „Digits — WordPress Mobile "
+"Number Signup and Login“, um diese Option zu aktivieren."
+
+#: admin/class-admin.php:1420
+msgid "Enable the coupon limitation fix for the \"Dokan Multivendor\" plugin"
+msgstr ""
+"Gutschein-Beschränkungs-Fix für das Plugin „Dokan Multivendor“ aktivieren"
+
+#: admin/class-admin.php:1422
+msgid ""
+"This option fixes coupon restriction issues introduced by the Dokan plugin "
+"(Dokan – Best WooCommerce Multivendor Marketplace Solution) and restores the"
+" default WooCommerce coupon validation behavior."
+msgstr ""
+"Diese Option behebt durch das Plugin Dokan (Dokan – Best WooCommerce "
+"Multivendor Marketplace Solution) verursachte Gutschein-Beschränkungen und "
+"stellt das Standardverhalten der WooCommerce-Gutscheinprüfung wieder her."
+
+#: admin/class-admin.php:1424
+msgid ""
+"To enable this option, install and activate the \"Dokan – Best WooCommerce "
+"Multivendor Marketplace Solution\" plugin first."
+msgstr ""
+"Installiere und aktiviere zuerst das Plugin „Dokan – Best WooCommerce "
+"Multivendor Marketplace Solution“, um diese Option zu aktivieren."
+
+#: admin/class-admin.php:1445
+msgid ""
+"Manage withdrawal requests of the \"FS WooCommerce Wallet\" plugin as "
+"WooCommerce orders"
+msgstr ""
+"Auszahlungsanfragen des Plugins „FS WooCommerce Wallet“ als WooCommerce-"
+"Bestellungen verwalten"
+
+#: admin/class-admin.php:1447
+msgid ""
+"When enabled, withdrawal requests submitted through the FS WooCommerce "
+"Wallet plugin create dedicated WooCommerce orders, and admins can settle or "
+"reject payouts using custom order statuses."
+msgstr ""
+"Wenn aktiviert, erzeugen Auszahlungsanfragen aus dem Plugin FS WooCommerce "
+"Wallet eigene WooCommerce-Bestellungen, und Admins können Auszahlungen über "
+"benutzerdefinierte Bestellstatus abschließen oder ablehnen."
+
+#: admin/class-admin.php:1449
+msgid ""
+"To enable this option, install and activate the \"FS WooCommerce Wallet\" "
+"plugin first."
+msgstr ""
+"Installiere und aktiviere zuerst das Plugin „FS WooCommerce Wallet“, um "
+"diese Option zu aktivieren."
+
+#: admin/class-admin.php:1470
+msgid ""
+"Enable the IranPayamak (FarazSMS) gateway inside the \"Persian WooCommerce "
+"SMS\" plugin"
+msgstr ""
+"Das Gateway IranPayamak (FarazSMS) innerhalb des Plugins „Persian "
+"WooCommerce SMS“ aktivieren"
+
+#: admin/class-admin.php:1472
+msgid ""
+"When enabled, a dedicated IranPayamak gateway (with API Key authentication) "
+"is added to the Persian WooCommerce SMS plugin."
+msgstr ""
+"Wenn aktiviert, wird im Plugin Persian WooCommerce SMS ein eigenes "
+"IranPayamak-Gateway (mit API-Key-Authentifizierung) ergänzt."
+
+#: admin/class-admin.php:1474
+msgid ""
+"To enable this option, install and activate the \"Persian WooCommerce SMS\" "
+"plugin first."
+msgstr ""
+"Installiere und aktiviere zuerst das Plugin „Persian WooCommerce SMS“, um "
+"diese Option zu aktivieren."
+
+#: admin/class-admin.php:1486
+msgid "This key is used to authenticate with the CloudTart support server."
+msgstr ""
+"Dieser Schlüssel dient zur Authentifizierung beim CloudTart-Supportserver."
+
+#: admin/class-admin.php:1498
+msgid "Enable debug mode (more logs for troubleshooting)"
+msgstr "Debug-Modus aktivieren (mehr Logs zur Fehlersuche)"
+
+#: admin/class-admin.php:1500
+msgid ""
+"When enabled, plugin activity logs are stored under the uploads directory so"
+" they survive plugin updates."
+msgstr ""
+"Wenn aktiviert, werden die Aktivitätsprotokolle des Plugins im Uploads-"
+"Verzeichnis abgelegt, damit sie Plugin-Updates überstehen."
+
+#: admin/class-admin.php:1512
+msgid "Automatically send Fatal Error logs to the support server"
+msgstr ""
+"Schwerwiegende Fehlerprotokolle automatisch an den Supportserver senden"
+
+#: admin/class-admin.php:1514
+msgid ""
+"When enabled, Fatal PHP error logs are sent to the support server "
+"automatically."
+msgstr ""
+"Bei Aktivierung werden schwerwiegende PHP-Fehlerprotokolle automatisch an "
+"den Supportserver gesendet."
+
+#: admin/class-admin.php:1525
+msgid "Enter the site domain expiry date."
+msgstr "Geben Sie das Ablaufdatum der Domain ein."
+
+#: admin/class-admin.php:1538 admin/class-admin.php:1567
+#: admin/class-admin.php:1568
+#, php-format
+msgid "%s year"
+msgstr "%s Jahr"
+
+#: admin/class-admin.php:1542
+msgid "Select the domain renewal period."
+msgstr "Wählen Sie den Verlängerungszeitraum der Domain."
+
+#: admin/class-admin.php:1553
+msgid "Enter the hosting expiry date."
+msgstr "Geben Sie das Ablaufdatum des Hostings ein."
+
+#: admin/class-admin.php:1564 admin/class-admin.php:1565
+#: admin/class-admin.php:1566
+#, php-format
+msgid "%s month"
+msgstr "%s Monat"
+
+#: admin/class-admin.php:1570
+msgid "Select the hosting renewal period."
+msgstr "Wählen Sie den Verlängerungszeitraum des Hostings."
+
+#: admin/class-admin.php:1581
+msgid ""
+"Enter email addresses for notifications. Use commas for multiple addresses "
+"(max 5)."
+msgstr ""
+"Geben Sie E-Mail-Adressen für Benachrichtigungen ein. Verwenden Sie Kommas "
+"für mehrere Adressen (max. 5)."
+
+#: admin/class-admin.php:1592
+msgid "How many days before expiry should notifications be sent?"
+msgstr "Wie viele Tage vor Ablauf sollen Benachrichtigungen gesendet werden?"
+
+#: admin/class-admin.php:1604
+msgid ""
+"Enable site status checks and HTTP error notifications (e.g., 503, 403)"
+msgstr ""
+"Website-Statusprüfungen und HTTP-Fehlerbenachrichtigungen aktivieren (z. B. "
+"503, 403)"
+
+#: admin/class-admin.php:1617
+msgid "Enable logging and notifications for PHP errors"
+msgstr "Protokollierung und Benachrichtigungen für PHP-Fehler aktivieren"
+
+#: admin/class-admin.php:1629
+msgid "Enter email addresses to receive error reports."
+msgstr "Geben Sie E-Mail-Adressen für Fehlerberichte ein."
+
+#: admin/class-admin.php:1640
+msgid "Hourly"
+msgstr "Stündlich"
+
+#: admin/class-admin.php:1641
+msgid "Twice Daily"
+msgstr "Zweimal täglich"
+
+#: admin/class-admin.php:1642
+msgid "Daily"
+msgstr "Täglich"
+
+#: admin/class-admin.php:1644
+msgid "Status check interval."
+msgstr "Intervall der Statusprüfung."
+
+#: admin/class-admin.php:1669
+msgid "Save All Settings"
+msgstr "Alle Einstellungen speichern"
+
+#: admin/class-admin.php:1678
+msgid "Manage your site settings and monitoring."
+msgstr "Verwalten Sie Ihre Website-Einstellungen und das Monitoring."
+
+#: admin/class-admin.php:1684
+msgid "All settings across every tab have been saved."
+msgstr "Alle Einstellungen aller Tabs wurden gespeichert."
+
+#: admin/class-admin.php:1689
+msgid "Expiry Dates"
+msgstr "Ablaufdaten"
+
+#: admin/class-admin.php:1690
+msgid "Monitoring"
+msgstr "Monitoring"
+
+#: admin/class-admin.php:1691
+msgid "Logs"
+msgstr "Logs"
+
+#: admin/class-admin.php:1692
+msgid "Support Settings"
+msgstr "Support-Einstellungen"
+
+#: admin/class-admin.php:1693
+msgid "Other Plugin Settings"
+msgstr "Einstellungen weiterer Plugins"
+
+#: admin/class-admin.php:1695
+msgid "About Us"
+msgstr "Über uns"
+
+#: admin/class-admin.php:1734
+msgid "Recent Logs"
+msgstr "Aktuelle Logs"
+
+#: admin/class-admin.php:1740
+msgid "PHP Error Logs"
+msgstr "PHP-Fehlerprotokolle"
+
+#: admin/class-admin.php:1759
+msgid "System Status"
+msgstr "Systemstatus"
+
+#: admin/class-admin.php:1762
+msgid "Plugin Version:"
+msgstr "Plugin-Version:"
+
+#: admin/class-admin.php:1766
+msgid "Connection Status:"
+msgstr "Verbindungsstatus:"
+
+#: admin/class-admin.php:1769
+msgid "API key is not set"
+msgstr "API-Schlüssel ist nicht gesetzt"
+
+#: admin/class-admin.php:1771
+msgid "Ready to receive updates"
+msgstr "Bereit, Updates zu empfangen"
+
+#: admin/class-admin.php:1776
+msgid "Debug Status:"
+msgstr "Debug-Status:"
+
+#: admin/class-admin.php:1786
+msgid "Log Path:"
+msgstr "Log-Pfad:"
+
+#: admin/class-admin.php:1794
+#, php-format
+msgid "%1$s (writable)"
+msgstr "%1$s (beschreibbar)"
+
+#: admin/class-admin.php:1796
+#, php-format
+msgid "%1$s (not writable)"
+msgstr "%1$s (nicht beschreibbar)"
+
+#: admin/class-admin.php:1798
+msgid "Log directory has not been created yet"
+msgstr "Log-Verzeichnis wurde noch nicht erstellt"
+
+#: admin/class-admin.php:1806
+msgid "Connection Test"
+msgstr "Verbindungstest"
+
+#: admin/class-admin.php:1807
+msgid ""
+"Use the button below to test the connection to the CloudTart support server."
+msgstr ""
+"Verwenden Sie die Schaltfläche unten, um die Verbindung zum CloudTart-"
+"Supportserver zu testen."
+
+#: admin/class-admin.php:1833
+msgid "CloudTart"
+msgstr "CloudTart"
+
+#: admin/class-admin.php:1834
+msgid "CloudTart | Beyond code, the art of digital architecture"
+msgstr "CloudTart | Jenseits des Codes, die Kunst der digitalen Architektur"
+
+#: admin/class-admin.php:1835
+msgid ""
+"With minimalist and distinctive designs, we turn your website into an "
+"unforgettable experience."
+msgstr ""
+"Mit minimalistischen und markanten Designs machen wir Ihre Website zu einem "
+"unvergesslichen Erlebnis."
+
+#: admin/class-admin.php:1840
+msgid "Our Story"
+msgstr "Unsere Geschichte"
+
+#: admin/class-admin.php:1841
+msgid ""
+"With a team of creative specialists, CloudTart brings over a decade of "
+"experience in designing and developing professional websites. We believe "
+"every project is an opportunity to create beauty and performance."
+msgstr ""
+"Mit einem Team kreativer Spezialisten bringt CloudTart über ein Jahrzehnt "
+"Erfahrung in der Gestaltung und Entwicklung professioneller Websites. Wir "
+"glauben, dass jedes Projekt eine Chance ist, Schönheit und Performance zu "
+"schaffen."
+
+#: admin/class-admin.php:1845
+msgid "Our Services"
+msgstr "Unsere Leistungen"
+
+#: admin/class-admin.php:1854
+msgid "Custom Design"
+msgstr "Individuelles Design"
+
+#: admin/class-admin.php:1855
+msgid "Beautiful, user-friendly interfaces with attention to detail."
+msgstr "Schöne, benutzerfreundliche Oberflächen mit Liebe zum Detail."
+
+#: admin/class-admin.php:1863
+msgid "Advanced Development"
+msgstr "Fortgeschrittene Entwicklung"
+
+#: admin/class-admin.php:1864
+msgid "Powerful websites with clean, optimized code for high performance."
+msgstr ""
+"Leistungsstarke Websites mit sauberem, optimiertem Code für hohe "
+"Performance."
+
+#: admin/class-admin.php:1874
+msgid "SEO and Marketing"
+msgstr "SEO und Marketing"
+
+#: admin/class-admin.php:1875
+msgid "Smart strategies to boost engagement and grow your business."
+msgstr ""
+"Intelligente Strategien zur Steigerung des Engagements und zum Wachstum "
+"Ihres Geschäfts."
+
+#: admin/class-admin.php:1883
+msgid "Digital Marketing"
+msgstr "Digitales Marketing"
+
+#: admin/class-admin.php:1884
+msgid "Creative campaigns to attract target audiences and increase sales."
+msgstr ""
+"Kreative Kampagnen, um Zielgruppen anzusprechen und den Umsatz zu steigern."
+
+#: admin/class-admin.php:1893
+msgid "Full Support"
+msgstr "Vollständiger Support"
+
+#: admin/class-admin.php:1894
+msgid ""
+"Dedicated after-sales services focused on complete customer satisfaction."
+msgstr ""
+"Engagierter After-Sales-Service mit Fokus auf vollständige "
+"Kundenzufriedenheit."
+
+#: admin/class-admin.php:1904
+msgid "Digital Branding"
+msgstr "Digitale Markenbildung"
+
+#: admin/class-admin.php:1905
+msgid "Create a unique visual identity for your brand online."
+msgstr ""
+"Erstellen Sie eine einzigartige visuelle Identität für Ihre Marke online."
+
+#: admin/class-admin.php:1911
+msgid "Why CloudTart?"
+msgstr "Warum CloudTart?"
+
+#: admin/class-admin.php:1915
+msgid "Luxury, minimalist designs that set your brand apart."
+msgstr "Luxuriöse, minimalistische Designs, die Ihre Marke hervorheben."
+
+#: admin/class-admin.php:1919
+msgid "Optimized performance and speed for excellent user experience."
+msgstr ""
+"Optimierte Leistung und Geschwindigkeit für eine exzellente Nutzererfahrung."
+
+#: admin/class-admin.php:1923
+msgid "Advanced security and adherence to global standards."
+msgstr "Fortschrittliche Sicherheit und Einhaltung globaler Standards."
+
+#: admin/class-admin.php:1927
+msgid "Growth-focused strategies for long-term success."
+msgstr "Wachstumsorientierte Strategien für langfristigen Erfolg."
+
+#: admin/class-admin.php:1933
+msgid "Ready to get started?"
+msgstr "Bereit, loszulegen?"
+
+#: admin/class-admin.php:1934
+msgid "Contact us and bring your dream project to life."
+msgstr "Kontaktieren Sie uns und erwecken Sie Ihr Traumprojekt zum Leben."
+
+#: admin/class-admin.php:1936
+msgid "Contact Us"
+msgstr "Kontakt"
+
+#: admin/class-admin.php:1937
+msgid "Learn More"
+msgstr "Mehr erfahren"
+
+#: admin/class-admin.php:2008
+msgid "Check History"
+msgstr "Prüfverlauf"
+
+#: admin/class-admin.php:2011
+msgid "No checks have been performed yet."
+msgstr "Es wurden noch keine Prüfungen durchgeführt."
+
+#: admin/class-admin.php:2016
+msgid "Date"
+msgstr "Datum"
+
+#: admin/class-admin.php:2017
+msgid "Type"
+msgstr "Typ"
+
+#: admin/class-admin.php:2018 includes/class-expiry-manager.php:1126
+msgid "Status"
+msgstr "Status"
+
+#: admin/class-admin.php:2019
+msgid "Details"
+msgstr "Details"
+
+#: admin/class-admin.php:2035
+msgid "Success"
+msgstr "Erfolg"
+
+#: admin/class-admin.php:2038
+msgid "Warning"
+msgstr "Warnung"
+
+#: admin/class-admin.php:2041
+msgid "Error"
+msgstr "Fehler"
+
+#: cloudtart-support.php:89
+msgid "Every 5 minutes"
+msgstr "Alle 5 Minuten"
+
+#: includes/class-api.php:105
+msgid "API request rejected due to rate limit."
+msgstr "API-Anfrage wegen Ratenlimit abgelehnt."
+
+#: includes/class-api.php:112
+msgid "API request rejected due to invalid key."
+msgstr "API-Anfrage wegen ungültigem Schlüssel abgelehnt."
+
+#: includes/class-api.php:128
+msgid "Action not specified."
+msgstr "Aktion nicht angegeben."
+
+#: includes/class-api.php:150
+msgid "Invalid action."
+msgstr "Ungültige Aktion."
+
+#: includes/class-api.php:172 includes/class-api.php:212
+#: includes/class-api.php:282
+msgid "Invalid type."
+msgstr "Ungültiger Typ."
+
+#: includes/class-api.php:185
+#, php-format
+msgid "Check for %1$s/%2$s: %3$s"
+msgstr "Prüfung für %1$s/%2$s: %3$s"
+
+#: includes/class-api.php:188
+msgid "Found"
+msgstr "Gefunden"
+
+#: includes/class-api.php:188
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+#: includes/class-api.php:201 includes/class-api.php:234
+#: includes/class-api.php:266
+msgid "Incomplete data."
+msgstr "Unvollständige Daten."
+
+#: includes/class-api.php:291
+msgid "Target folder does not exist. Creating a new folder..."
+msgstr "Zielordner existiert nicht. Neuer Ordner wird erstellt..."
+
+#: includes/class-api.php:293 includes/class-api.php:294
+#: includes/class-api.php:297
+msgid "Error creating destination folder."
+msgstr "Fehler beim Erstellen des Zielordners."
+
+#: includes/class-api.php:314
+msgid "Error decoding file data."
+msgstr "Fehler beim Decodieren der Dateidaten."
+
+#: includes/class-api.php:320
+msgid "Error saving temporary file."
+msgstr "Fehler beim Speichern der temporären Datei."
+
+#: includes/class-api.php:326
+msgid "Received file failed integrity check."
+msgstr "Empfangene Datei hat die Integritätsprüfung nicht bestanden."
+
+#: includes/class-api.php:327 includes/class-api.php:330
+msgid "Received file is invalid."
+msgstr "Empfangene Datei ist ungültig."
+
+#: includes/class-api.php:349
+msgid "Update processing started."
+msgstr "Update-Verarbeitung gestartet."
+
+#: includes/class-api.php:358 includes/class-api.php:666
+#, php-format
+msgid "Update error: %s"
+msgstr "Update-Fehler: %s"
+
+#: includes/class-api.php:363 includes/class-api.php:664
+msgid "Update failed."
+msgstr "Update fehlgeschlagen."
+
+#: includes/class-api.php:441
+#, php-format
+msgid "Error extracting ZIP file: %s"
+msgstr "Fehler beim Entpacken der ZIP-Datei: %s"
+
+#: includes/class-api.php:445
+#, php-format
+msgid "Error extracting file: %s"
+msgstr "Fehler beim Entpacken der Datei: %s"
+
+#: includes/class-api.php:452
+msgid "Error removing previous folder."
+msgstr "Fehler beim Entfernen des vorherigen Ordners."
+
+#: includes/class-api.php:457
+msgid "Error creating target folder."
+msgstr "Fehler beim Erstellen des Zielordners."
+
+#: includes/class-api.php:469
+msgid "Error copying files."
+msgstr "Fehler beim Kopieren der Dateien."
+
+#: includes/class-api.php:472
+#, php-format
+msgid "Files in folder %s were updated successfully."
+msgstr "Dateien im Ordner %s wurden erfolgreich aktualisiert."
+
+#: includes/class-api.php:475
+msgid "Update completed successfully."
+msgstr "Update erfolgreich abgeschlossen."
+
+#: includes/class-api.php:478
+#, php-format
+msgid "Error: %s"
+msgstr "Fehler: %s"
+
+#: includes/class-api.php:644
+msgid "Update job is invalid."
+msgstr "Update-Auftrag ist ungültig."
+
+#: includes/class-api.php:659
+#, php-format
+msgid "Update completed successfully for %1$s/%2$s"
+msgstr "Update erfolgreich abgeschlossen für %1$s/%2$s"
+
+#: includes/class-api.php:705
+#, php-format
+msgid "Update result notify failed: %s"
+msgstr "Benachrichtigung des Update-Ergebnisses fehlgeschlagen: %s"
+
+#: includes/class-api.php:745
+msgid "API key is not set. Please enter the API key in settings."
+msgstr ""
+"API-Schlüssel ist nicht gesetzt. Bitte tragen Sie den API-Schlüssel in den "
+"Einstellungen ein."
+
+#: includes/class-api.php:773
+#, php-format
+msgid "Support server connection test initiated: %s"
+msgstr "Test der Verbindung zum Supportserver gestartet: %s"
+
+#: includes/class-api.php:796
+#, php-format
+msgid "Server communication error (code: %s)"
+msgstr "Server-Kommunikationsfehler (Code: %s)"
+
+#: includes/class-api.php:798
+#, php-format
+msgid "Server response error: %s"
+msgstr "Serverantwort-Fehler: %s"
+
+#: includes/class-api.php:812
+msgid "Connection to support server established successfully."
+msgstr "Verbindung zum Supportserver erfolgreich hergestellt."
+
+#: includes/class-api.php:813
+#, php-format
+msgid "Connection established with server: %s"
+msgstr "Verbindung mit dem Server hergestellt: %s"
+
+#: includes/class-cloudtart-support.php:175
+msgid "CloudTart support plugin activated."
+msgstr "CloudTart-Support-Plugin aktiviert."
+
+#: includes/class-cloudtart-support.php:201
+msgid "CloudTart support plugin deactivated."
+msgstr "CloudTart-Support-Plugin deaktiviert."
+
+#: includes/class-expiry-manager.php:76
+#, php-format
+msgid "Domains database table updated: %1$s to version %2$s"
+msgstr "Domains-Datenbanktabelle von %1$s auf Version %2$s aktualisiert"
+
+#: includes/class-expiry-manager.php:80
+#, php-format
+msgid "Domains database table created: %s"
+msgstr "Domains-Datenbanktabelle erstellt: %s"
+
+#: includes/class-expiry-manager.php:137
+msgid "Domain data migrated successfully to the new database."
+msgstr "Domain-Daten erfolgreich in die neue Datenbank migriert."
+
+#: includes/class-expiry-manager.php:205
+msgid "Applying..."
+msgstr "Wird angewendet..."
+
+#: includes/class-expiry-manager.php:215
+msgid "Renewal recorded."
+msgstr "Verlängerung erfasst."
+
+#: includes/class-expiry-manager.php:217
+msgid "New expiry date:"
+msgstr "Neues Ablaufdatum:"
+
+#: includes/class-expiry-manager.php:227
+msgid "Error: "
+msgstr "Fehler: "
+
+#: includes/class-expiry-manager.php:232
+#: includes/class-expiry-manager.php:1211
+#: includes/class-expiry-manager.php:1251
+msgid "Error connecting to server."
+msgstr "Fehler beim Verbinden mit dem Server."
+
+#: includes/class-expiry-manager.php:241
+msgid ""
+"Confirm that the domain has been renewed. The next expiry date will be auto-"
+"calculated from the saved renewal period. Continue?"
+msgstr ""
+"Bestätigst du, dass die Domain verlängert wurde? Das nächste Ablaufdatum "
+"wird aus dem gespeicherten Verlängerungszeitraum automatisch berechnet. "
+"Fortfahren?"
+
+#: includes/class-expiry-manager.php:248
+msgid ""
+"Confirm that the hosting has been renewed. The next expiry date will be "
+"auto-calculated from the saved renewal period. Continue?"
+msgstr ""
+"Bestätigst du, dass das Hosting verlängert wurde? Das nächste Ablaufdatum "
+"wird aus dem gespeicherten Verlängerungszeitraum automatisch berechnet. "
+"Fortfahren?"
+
+#: includes/class-expiry-manager.php:257
+msgid ""
+"Confirm that this domain has been renewed. The next expiry date will be "
+"auto-calculated from the saved renewal period. Continue?"
+msgstr ""
+"Bestätigst du, dass diese Domain verlängert wurde? Das nächste Ablaufdatum "
+"wird aus dem gespeicherten Verlängerungszeitraum automatisch berechnet. "
+"Fortfahren?"
+
+#: includes/class-expiry-manager.php:280
+msgid "Domain name and expiry date are required."
+msgstr "Domainname und Ablaufdatum sind erforderlich."
+
+#: includes/class-expiry-manager.php:286
+msgid "Invalid domain name format."
+msgstr "Ungültiges Domainnamenformat."
+
+#: includes/class-expiry-manager.php:298
+msgid "This domain has already been added."
+msgstr "Diese Domain wurde bereits hinzugefügt."
+
+#: includes/class-expiry-manager.php:314
+msgid "Error saving domain."
+msgstr "Fehler beim Speichern der Domain."
+
+#: includes/class-expiry-manager.php:319
+#, php-format
+msgid ""
+"New domain added: %1$s with expiry: %2$s and renewal period: %3$s years"
+msgstr ""
+"Neue Domain hinzugefügt: %1$s mit Ablauf: %2$s und Verlängerungszeitraum: "
+"%3$s Jahre"
+
+#: includes/class-expiry-manager.php:329
+msgid "Domain added successfully."
+msgstr "Domain erfolgreich hinzugefügt."
+
+#: includes/class-expiry-manager.php:335
+#, php-format
+msgid "Error adding domain: %s"
+msgstr "Fehler beim Hinzufügen der Domain: %s"
+
+#: includes/class-expiry-manager.php:356
+msgid "Invalid domain index."
+msgstr "Ungültiger Domainindex."
+
+#: includes/class-expiry-manager.php:368 includes/class-expiry-manager.php:524
+msgid "Domain not found."
+msgstr "Domain nicht gefunden."
+
+#: includes/class-expiry-manager.php:381
+msgid "Error deleting domain."
+msgstr "Fehler beim Löschen der Domain."
+
+#: includes/class-expiry-manager.php:386
+#, php-format
+msgid "Domain removed: %s"
+msgstr "Domain entfernt: %s"
+
+#: includes/class-expiry-manager.php:390
+#, php-format
+msgid "Domain %s removed successfully."
+msgstr "Domain %s erfolgreich entfernt."
+
+#: includes/class-expiry-manager.php:395
+#, php-format
+msgid "Error removing domain: %s"
+msgstr "Fehler beim Entfernen der Domain: %s"
+
+#: includes/class-expiry-manager.php:418
+msgid "Domain expiry date or renewal period settings not found."
+msgstr ""
+"Einstellungen für Domain-Ablaufdatum oder Verlängerungszeitraum nicht "
+"gefunden."
+
+#: includes/class-expiry-manager.php:432
+#, php-format
+msgid "Main domain renewed. New expiry date: %s"
+msgstr "Hauptdomain erneuert. Neues Ablaufdatum: %s"
+
+#: includes/class-expiry-manager.php:436
+msgid "Main domain renewed successfully."
+msgstr "Hauptdomain erfolgreich erneuert."
+
+#: includes/class-expiry-manager.php:443
+#, php-format
+msgid "Error renewing main domain: %s"
+msgstr "Fehler beim Erneuern der Hauptdomain: %s"
+
+#: includes/class-expiry-manager.php:466
+msgid "Hosting expiry date or renewal period settings not found."
+msgstr ""
+"Einstellungen für Hosting-Ablaufdatum oder Verlängerungszeitraum nicht "
+"gefunden."
+
+#: includes/class-expiry-manager.php:480
+#, php-format
+msgid "Hosting renewed. New expiry date: %s"
+msgstr "Hosting erneuert. Neues Ablaufdatum: %s"
+
+#: includes/class-expiry-manager.php:484
+msgid "Hosting renewed successfully."
+msgstr "Hosting erfolgreich erneuert."
+
+#: includes/class-expiry-manager.php:491
+#, php-format
+msgid "Error renewing hosting: %s"
+msgstr "Fehler beim Erneuern des Hostings: %s"
+
+#: includes/class-expiry-manager.php:512
+msgid "Invalid domain ID."
+msgstr "Ungültige Domain-ID."
+
+#: includes/class-expiry-manager.php:544
+msgid "Error updating domain expiry date."
+msgstr "Fehler beim Aktualisieren des Domain-Ablaufdatums."
+
+#: includes/class-expiry-manager.php:549
+#, php-format
+msgid "Domain %1$s renewed. New expiry date: %2$s"
+msgstr "Domain %1$s erneuert. Neues Ablaufdatum: %2$s"
+
+#: includes/class-expiry-manager.php:553
+#, php-format
+msgid "Domain %s renewed successfully."
+msgstr "Domain %s erfolgreich erneuert."
+
+#: includes/class-expiry-manager.php:560
+#, php-format
+msgid "Error renewing domain: %s"
+msgstr "Fehler beim Erneuern der Domain: %s"
+
+#: includes/class-expiry-manager.php:597
+#, php-format
+msgid "Warning: domain expiry is near. %s days remaining."
+msgstr "Warnung: Domainablauf steht kurz bevor. Noch %s Tage."
+
+#: includes/class-expiry-manager.php:601
+#, php-format
+msgid "Reminder: domain renewal for site %s is due soon"
+msgstr "Erinnerung: Domainverlängerung für die Website %s steht bald an"
+
+#: includes/class-expiry-manager.php:602 includes/class-expiry-manager.php:636
+#: includes/class-expiry-manager.php:681
+msgid "Hello,"
+msgstr "Hallo,"
+
+#: includes/class-expiry-manager.php:603
+msgid "This email is a reminder to renew your site domain:"
+msgstr ""
+"Diese E-Mail ist eine Erinnerung, die Domain Ihrer Website zu verlängern:"
+
+#: includes/class-expiry-manager.php:604 includes/class-expiry-manager.php:638
+#, php-format
+msgid "Site name: %s"
+msgstr "Website-Name: %s"
+
+#: includes/class-expiry-manager.php:605 includes/class-expiry-manager.php:639
+#: includes/class-monitoring.php:153 includes/class-monitoring.php:187
+#, php-format
+msgid "Site URL: %s"
+msgstr "Website-URL: %s"
+
+#: includes/class-expiry-manager.php:606
+#, php-format
+msgid "Domain expiry date: %s"
+msgstr "Domain-Ablaufdatum: %s"
+
+#: includes/class-expiry-manager.php:607 includes/class-expiry-manager.php:641
+#: includes/class-expiry-manager.php:685
+#, php-format
+msgid "Days remaining: %1$s days"
+msgstr "Verbleibende Tage: %1$s Tage"
+
+#: includes/class-expiry-manager.php:608 includes/class-expiry-manager.php:686
+#: includes/class-expiry-manager.php:729 includes/class-expiry-manager.php:805
+msgid "Please renew the domain as soon as possible."
+msgstr "Bitte verlängern Sie die Domain so bald wie möglich."
+
+#: includes/class-expiry-manager.php:609 includes/class-expiry-manager.php:643
+#: includes/class-expiry-manager.php:687
+msgid "Thank you,"
+msgstr "Vielen Dank,"
+
+#: includes/class-expiry-manager.php:610 includes/class-expiry-manager.php:644
+#: includes/class-expiry-manager.php:688
+msgid "CloudTart Support System"
+msgstr "CloudTart-Supportsystem"
+
+#: includes/class-expiry-manager.php:619
+#, php-format
+msgid "Error: domain expiry has passed. %s days overdue."
+msgstr "Fehler: Domainablauf ist überschritten. %s Tage überfällig."
+
+#: includes/class-expiry-manager.php:631
+#, php-format
+msgid "Warning: hosting expiry is near. %s days remaining."
+msgstr "Warnung: Hostingablauf steht kurz bevor. Noch %s Tage."
+
+#: includes/class-expiry-manager.php:635
+#, php-format
+msgid "Reminder: hosting renewal for site %s is due soon"
+msgstr "Erinnerung: Hostingverlängerung für die Website %s steht bald an"
+
+#: includes/class-expiry-manager.php:637
+msgid "This email is a reminder to renew your site hosting:"
+msgstr ""
+"Diese E-Mail ist eine Erinnerung, das Hosting Ihrer Website zu verlängern:"
+
+#: includes/class-expiry-manager.php:640
+#, php-format
+msgid "Hosting expiry date: %s"
+msgstr "Hosting-Ablaufdatum: %s"
+
+#: includes/class-expiry-manager.php:642 includes/class-expiry-manager.php:761
+msgid "Please renew the hosting as soon as possible."
+msgstr "Bitte verlängern Sie das Hosting so bald wie möglich."
+
+#: includes/class-expiry-manager.php:653
+#, php-format
+msgid "Error: hosting expiry has passed. %s days overdue."
+msgstr "Fehler: Hostingablauf ist überschritten. %s Tage überfällig."
+
+#: includes/class-expiry-manager.php:676
+#, php-format
+msgid "Warning: domain %1$s expiry is near. %2$s days remaining."
+msgstr "Warnung: Domain %1$s läuft bald ab. Noch %2$s Tage."
+
+#: includes/class-expiry-manager.php:680
+#, php-format
+msgid "Reminder: domain %s renewal is due soon"
+msgstr "Erinnerung: Domainverlängerung für %s steht bald an"
+
+#: includes/class-expiry-manager.php:682
+msgid "This email is a reminder to renew the domain:"
+msgstr "Diese E-Mail ist eine Erinnerung, die Domain zu verlängern:"
+
+#: includes/class-expiry-manager.php:683
+#, php-format
+msgid "Domain name: %s"
+msgstr "Domainname: %s"
+
+#: includes/class-expiry-manager.php:684
+#, php-format
+msgid "Expiry date: %s"
+msgstr "Ablaufdatum: %s"
+
+#: includes/class-expiry-manager.php:697
+#, php-format
+msgid "Error: domain %1$s expiry has passed. %2$s days overdue."
+msgstr "Fehler: Domain %1$s ist abgelaufen. %2$s Tage überfällig."
+
+#: includes/class-expiry-manager.php:727 includes/class-expiry-manager.php:803
+msgid "Domain Renewal Warning:"
+msgstr "Warnung zur Domainverlängerung:"
+
+#: includes/class-expiry-manager.php:728
+#, php-format
+msgid "%s days remaining until the site domain expires."
+msgstr "Noch %s Tage bis die Website-Domain abläuft."
+
+#: includes/class-expiry-manager.php:730 includes/class-expiry-manager.php:742
+#: includes/class-expiry-manager.php:762 includes/class-expiry-manager.php:774
+#: includes/class-expiry-manager.php:806 includes/class-expiry-manager.php:818
+#: includes/class-expiry-manager.php:1163
+msgid "I have renewed it"
+msgstr "Ich habe verlängert"
+
+#: includes/class-expiry-manager.php:731 includes/class-expiry-manager.php:743
+#: includes/class-expiry-manager.php:763 includes/class-expiry-manager.php:775
+#: includes/class-expiry-manager.php:807 includes/class-expiry-manager.php:819
+msgid "Open expiry settings"
+msgstr "Ablaufeinstellungen öffnen"
+
+#: includes/class-expiry-manager.php:739 includes/class-expiry-manager.php:771
+#: includes/class-expiry-manager.php:815
+msgid "Alert:"
+msgstr "Warnung:"
+
+#: includes/class-expiry-manager.php:740
+#, php-format
+msgid "%s days have passed since the site domain expired!"
+msgstr "%s Tage seit Ablauf der Website-Domain!"
+
+#: includes/class-expiry-manager.php:741 includes/class-expiry-manager.php:817
+msgid "Please renew the domain immediately."
+msgstr "Bitte verlängern Sie die Domain sofort."
+
+#: includes/class-expiry-manager.php:759
+msgid "Hosting Renewal Warning:"
+msgstr "Warnung zur Hostingverlängerung:"
+
+#: includes/class-expiry-manager.php:760
+#, php-format
+msgid "%s days remaining until the site hosting expires."
+msgstr "Noch %s Tage bis das Hosting der Website abläuft."
+
+#: includes/class-expiry-manager.php:772
+#, php-format
+msgid "%s days have passed since the site hosting expired!"
+msgstr "%s Tage seit Ablauf des Hostings der Website!"
+
+#: includes/class-expiry-manager.php:773
+msgid "Please renew the hosting immediately."
+msgstr "Bitte verlängern Sie das Hosting sofort."
+
+#: includes/class-expiry-manager.php:804
+#, php-format
+msgid "%1$s days remaining until domain %2$s expires."
+msgstr "Noch %1$s Tage bis Domain %2$s abläuft."
+
+#: includes/class-expiry-manager.php:816
+#, php-format
+msgid "%1$s days have passed since domain %2$s expired!"
+msgstr "%1$s Tage seit Ablauf der Domain %2$s!"
+
+#: includes/class-expiry-manager.php:879 includes/class-monitoring.php:551
+#, php-format
+msgid "Email sent to %1$s with subject: %2$s"
+msgstr "E-Mail an %1$s mit Betreff gesendet: %2$s"
+
+#: includes/class-expiry-manager.php:885 includes/class-monitoring.php:556
+#, php-format
+msgid "Error sending email to %s"
+msgstr "Fehler beim Senden der E-Mail an %s"
+
+#: includes/class-expiry-manager.php:900 includes/class-expiry-manager.php:945
+msgid "Expiry date is not set."
+msgstr "Ablaufdatum ist nicht gesetzt."
+
+#: includes/class-expiry-manager.php:914 includes/class-expiry-manager.php:959
+#: includes/class-expiry-manager.php:1143
+#, php-format
+msgid "Expired (%s days ago)"
+msgstr "Abgelaufen (vor %s Tagen)"
+
+#: includes/class-expiry-manager.php:922 includes/class-expiry-manager.php:967
+#: includes/class-expiry-manager.php:1146
+#, php-format
+msgid "Near expiry (%s days remaining)"
+msgstr "Kurz vor Ablauf (%s Tage verbleiben)"
+
+#: includes/class-expiry-manager.php:930 includes/class-expiry-manager.php:975
+#: includes/class-expiry-manager.php:1149
+#, php-format
+msgid "Valid (%s days remaining)"
+msgstr "Gültig (%s Tage verbleiben)"
+
+#: includes/class-expiry-manager.php:1058
+msgid "Status Preview"
+msgstr "Statusvorschau"
+
+#: includes/class-expiry-manager.php:1063
+msgid "Domain Status:"
+msgstr "Domainstatus:"
+
+#: includes/class-expiry-manager.php:1077
+msgid "Hosting Status:"
+msgstr "Hostingstatus:"
+
+#: includes/class-expiry-manager.php:1101
+msgid "Manage Multiple Domains"
+msgstr "Mehrere Domains verwalten"
+
+#: includes/class-expiry-manager.php:1102
+msgid "Manage multiple domains in this section."
+msgstr "Verwalten Sie mehrere Domains in diesem Abschnitt."
+
+#: includes/class-expiry-manager.php:1106
+msgid "Domain name (e.g., example.com)"
+msgstr "Domainname (z. B. example.com)"
+
+#: includes/class-expiry-manager.php:1107
+msgid "Expiry date"
+msgstr "Ablaufdatum"
+
+#: includes/class-expiry-manager.php:1109
+#, php-format
+msgid "Renewal period: %s year"
+msgstr "Verlängerungszeitraum: %s Jahr"
+
+#: includes/class-expiry-manager.php:1110
+#: includes/class-expiry-manager.php:1111
+#: includes/class-expiry-manager.php:1112
+#: includes/class-expiry-manager.php:1113
+#, php-format
+msgid "Renewal period: %s years"
+msgstr "Verlängerungszeitraum: %s Jahre"
+
+#: includes/class-expiry-manager.php:1123
+msgid "Domain Name"
+msgstr "Domainname"
+
+#: includes/class-expiry-manager.php:1124
+msgid "Expiry Date"
+msgstr "Ablaufdatum"
+
+#: includes/class-expiry-manager.php:1125
+msgid "Renewal Period"
+msgstr "Verlängerungszeitraum"
+
+#: includes/class-expiry-manager.php:1158
+#, php-format
+msgid "%s years"
+msgstr "%s Jahre"
+
+#: includes/class-expiry-manager.php:1220
+msgid "Are you sure you want to remove this domain?"
+msgstr "Möchten Sie diese Domain wirklich entfernen?"
+
+#: includes/class-logger.php:82
+msgid "No logs found."
+msgstr "Keine Logs gefunden."
+
+#: includes/class-logger.php:88
+msgid "Error reading log file."
+msgstr "Fehler beim Lesen der Logdatei."
+
+#: includes/class-logger.php:116
+msgid "No error logs found."
+msgstr "Keine Fehlerlogs gefunden."
+
+#: includes/class-logger.php:122
+msgid "Error reading error log file."
+msgstr "Fehler beim Lesen der Fehlerlogdatei."
+
+#: includes/class-monitoring.php:89
+#, php-format
+msgid "PHP error on site %s"
+msgstr "PHP-Fehler auf der Website %s"
+
+#: includes/class-monitoring.php:90
+msgid "A PHP error occurred on your site:"
+msgstr "Auf Ihrer Website ist ein PHP-Fehler aufgetreten:"
+
+#: includes/class-monitoring.php:91
+#, php-format
+msgid "Site: %1$s (%2$s)"
+msgstr "Website: %1$s (%2$s)"
+
+#: includes/class-monitoring.php:92 includes/class-monitoring.php:235
+#, php-format
+msgid "Error type: %s"
+msgstr "Fehlertyp: %s"
+
+#: includes/class-monitoring.php:93 includes/class-monitoring.php:155
+#: includes/class-monitoring.php:236
+#, php-format
+msgid "Error message: %s"
+msgstr "Fehlermeldung: %s"
+
+#: includes/class-monitoring.php:94
+#, php-format
+msgid "File: %s"
+msgstr "Datei: %s"
+
+#: includes/class-monitoring.php:95
+#, php-format
+msgid "Line: %s"
+msgstr "Zeile: %s"
+
+#: includes/class-monitoring.php:96 includes/class-monitoring.php:253
+#, php-format
+msgid "Occurrence time: %s"
+msgstr "Zeitpunkt des Auftretens: %s"
+
+#: includes/class-monitoring.php:97 includes/class-monitoring.php:254
+#, php-format
+msgid "Page URL: %s"
+msgstr "Seiten-URL: %s"
+
+#: includes/class-monitoring.php:97 includes/class-monitoring.php:254
+#: includes/class-monitoring.php:255 includes/class-monitoring.php:351
+#: includes/class-monitoring.php:391 includes/class-monitoring.php:392
+#: includes/class-monitoring.php:436
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: includes/class-monitoring.php:98 includes/class-monitoring.php:157
+#: includes/class-monitoring.php:190 includes/class-monitoring.php:256
+msgid "This message was sent by CloudTart Monitoring Service."
+msgstr "Diese Nachricht wurde vom CloudTart-Monitoringdienst gesendet."
+
+#: includes/class-monitoring.php:106
+#, php-format
+msgid "[%1$s] %2$s in %3$s on line %4$s"
+msgstr "[%1$s] %2$s in %3$s in Zeile %4$s"
+
+#: includes/class-monitoring.php:122
+#, php-format
+msgid "Checking site status: %s"
+msgstr "Website-Status wird geprüft: %s"
+
+#: includes/class-monitoring.php:136
+msgid "Site status is normal."
+msgstr "Website-Status ist normal."
+
+#: includes/class-monitoring.php:142 includes/class-monitoring.php:164
+#, php-format
+msgid "Error accessing site: %s"
+msgstr "Fehler beim Zugriff auf die Website: %s"
+
+#: includes/class-monitoring.php:151
+#, php-format
+msgid "Alert: site access error on %s"
+msgstr "Warnung: Zugriffsfehler auf der Website %s"
+
+#: includes/class-monitoring.php:152
+msgid "Your site is experiencing an issue:"
+msgstr "Ihre Website hat ein Problem:"
+
+#: includes/class-monitoring.php:154
+msgid "Error type: Connection error"
+msgstr "Fehlertyp: Verbindungsfehler"
+
+#: includes/class-monitoring.php:156 includes/class-monitoring.php:189
+#, php-format
+msgid "Detected at: %s"
+msgstr "Erkannt am: %s"
+
+#: includes/class-monitoring.php:175
+#, php-format
+msgid "HTTP error while accessing site. Status code: %s"
+msgstr "HTTP-Fehler beim Zugriff auf die Website. Statuscode: %s"
+
+#: includes/class-monitoring.php:185
+#, php-format
+msgid "Alert: HTTP error code %1$s on %2$s"
+msgstr "Warnung: HTTP-Fehlercode %1$s auf %2$s"
+
+#: includes/class-monitoring.php:186
+msgid "Your site returned an HTTP error code:"
+msgstr "Ihre Website hat einen HTTP-Fehlercode zurückgegeben:"
+
+#: includes/class-monitoring.php:188
+#, php-format
+msgid "Status code: %s"
+msgstr "Statuscode: %s"
+
+#: includes/class-monitoring.php:197
+#, php-format
+msgid "HTTP error: status code %s"
+msgstr "HTTP-Fehler: Statuscode %s"
+
+#: includes/class-monitoring.php:200
+#, php-format
+msgid "Site status is normal. Status code: %s"
+msgstr "Website-Status ist normal. Statuscode: %s"
+
+#: includes/class-monitoring.php:207
+#, php-format
+msgid "Warning: site response time is high: %s seconds"
+msgstr "Warnung: Antwortzeit der Website ist hoch: %s Sekunden"
+
+#: includes/class-monitoring.php:210
+#, php-format
+msgid "Slow response time: %s seconds"
+msgstr "Langsame Antwortzeit: %s Sekunden"
+
+#: includes/class-monitoring.php:237
+#, php-format
+msgid "File: %1$s (line %2$s)"
+msgstr "Datei: %1$s (Zeile %2$s)"
+
+#: includes/class-monitoring.php:249
+#, php-format
+msgid "Critical PHP error on site %s"
+msgstr "Kritischer PHP-Fehler auf der Website %s"
+
+#: includes/class-monitoring.php:251
+msgid "A critical PHP error occurred on your site:"
+msgstr "Auf Ihrer Website ist ein kritischer PHP-Fehler aufgetreten:"
+
+#: includes/class-monitoring.php:255
+#, php-format
+msgid "User agent: %s"
+msgstr "User-Agent: %s"
+
+#: includes/class-monitoring.php:291
+#: modules/digits-gateways/class-digits-ippanel-loader.php:183
+msgid "Unknown error"
+msgstr "Unbekannter Fehler"
+
+#: includes/class-monitoring.php:342
+#, php-format
+msgid "Error sending site status to server: %s"
+msgstr "Fehler beim Senden des Website-Status an den Server: %s"
+
+#: includes/class-monitoring.php:355
+msgid "Site status sent successfully to support server."
+msgstr "Website-Status erfolgreich an den Supportserver gesendet."
+
+#: includes/class-monitoring.php:420
+#, php-format
+msgid "Error sending fatal error log to server: %s"
+msgstr "Fehler beim Senden des fatalen Fehlerlogs an den Server: %s"
+
+#: includes/class-monitoring.php:433
+msgid "Fatal error log sent successfully to support server."
+msgstr "Fataler Fehlerlog erfolgreich an den Supportserver gesendet."
+
+#: includes/class-monitoring.php:539
+msgid "wp_mail function not found. Unable to send email."
+msgstr "wp_mail-Funktion nicht gefunden. E-Mail konnte nicht gesendet werden."
+
+#: includes/class-updater.php:193
+msgid "Changelog information is not available."
+msgstr "Changelog-Informationen sind nicht verfügbar."
+
+#: includes/class-updater.php:284 includes/class-updater.php:309
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/class-updater.php:285
+msgid "Support"
+msgstr "Support"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:22
+#: modules/digits-gateways/class-digits-ippanel-loader.php:23
+#: modules/digits-gateways/class-digits-ippanel-loader.php:32
+#: modules/digits-gateways/class-digits-ippanel-loader.php:33
+msgid "About CloudTart"
+msgstr "Über CloudTart"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:51
+msgid "IranPayamak (FarazSMS API)"
+msgstr "IranPayamak (FarazSMS API)"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:53
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:54
+msgid "IranPayamak API Key"
+msgstr "IranPayamak-API-Key"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:56
+msgid ""
+"To get an API key, go to Developers > Access Keys in the IranPayamak panel."
+msgstr ""
+"Den API-Key findest du im IranPayamak-Panel unter „Developers > Access "
+"Keys“."
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:58
+msgid "Sender"
+msgstr "Absender"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:62
+msgid "Enter your service sender line number. Default: 90008361"
+msgstr "Gib die Absender-Rufnummer deines Dienstes ein. Standard: 90008361"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:64
+msgid "Send by pattern"
+msgstr "Senden per Muster"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:66
+msgid "No"
+msgstr "Nein"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:67
+msgid "Yes"
+msgstr "Ja"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:71
+msgid "Enable this to send OTP using a pattern template."
+msgstr "Aktiviere dies, um OTP über eine Pattern-Vorlage zu versenden."
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:73
+msgid "Pattern Code"
+msgstr "Mustercode"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:77
+msgid "Enter the pattern code (e.g., abc12345)."
+msgstr "Geben Sie den Mustercode ein (z. B. abc12345)."
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:79
+msgid "Pattern Variable"
+msgstr "Mustervariable"
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:83
+msgid "Pattern variable name (e.g., verification-code)."
+msgstr "Name der Mustervariablen (z. B. verification-code)."
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:137
+msgid "IranPayamak gateway settings not found."
+msgstr "IranPayamak-Gateway-Einstellungen nicht gefunden."
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:170
+msgid "Send successful: "
+msgstr "Senden erfolgreich: "
+
+#: modules/digits-gateways/class-digits-ippanel-loader.php:171
+msgid "Send failed: "
+msgstr "Senden fehlgeschlagen: "
+
+#: modules/dokan-fix/class-dokan-fix.php:175
+#: modules/dokan-fix/class-dokan-fix.php:229
+#, php-format
+msgid "The minimum spend for this coupon is %s."
+msgstr "Der Mindestbestellwert für diesen Coupon beträgt %s."
+
+#: modules/dokan-fix/class-dokan-fix.php:199
+#: modules/dokan-fix/class-dokan-fix.php:238
+#, php-format
+msgid "The maximum spend for this coupon is %s."
+msgstr "Der Höchstbestellwert für diesen Coupon beträgt %s."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:23
+msgid "IranPayamak - FarazSMS"
+msgstr "IranPayamak - FarazSMS"
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:43
+msgid "The IranPayamak API key is not set."
+msgstr "Der IranPayamak-API-Key ist nicht gesetzt."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:47
+msgid "The SMS sender line number is not set."
+msgstr "Die SMS-Absender-Rufnummer ist nicht gesetzt."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:58
+msgid "The recipient number is invalid."
+msgstr "Die Empfängernummer ist ungültig."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:139
+msgid "Did not receive a valid response from the IranPayamak web service."
+msgstr "Keine gültige Antwort vom IranPayamak-Webservice erhalten."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:144
+msgid "The IranPayamak response format is invalid."
+msgstr "Das Antwortformat von IranPayamak ist ungültig."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:159
+msgid "Unknown error while sending the SMS via IranPayamak."
+msgstr "Unbekannter Fehler beim SMS-Versand über IranPayamak."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:202
+msgid "The pattern message structure is invalid."
+msgstr "Die Struktur der Pattern-Nachricht ist ungültig."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:207
+msgid ""
+"The first pattern line must follow the format `pcode:YOUR_PATTERN_CODE`."
+msgstr ""
+"Die erste Pattern-Zeile muss dem Format `pcode:YOUR_PATTERN_CODE` folgen."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:212
+msgid "No pattern code was provided on the first line."
+msgstr "In der ersten Zeile wurde kein Pattern-Code angegeben."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-gateway.php:234
+msgid "At least one pattern variable must be provided in `key:value` format."
+msgstr ""
+"Mindestens eine Pattern-Variable muss im Format `key:value` angegeben "
+"werden."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:39
+msgid "IranPayamak - FarazSMS - iranpayamak - farazsms"
+msgstr "IranPayamak - FarazSMS - iranpayamak - farazsms"
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:57
+msgid ""
+"Only for the \"IranPayamak - FarazSMS\" gateway. To obtain this key, go to "
+"Developers > Access Keys in the IranPayamak panel."
+msgstr ""
+"Nur für das Gateway „IranPayamak - FarazSMS“. Den Key findest du im "
+"IranPayamak-Panel unter „Developers > Access Keys“."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:121
+msgid ""
+"Suggested format for IranPayamak pattern messages: first line "
+"`pcode:PATTERN_CODE`, then one `key:{shortcode}` per following line."
+msgstr ""
+"Empfohlenes Format für IranPayamak-Pattern-Nachrichten: erste Zeile "
+"`pcode:PATTERN_CODE`, dann pro Folgezeile ein `key:{shortcode}`."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:122
+msgid "Example:"
+msgstr "Beispiel:"
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:280
+msgid "Quick guide to IranPayamak pattern messages"
+msgstr "Schnellanleitung für IranPayamak-Pattern-Nachrichten"
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:285
+#, php-format
+msgid ""
+"To send a pattern message, write %1$s (the approved pattern code) on the "
+"first line of each text box, then add variables in %2$s format on the next "
+"lines."
+msgstr ""
+"Für eine Pattern-Nachricht schreibst du in jedem Textfeld in die erste Zeile"
+" %1$s (den freigegebenen Pattern-Code) und fügst in den Folgezeilen "
+"Variablen im Format %2$s hinzu."
+
+#: modules/pwsms-gateways/class-pwsms-iranpayamak-loader.php:297
+#, php-format
+msgid ""
+"The left side (key) must exactly match the variable name defined in the "
+"IranPayamak panel; the right side (value) can be a WooCommerce shortcode "
+"such as %1$s or %2$s."
+msgstr ""
+"Die linke Seite (key) muss exakt mit dem im IranPayamak-Panel definierten "
+"Variablennamen übereinstimmen; die rechte Seite (value) kann ein "
+"WooCommerce-Shortcode wie %1$s oder %2$s sein."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:32
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:78
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:85
+msgid "Wallet withdrawal requested"
+msgstr "Wallet-Auszahlung angefordert"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:37
+#, php-format
+msgid "Wallet withdrawal requested <span class=\"count\">(%s)</span>"
+msgid_plural "Wallet withdrawal requested <span class=\"count\">(%s)</span>"
+msgstr[0] "Wallet-Auszahlung angefordert <span class=\"count\">(%s)</span>"
+msgstr[1] "Wallet-Auszahlungen angefordert <span class=\"count\">(%s)</span>"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:45
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:79
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:89
+msgid "Wallet withdrawal paid out"
+msgstr "Wallet-Auszahlung ausgezahlt"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:50
+#, php-format
+msgid "Wallet withdrawal paid out <span class=\"count\">(%s)</span>"
+msgid_plural "Wallet withdrawal paid out <span class=\"count\">(%s)</span>"
+msgstr[0] "Wallet-Auszahlung ausgezahlt <span class=\"count\">(%s)</span>"
+msgstr[1] "Wallet-Auszahlungen ausgezahlt <span class=\"count\">(%s)</span>"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:58
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:80
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:93
+msgid "Wallet withdrawal rejected"
+msgstr "Wallet-Auszahlung abgelehnt"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:63
+#, php-format
+msgid "Wallet withdrawal rejected <span class=\"count\">(%s)</span>"
+msgid_plural "Wallet withdrawal rejected <span class=\"count\">(%s)</span>"
+msgstr[0] "Wallet-Auszahlung abgelehnt <span class=\"count\">(%s)</span>"
+msgstr[1] "Wallet-Auszahlungen abgelehnt <span class=\"count\">(%s)</span>"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:159
+msgid ""
+"The withdrawal request had already been approved on the wallet side; the "
+"order has been synced accordingly."
+msgstr ""
+"Die Auszahlungsanfrage war auf Wallet-Seite bereits genehmigt; die "
+"Bestellung wurde entsprechend synchronisiert."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:170
+msgid ""
+"The withdrawal request had already been rejected on the wallet side; the "
+"order has been synced accordingly."
+msgstr ""
+"Die Auszahlungsanfrage war auf Wallet-Seite bereits abgelehnt; die "
+"Bestellung wurde entsprechend synchronisiert."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:231
+msgid "The withdrawal request record to reject was not found."
+msgstr "Der abzulehnende Auszahlungsdatensatz wurde nicht gefunden."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:246
+msgid ""
+"The withdrawal request has already been paid out and can no longer be "
+"rejected."
+msgstr ""
+"Die Auszahlungsanfrage wurde bereits ausgezahlt und kann nicht mehr "
+"abgelehnt werden."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:253
+#, php-format
+msgid "The current withdrawal request status cannot be rejected: %s"
+msgstr ""
+"Der aktuelle Status der Auszahlungsanfrage kann nicht abgelehnt werden: %s"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:267
+msgid ""
+"An error occurred while unlocking the wallet funds. Please check the logs."
+msgstr ""
+"Beim Entsperren der Wallet-Mittel ist ein Fehler aufgetreten. Bitte die Logs"
+" prüfen."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:285
+msgid ""
+"Failed to update the rejection status in the database. Please review it "
+"manually."
+msgstr ""
+"Der Ablehnungsstatus konnte in der Datenbank nicht aktualisiert werden. "
+"Bitte manuell prüfen."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:296
+#, php-format
+msgid ""
+"Wallet withdrawal request for user #%d was rejected and the locked funds "
+"were released."
+msgstr ""
+"Wallet-Auszahlungsanfrage für Benutzer #%d wurde abgelehnt und die "
+"gesperrten Mittel freigegeben."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:323
+msgid "The withdrawal request record was not found in the database."
+msgstr "Der Auszahlungsdatensatz wurde in der Datenbank nicht gefunden."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:340
+#, php-format
+msgid "The current withdrawal request status cannot be settled: %s"
+msgstr ""
+"Der aktuelle Status der Auszahlungsanfrage kann nicht abgeschlossen werden: "
+"%s"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:357
+#, php-format
+msgid "Wallet withdrawal payout - Order #%d"
+msgstr "Wallet-Auszahlung — Bestellung #%d"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:365
+#, php-format
+msgid "Wallet withdrawal fee - Order #%d"
+msgstr "Wallet-Auszahlungsgebühr — Bestellung #%d"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:369
+msgid ""
+"An error occurred while settling the wallet withdrawal. Please check the "
+"logs."
+msgstr ""
+"Beim Abschließen der Wallet-Auszahlung ist ein Fehler aufgetreten. Bitte die"
+" Logs prüfen."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:387
+msgid ""
+"Failed to update the withdrawal request status in the database. Please "
+"review it manually."
+msgstr ""
+"Der Status der Auszahlungsanfrage konnte in der Datenbank nicht aktualisiert"
+" werden. Bitte manuell prüfen."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:398
+#, php-format
+msgid "Wallet withdrawal for user #%1$d settled for the amount of %2$s."
+msgstr ""
+"Wallet-Auszahlung für Benutzer #%1$d über den Betrag %2$s abgeschlossen."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:445
+msgid "Wallet withdrawal request"
+msgstr "Wallet-Auszahlungsanfrage"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:461
+msgid "Wallet withdrawal request submitted and awaiting review."
+msgstr "Wallet-Auszahlungsanfrage übermittelt und wartet auf Prüfung."
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:493
+msgid "Full name"
+msgstr "Vollständiger Name"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:494
+msgid "Billing address 1"
+msgstr "Rechnungsadresse 1"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:495
+msgid "Billing address 2"
+msgstr "Rechnungsadresse 2"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:496
+msgid "Billing address 3"
+msgstr "Rechnungsadresse 3"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:497
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:534
+msgid "City"
+msgstr "Stadt"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:498
+msgid "State/Province"
+msgstr "Bundesland/Provinz"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:499
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:533
+msgid "Postal code"
+msgstr "Postleitzahl"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:500
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:536
+msgid "Country"
+msgstr "Land"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:501
+msgid "Bank account holder name"
+msgstr "Name des Kontoinhabers"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:502
+msgid "Account number / IBAN"
+msgstr "Kontonummer / IBAN"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:503
+msgid "SWIFT code"
+msgstr "SWIFT-Code"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:504
+msgid "Bank full name"
+msgstr "Vollständiger Bankname"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:505
+msgid "Bank branch city"
+msgstr "Stadt der Bankfiliale"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:506
+msgid "Bank branch country"
+msgstr "Land der Bankfiliale"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:507
+msgid "Intermediary bank code"
+msgstr "Code der Korrespondenzbank"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:508
+msgid "Intermediary bank name"
+msgstr "Name der Korrespondenzbank"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:509
+msgid "Intermediary bank city"
+msgstr "Stadt der Korrespondenzbank"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:510
+msgid "Intermediary bank country"
+msgstr "Land der Korrespondenzbank"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:513
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:521
+msgid "Account holder name"
+msgstr "Name des Kontoinhabers"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:514
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:522
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:537
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:544
+msgid "Bank name"
+msgstr "Bankname"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:515
+msgid "Branch/Agency number"
+msgstr "Filial-/Agenturnummer"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:516
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:524
+msgid "Bank account number"
+msgstr "Bankkontonummer"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:517
+msgid "CPF"
+msgstr "CPF"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:518
+msgid "Account type"
+msgstr "Kontotyp"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:523
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:538
+msgid "IBAN"
+msgstr "IBAN"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:527
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:542
+msgid "First name"
+msgstr "Vorname"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:528
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:543
+msgid "Last name"
+msgstr "Nachname"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:529
+msgid "Tax code"
+msgstr "Steuernummer"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:530
+msgid "Gender"
+msgstr "Geschlecht"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:531
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:532
+msgid "Address (street/square and number)"
+msgstr "Adresse (Straße/Platz und Nummer)"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:535
+msgid "Province"
+msgstr "Provinz"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:539
+msgid "BIC/SWIFT"
+msgstr "BIC/SWIFT"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:545
+msgid "Account number"
+msgstr "Kontonummer"
+
+#: modules/wallet-withdraw-orders/class-wallet-withdraw-orders.php:546
+msgid "Sort code"
+msgstr "Bankleitzahl"
+
+#: admin/class-admin.php:786
+msgid "WooCommerce — stream purchased audio files"
+msgstr "WooCommerce — gekaufte Audiodateien streamen"
+
+#: admin/class-admin.php:794
+msgid "Audio streaming options"
+msgstr "Optionen für Audio-Streaming"
+
+#: admin/class-admin.php:1611
+msgid ""
+"Show purchased audio files as streamable tracks instead of download links"
+msgstr ""
+"Gekaufte Audiodateien als abspielbare Titel statt als Download-Links "
+"anzeigen"
+
+#: admin/class-admin.php:1613
+msgid ""
+"In My Account → Downloads and on the order page, audio files (MP3, M4A, WAV,"
+" OGG, FLAC, …) get a play button and are served through a signed, expiring "
+"streaming link. Other file types keep their normal download link."
+msgstr ""
+"Unter „Mein Konto → Downloads“ und auf der Bestellseite erhalten "
+"Audiodateien (MP3, M4A, WAV, OGG, FLAC, …) einen Abspiel-Button und werden "
+"über einen signierten, ablaufenden Streaming-Link ausgeliefert. Andere "
+"Dateitypen behalten ihren normalen Download-Link."
+
+#: admin/class-admin.php:1615
+msgid ""
+"To enable this option, install and activate the \"WooCommerce\" plugin "
+"first."
+msgstr ""
+"Um diese Option zu aktivieren, installiere und aktiviere zuerst das Plugin "
+"„WooCommerce“."
+
+#: admin/class-admin.php:1630
+msgid ""
+"To configure these options, first turn on \"WooCommerce — stream purchased "
+"audio files\"."
+msgstr ""
+"Um diese Optionen zu konfigurieren, aktiviere zuerst „WooCommerce — gekaufte"
+" Audiodateien streamen“."
+
+#: admin/class-admin.php:1637
+msgid "Allow direct download as well"
+msgstr "Direkten Download ebenfalls erlauben"
+
+#: admin/class-admin.php:1639
+msgid ""
+"When off, the WooCommerce download link for audio files is removed and "
+"direct download requests are blocked; customers can only listen online. When"
+" on, a download icon is shown next to each play button."
+msgstr ""
+"Wenn deaktiviert, wird der WooCommerce-Download-Link für Audiodateien "
+"entfernt und direkte Download-Anfragen werden blockiert; Kunden können nur "
+"online hören. Wenn aktiviert, erscheint neben jedem Abspiel-Button ein "
+"Download-Symbol."
+
+#: admin/class-admin.php:1646
+msgid "Show the sticky playlist player"
+msgstr "Fixierten Playlist-Player anzeigen"
+
+#: admin/class-admin.php:1648
+msgid ""
+"A fixed player at the bottom of the page lists every audio track of that "
+"page and plays them in order. When off, each track gets a simple inline "
+"player instead."
+msgstr ""
+"Ein fixierter Player am Seitenende listet alle Audiotitel der Seite auf und "
+"spielt sie der Reihe nach ab. Wenn deaktiviert, erhält jeder Titel "
+"stattdessen einen einfachen Inline-Player."
+
+#: admin/class-admin.php:1652
+msgid "Player theme"
+msgstr "Player-Design"
+
+#: admin/class-admin.php:1654
+msgid "Dark"
+msgstr "Dunkel"
+
+#: admin/class-admin.php:1655
+msgid "Light"
+msgstr "Hell"
+
+#: admin/class-admin.php:1035
+msgid ""
+"Plugin settings validated. Digits IranPayamak gateway: %1$s, Dokan coupon "
+"fix: %2$s, Wallet withdraw orders: %3$s, Persian WooCommerce SMS "
+"IranPayamak: %4$s, WooCommerce audio streaming: %5$s"
+msgstr ""
+"Plugin-Einstellungen geprüft. Digits-IranPayamak-Gateway: %1$s, Dokan-"
+"Gutschein-Fix: %2$s, Wallet-Auszahlungsbestellungen: %3$s, Persian "
+"WooCommerce SMS IranPayamak: %4$s, WooCommerce-Audio-Streaming: %5$s"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:172
+#: modules/wc-audio-stream/class-wc-audio-stream.php:550
+msgid "Play %s"
+msgstr "%s abspielen"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:551
+msgid "Pause %s"
+msgstr "%s pausieren"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:548
+#: modules/wc-audio-stream/class-wc-audio-stream.php:578
+msgid "Play"
+msgstr "Abspielen"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:549
+msgid "Pause"
+msgstr "Pause"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:190
+msgid "Download"
+msgstr "Herunterladen"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:215
+msgid "Listen online in your account"
+msgstr "Online in deinem Konto anhören"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:247
+msgid ""
+"This audio file is available for online listening only and cannot be "
+"downloaded."
+msgstr ""
+"Diese Audiodatei kann nur online angehört und nicht heruntergeladen werden."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:248
+msgid "Open my downloads"
+msgstr "Meine Downloads öffnen"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:249
+msgid "Streaming only"
+msgstr "Nur Streaming"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:259
+msgid "Streaming error"
+msgstr "Streaming-Fehler"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:272
+#: modules/wc-audio-stream/class-wc-audio-stream.php:281
+msgid "Invalid streaming link."
+msgstr "Ungültiger Streaming-Link."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:276
+msgid "This streaming link has expired. Please reload the page."
+msgstr "Dieser Streaming-Link ist abgelaufen. Bitte lade die Seite neu."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:286
+msgid "This order does not allow access to its files."
+msgstr "Diese Bestellung erlaubt keinen Zugriff auf ihre Dateien."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:291
+#: modules/wc-audio-stream/class-wc-audio-stream.php:296
+#: modules/wc-audio-stream/class-wc-audio-stream.php:386
+#: modules/wc-audio-stream/class-wc-audio-stream.php:432
+#: modules/wc-audio-stream/class-wc-audio-stream.php:488
+msgid "File not found."
+msgstr "Datei nicht gefunden."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:310
+#: modules/wc-audio-stream/class-wc-audio-stream.php:325
+#: modules/wc-audio-stream/class-wc-audio-stream.php:328
+msgid "You do not have access to this file."
+msgstr "Du hast keinen Zugriff auf diese Datei."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:316
+msgid "Access to this file has expired."
+msgstr "Der Zugriff auf diese Datei ist abgelaufen."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:321
+msgid "Please log in to listen to this file."
+msgstr "Bitte melde dich an, um diese Datei anzuhören."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:552
+msgid "This track could not be played. Please reload the page and try again."
+msgstr ""
+"Dieser Titel konnte nicht abgespielt werden. Bitte lade die Seite neu und "
+"versuche es erneut."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:553
+msgid "Now playing"
+msgstr "Wird abgespielt"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:554
+msgid "%d tracks"
+msgstr "%d Titel"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:564
+msgid "Audio player"
+msgstr "Audio-Player"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:577
+msgid "Previous track"
+msgstr "Vorheriger Titel"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:581
+msgid "Next track"
+msgstr "Nächster Titel"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:589
+msgid "Seek"
+msgstr "Spulen"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:596
+msgid "Mute"
+msgstr "Stumm"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:597
+msgid "Volume"
+msgstr "Lautstärke"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:599
+msgid "Playlist"
+msgstr "Wiedergabeliste"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php:600
+msgid "Close player"
+msgstr "Player schließen"
+
+#: cloudtart-support-connector/includes/class-connector-reporter.php
+msgid "API key is not set."
+msgstr "API-Schlüssel ist nicht gesetzt."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "API request rejected: %s"
+msgstr "API-Anfrage abgelehnt: %s"
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "API request rejected: no API key is configured on this site."
+msgstr ""
+"API-Anfrage abgelehnt: Auf dieser Website ist kein API-Schlüssel "
+"konfiguriert."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "API request rejected: unsigned request while signatures are required."
+msgstr ""
+"API-Anfrage abgelehnt: unsignierte Anfrage, obwohl Signaturen erforderlich "
+"sind."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Authentication failed."
+msgstr "Authentifizierung fehlgeschlagen."
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+#: cloudtart-support-connector/includes/class-connector-admin.php
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "CloudTart Connection"
+msgstr "CloudTart-Verbindung"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid ""
+"CloudTart Support Connector is active but no API key has been entered yet. "
+"Add the key in the \"CloudTart Connection\" tab to enable remote updates."
+msgstr ""
+"Der CloudTart Support Connector ist aktiv, aber es wurde noch kein API-"
+"Schlüssel eingegeben. Trage den Schlüssel im Tab „CloudTart-Verbindung“ ein,"
+" um Remote-Updates zu aktivieren."
+
+#: cloudtart-support-connector/cloudtart-support-connector.php
+msgid ""
+"CloudTart Support Connector requires the \"CloudTart Support Services "
+"Plugin\" to be installed and active. The connector has been deactivated."
+msgstr ""
+"Der CloudTart Support Connector benötigt das installierte und aktive "
+"„CloudTart Support Services Plugin“. Der Connector wurde deaktiviert."
+
+#: includes/class-cloudtart-support.php
+msgid "CloudTart Support Connector was activated automatically."
+msgstr "Der CloudTart Support Connector wurde automatisch aktiviert."
+
+#: admin/class-admin.php
+msgid "CloudTart support services"
+msgstr "CloudTart-Supportdienste"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "Connector Version:"
+msgstr "Connector-Version:"
+
+#: cloudtart-support-connector/includes/class-connector.php
+msgid "Could not activate pushed plugin %1$s: %2$s"
+msgstr "Das übertragene Plugin %1$s konnte nicht aktiviert werden: %2$s"
+
+#: includes/class-cloudtart-support.php
+msgid "Could not activate the CloudTart Support Connector: %s"
+msgstr "Der CloudTart Support Connector konnte nicht aktiviert werden: %s"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid ""
+"Every update pushed by the platform is signed with its private key and "
+"verified here with the embedded public key. Keep this on; turn it off only "
+"temporarily if the platform asks you to."
+msgstr ""
+"Jedes von der Plattform übertragene Update wird mit ihrem privaten Schlüssel"
+" signiert und hier mit dem eingebetteten öffentlichen Schlüssel geprüft. "
+"Lass die Option aktiviert; schalte sie nur vorübergehend aus, wenn die "
+"Plattform dich dazu auffordert."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Invalid folder name."
+msgstr "Ungültiger Ordnername."
+
+#: admin/class-admin.php
+msgid "Main settings saved. Debug mode: %s"
+msgstr "Haupteinstellungen gespeichert. Debug-Modus: %s"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "Only accept requests that carry a valid CloudTart platform signature"
+msgstr ""
+"Nur Anfragen mit gültiger Signatur der CloudTart-Plattform akzeptieren"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid ""
+"OpenSSL is not available on this server, so signatures cannot be verified. "
+"Requests fall back to API key authentication."
+msgstr ""
+"OpenSSL ist auf diesem Server nicht verfügbar, daher können Signaturen nicht"
+" geprüft werden. Anfragen werden nur per API-Schlüssel authentifiziert."
+
+#: includes/class-cloudtart-support.php
+msgid "Plugin upgraded to version %s."
+msgstr "Plugin auf Version %s aktualisiert."
+
+#: cloudtart-support-connector/includes/class-connector.php
+msgid "Pushed plugin %s was activated."
+msgstr "Das übertragene Plugin %s wurde aktiviert."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Received archive is empty."
+msgstr "Das empfangene Archiv ist leer."
+
+#: admin/class-admin.php
+msgid ""
+"Remote updates, uptime reporting and error forwarding are available to "
+"CloudTart support customers. If you need CloudTart support services, please "
+"contact us."
+msgstr ""
+"Remote-Updates, Verfügbarkeitsberichte und Fehlerweiterleitung stehen "
+"CloudTart-Supportkunden zur Verfügung. Wenn du CloudTart-Supportdienste "
+"benötigst, kontaktiere uns bitte."
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "Report site availability to the support platform every 5 minutes"
+msgstr ""
+"Verfügbarkeit der Website alle 5 Minuten an die Support-Plattform melden"
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Request signature could not be verified."
+msgstr "Die Signatur der Anfrage konnte nicht geprüft werden."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Requests to this site must be signed by the support platform."
+msgstr ""
+"Anfragen an diese Website müssen von der Support-Plattform signiert sein."
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "Signed requests"
+msgstr "Signierte Anfragen"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "Status reporting"
+msgstr "Statusmeldung"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid ""
+"The platform delivers updates to this address. It only answers signed, key-"
+"authenticated requests."
+msgstr ""
+"Die Plattform liefert Updates an diese Adresse. Sie antwortet nur auf "
+"signierte, per Schlüssel authentifizierte Anfragen."
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid ""
+"These settings link this site to the CloudTart support platform. Only sites "
+"with an active support contract receive an API key."
+msgstr ""
+"Diese Einstellungen verbinden die Website mit der CloudTart-Support-"
+"Plattform. Nur Websites mit aktivem Supportvertrag erhalten einen API-"
+"Schlüssel."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "This site is not connected to a support platform."
+msgstr "Diese Website ist mit keiner Support-Plattform verbunden."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Too many failed attempts. Try again later."
+msgstr "Zu viele fehlgeschlagene Versuche. Bitte später erneut versuchen."
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "Update endpoint"
+msgstr "Update-Endpunkt"
+
+#: admin/class-admin.php
+msgid ""
+"This site has a CloudTart support API key, but the \"CloudTart Support "
+"Connector\" plugin is not active. Remote updates and status reporting stay "
+"paused until the connector is installed and activated."
+msgstr ""
+"Diese Website hat einen CloudTart-Support-API-Schlüssel, aber das Plugin "
+"„CloudTart Support Connector“ ist nicht aktiv. Remote-Updates und "
+"Statusmeldungen bleiben pausiert, bis der Connector installiert und "
+"aktiviert ist."
+
+#: cloudtart-support/admin/class-admin.php
+msgid ""
+"The CloudTart Support Connector could not be installed automatically. "
+"Details are in the plugin log; you can also upload the connector zip from "
+"Plugins → Add New."
+msgstr ""
+"Der CloudTart Support Connector konnte nicht automatisch installiert werden."
+" Details stehen im Plugin-Protokoll; Sie können das Connector-ZIP auch unter"
+" Plugins → Neues Plugin hinzufügen hochladen."
+
+#: cloudtart-support/admin/class-admin.php
+msgid ""
+"This site has a CloudTart support API key, but the \"CloudTart Support "
+"Connector\" plugin is not active. Remote updates stay paused until the "
+"connector is installed and activated."
+msgstr ""
+"Diese Website hat einen CloudTart-Support-API-Schlüssel, aber das Plugin "
+"„CloudTart Support Connector“ ist nicht aktiv. Remote-Updates bleiben "
+"pausiert, bis der Connector installiert und aktiviert ist."
+
+#: cloudtart-support/admin/class-admin.php
+msgid "Install and activate the connector"
+msgstr "Connector installieren und aktivieren"
+
+#: cloudtart-support/includes/class-cloudtart-support.php
+msgid "This site has no CloudTart support API key."
+msgstr "Diese Website hat keinen CloudTart-Support-API-Schlüssel."
+
+#: cloudtart-support/includes/class-cloudtart-support.php
+msgid ""
+"The connector package address could not be read from the update server."
+msgstr ""
+"Die Paketadresse des Connectors konnte nicht vom Update-Server gelesen "
+"werden."
+
+#: cloudtart-support/includes/class-cloudtart-support.php
+msgid ""
+"Installing the connector failed (the host may require FTP credentials for "
+"plugin installs)."
+msgstr ""
+"Die Installation des Connectors ist fehlgeschlagen (der Host verlangt für "
+"Plugin-Installationen eventuell FTP-Zugangsdaten)."
+
+#: cloudtart-support/includes/class-cloudtart-support.php
+#, php-format
+msgid "Could not install the CloudTart Support Connector: %s"
+msgstr "CloudTart Support Connector konnte nicht installiert werden: %s"
+
+#: cloudtart-support/includes/class-cloudtart-support.php
+msgid "CloudTart Support Connector was installed and activated automatically."
+msgstr ""
+"CloudTart Support Connector wurde automatisch installiert und aktiviert."
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid "Support Core Connection"
+msgstr "Verbindung zum Support-Kern"
+
+#: cloudtart-support-connector/includes/class-connector-admin.php
+msgid ""
+"CloudTart Support Connector is active but no API key has been entered yet. "
+"Add the key in the \"Support Core Connection\" tab to enable remote updates."
+msgstr ""
+"Der CloudTart Support Connector ist aktiv, aber es wurde noch kein API-"
+"Schlüssel eingegeben. Tragen Sie den Schlüssel im Tab „Verbindung zum "
+"Support-Kern“ ein, um Remote-Updates zu aktivieren."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+#, php-format
+msgid ""
+"Not enough free disk space on this host (free: %1$s, needed about: %2$s)."
+msgstr ""
+"Nicht genügend freier Speicherplatz auf diesem Host (frei: %1$s, benötigt "
+"etwa: %2$s)."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Upload session not found. Start the upload again."
+msgstr "Upload-Sitzung nicht gefunden. Starten Sie den Upload erneut."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+#, php-format
+msgid "Chunk %1$d arrived incomplete (%2$d of %3$d bytes)."
+msgstr "Teil %1$d kam unvollständig an (%2$d von %3$d Bytes)."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+#, php-format
+msgid "%d chunks are still missing."
+msgstr "Es fehlen noch %d Teile."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "Upload cancelled."
+msgstr "Upload abgebrochen."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid ""
+"The chunk is larger than upload_max_filesize/post_max_size on this host."
+msgstr ""
+"Der Teil ist größer als upload_max_filesize/post_max_size auf diesem Host."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "The chunk arrived incomplete."
+msgstr "Der Teil kam unvollständig an."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid ""
+"This host cannot store uploaded files (temporary folder is missing or not "
+"writable)."
+msgstr ""
+"Dieser Host kann hochgeladene Dateien nicht speichern (temporärer Ordner "
+"fehlt oder ist nicht beschreibbar)."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid ""
+"No chunk was received (the request may exceed post_max_size on this host)."
+msgstr ""
+"Es wurde kein Teil empfangen (die Anfrage überschreitet möglicherweise "
+"post_max_size auf diesem Host)."
+
+#: cloudtart-support-connector/includes/class-connector-api.php
+msgid "The archive contains an invalid path."
+msgstr "Das Archiv enthält einen ungültigen Pfad."
+
+#: cloudtart-support/admin/class-admin.php
+msgid "Intranet mode (server requests)"
+msgstr "Intranet-Modus (Server-Anfragen)"
+
+#: cloudtart-support/admin/class-admin.php
+msgid "Iranian domains"
+msgstr "Iranische Domains"
+
+#: cloudtart-support/admin/class-admin.php
+msgid "Block every server request to foreign hosts except the allowed list"
+msgstr ""
+"Alle Server-Anfragen an ausländische Hosts außer der erlaubten Liste "
+"blockieren"
+
+#: cloudtart-support/admin/class-admin.php
+msgid ""
+"Use only while international internet is cut. Update checks of WordPress, "
+"plugins and themes, license checks and other API calls to foreign servers "
+"are answered instantly with an empty response instead of waiting for a "
+"timeout. The site itself, local/private addresses, allowed domains and "
+"keywords, Iranian domains (if enabled below) and CloudTart services keep "
+"working."
+msgstr ""
+"Nur verwenden, solange das internationale Internet unterbrochen ist. Update-"
+"Prüfungen von WordPress, Plugins und Themes, Lizenzprüfungen und andere API-"
+"Aufrufe an ausländische Server werden sofort mit einer leeren Antwort "
+"beantwortet, statt auf ein Timeout zu warten. Die Website selbst, "
+"lokale/private Adressen, erlaubte Domains und Schlüsselwörter, iranische "
+"Domains (falls unten aktiviert) und CloudTart-Dienste funktionieren weiter."
+
+#: cloudtart-support/admin/class-admin.php
+msgid "Always allow .ir domains"
+msgstr ".ir-Domains immer erlauben"
+
+#: cloudtart-support/admin/class-admin.php
+msgid ""
+"Domestic domains stay reachable on the national network, so payment "
+"gateways, SMS panels and other Iranian services are not blocked."
+msgstr ""
+"Inländische Domains bleiben im nationalen Netz erreichbar, daher werden "
+"Zahlungs-Gateways, SMS-Panels und andere iranische Dienste nicht blockiert."
+
+#: cloudtart-support/admin/class-admin.php
+msgid ""
+"This list is used when \"Block undefined external requests\" or intranet "
+"mode is enabled."
+msgstr ""
+"Diese Liste wird verwendet, wenn „Nicht definierte externe Anfragen "
+"blockieren“ oder der Intranet-Modus aktiviert ist."
+
+#: cloudtart-support/admin/class-admin.php
+msgid ""
+"If the host name of a URL contains any of these keywords (for example "
+"shaparak or payamak), it is allowed even if no replacement rule is defined."
+msgstr ""
+"Enthält der Hostname einer URL eines dieser Schlüsselwörter (z. B. shaparak "
+"oder payamak), wird sie auch ohne Ersetzungsregel erlaubt."
+
+#: includes/class-updater.php
+msgid ""
+"Plugin information could not be retrieved from the CloudTart update server. "
+"Please try again later."
+msgstr ""
+"Die Plugin-Informationen konnten nicht vom CloudTart-Update-Server abgerufen"
+" werden. Bitte versuchen Sie es später erneut."

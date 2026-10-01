@@ -1,0 +1,163 @@
+﻿/*
+ * Custom CSS for Font Loading
+ * Based on Google Fonts request for "Great Vibes" with various weights/styles,
+ * but using provided IRANSansWeb CDN links as per user instruction.
+ * This will load IRANSansWeb, not Great Vibes.
+ */
+
+/* Base styles for Great Vibes request, but will point to IRANSansWeb */
+/* Weight: 100 */
+@font-face {
+  font-family: 'GreatVibesCustom'; /* Using a custom family name to avoid confusion */
+  font-style: normal;
+  font-weight: 100;
+  src: url('IRANSansWeb.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+/* Weight: 100 Italic */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: italic;
+  font-weight: 100;
+  src: url('IRANSansWeb.woff') format('woff'); /* Assuming WOFF for italic if WOFF2 is not available for specific weights */
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+
+/* Weight: 200 */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: normal;
+  font-weight: 200;
+  src: url('IRANSansWeb.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+/* Weight: 200 Italic */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: italic;
+  font-weight: 200;
+  src: url('IRANSansWeb.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+
+/* Weight: 300 */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: normal;
+  font-weight: 300;
+  src: url('IRANSansWeb.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+/* Weight: 300 Italic */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: italic;
+  font-weight: 300;
+  src: url('IRANSansWeb.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+
+/* Weight: 400 (Regular) */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: normal;
+  font-weight: 400;
+  src: url('IRANSansWeb.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+/* Weight: 400 Italic */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: italic;
+  font-weight: 400;
+  src: url('IRANSansWeb.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+
+/* Weight: 500 */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: normal;
+  font-weight: 500;
+  src: url('IRANSansWeb.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+/* Weight: 500 Italic */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: italic;
+  font-weight: 500;
+  src: url('IRANSansWeb.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+
+/* Weight: 600 */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: normal;
+  font-weight: 600;
+  src: url('IRANSansWeb.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+/* Weight: 600 Italic */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: italic;
+  font-weight: 600;
+  src: url('IRANSansWeb.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+
+/* Weight: 700 */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: normal;
+  font-weight: 700;
+  src: url('IRANSansWeb.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+/* Weight: 700 Italic */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: italic;
+  font-weight: 700;
+  src: url('IRANSansWeb.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+
+/* Weight: 800 */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: normal;
+  font-weight: 800;
+  src: url('IRANSansWeb.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+/* Weight: 800 Italic */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: italic;
+  font-weight: 800;
+  src: url('IRANSansWeb.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+
+/* Weight: 900 */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: normal;
+  font-weight: 900;
+  src: url('IRANSansWeb.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+/* Weight: 900 Italic */
+@font-face {
+  font-family: 'GreatVibesCustom';
+  font-style: italic;
+  font-weight: 900;
+  src: url('IRANSansWeb.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2198-2199, U+2212, U+2215, U+FEFF, U+FFFD; /* Latin */
+}
+
+/* The display=swap behavior is handled by the browser when the @font-face rules are processed. */
+
