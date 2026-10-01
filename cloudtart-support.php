@@ -3,7 +3,7 @@
  * Plugin Name: CloudTart Support Services Plugin
  * Plugin URI: https://www.CloudTart.com
  * Description: Support services, customizations, and updates for CloudTart web design clients
- * Version: 1.9.56
+ * Version: 1.9.57
  * Author: CloudTart
  * Author URI: https://www.CloudTart.com
  * Text Domain: cloudtart-support
@@ -18,7 +18,7 @@ if (!defined('ABSPATH')) {
 }
 
 // تعریف ثابت‌های پلاگین
-define('CLOUDTART_SUPPORT_VERSION', '1.9.56');
+define('CLOUDTART_SUPPORT_VERSION', '1.9.57');
 define('CLOUDTART_SUPPORT_DIR', plugin_dir_path(__FILE__));
 define('CLOUDTART_SUPPORT_URL', plugin_dir_url(__FILE__));
 define('CLOUDTART_SUPPORT_BASENAME', plugin_basename(__FILE__));

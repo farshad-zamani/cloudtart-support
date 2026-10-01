@@ -2792,3 +2792,11 @@ msgid ""
 "Please try again later."
 msgstr ""
 "تعذّر جلب معلومات الإضافة من خادم تحديثات CloudTart. يرجى المحاولة لاحقًا."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php
+msgid "Minimize player"
+msgstr "تصغير المشغّل"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php
+msgid "Open audio player"
+msgstr "فتح مشغّل الصوت"

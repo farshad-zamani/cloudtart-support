@@ -2818,3 +2818,11 @@ msgid ""
 msgstr ""
 "اطلاعات افزونه از سرور آپدیت کلادتارت دریافت نشد. لطفاً بعداً دوباره تلاش "
 "کنید."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php
+msgid "Minimize player"
+msgstr "کوچک کردن پلیر"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php
+msgid "Open audio player"
+msgstr "باز کردن پلیر صوتی"

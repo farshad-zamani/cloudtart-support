@@ -423,11 +423,14 @@
     transform: scale(.94);
 }
 
+/* مثل نوار پیشرفت، دکمه‌ها هم همیشه چپ‌به‌راست‌اند: قبلی (چپ) — پخش — بعدی (راست).
+   در RTL ترتیب برعکس می‌شد و دکمه‌ی سمت راست (با فلش ▶|) به ترک قبلی می‌رفت. */
 #ct-audio-player .ct-ap-controls {
     grid-area: controls;
     display: flex;
     align-items: center;
     gap: 8px;
+    direction: ltr;
 }
 
 #ct-audio-player .ct-ap-btn.ct-ap-toggle {
@@ -453,14 +456,6 @@
 #ct-audio-player .ct-ap-toggle .ct-icon-pause { display: none; }
 #ct-audio-player.is-playing .ct-ap-toggle .ct-icon-play { display: none; }
 #ct-audio-player.is-playing .ct-ap-toggle .ct-icon-pause { display: block; }
-
-/* در RTL جهت آیکون‌های قبلی/بعدی برعکس می‌شود */
-[dir="rtl"] #ct-audio-player .ct-ap-prev .ct-icon,
-[dir="rtl"] #ct-audio-player .ct-ap-next .ct-icon,
-.rtl #ct-audio-player .ct-ap-prev .ct-icon,
-.rtl #ct-audio-player .ct-ap-next .ct-icon {
-    transform: scaleX(-1);
-}
 
 /* نوار پیشرفت */
 /* نوار همیشه چپ‌به‌راست پر می‌شود؛ زمان سپری‌شده هم باید در ابتدای همان جهت باشد */
@@ -803,6 +798,154 @@
     display: flex;
 }
 
+/* ---------------------------------------------------------------------------
+ * پلیر کوچک‌شده: دکمه‌ی شناور پایین صفحه (پخش ادامه دارد)
+ * ------------------------------------------------------------------------ */
+#ct-audio-mini {
+    --ct-am-progress: 0deg;
+    --ct-am-size: 60px;
+
+    appearance: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 20px;
+    inset-inline-start: 20px;
+    top: auto;
+    z-index: 99990;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--ct-am-size);
+    height: var(--ct-am-size);
+    min-width: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: 0 10px 28px rgba(25, 30, 42, .30);
+    color: inherit;
+    font: inherit;
+    line-height: 1;
+    text-transform: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    animation: ct-am-in .3s cubic-bezier(.2, .8, .2, 1);
+    transition: transform .15s ease, box-shadow .2s ease;
+}
+
+#ct-audio-mini[hidden] {
+    display: none;
+}
+
+#ct-audio-mini:hover {
+    background: transparent;
+    transform: scale(1.06);
+    box-shadow: 0 14px 34px rgba(25, 30, 42, .36);
+}
+
+#ct-audio-mini:active {
+    transform: scale(.96);
+}
+
+#ct-audio-mini:focus {
+    outline: none;
+}
+
+#ct-audio-mini:focus-visible {
+    outline: none;
+    box-shadow: 0 10px 28px rgba(25, 30, 42, .30), 0 0 0 4px rgba(192, 168, 144, .55);
+}
+
+#ct-audio-mini[data-theme="dark"] {
+    --ct-am-face: linear-gradient(145deg, #415968 0%, #2B3D49 100%);
+    --ct-am-fg: #ffffff;
+    --ct-am-track: rgba(25, 30, 42, .92);
+    --ct-am-accent: #C0A890;
+}
+
+#ct-audio-mini[data-theme="light"] {
+    --ct-am-face: linear-gradient(145deg, #E4D0C7 0%, #C0A890 100%);
+    --ct-am-fg: #191E2A;
+    --ct-am-track: #ffffff;
+    --ct-am-accent: #415968;
+}
+
+/* حلقه‌ی پیشرفت پخش دور دکمه */
+#ct-audio-mini .ct-am-ring {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: conic-gradient(var(--ct-am-accent) var(--ct-am-progress), var(--ct-am-track) 0);
+    pointer-events: none;
+}
+
+#ct-audio-mini .ct-am-face {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(var(--ct-am-size) - 8px);
+    height: calc(var(--ct-am-size) - 8px);
+    border-radius: 50%;
+    background: var(--ct-am-face);
+    color: var(--ct-am-fg);
+    overflow: hidden;
+    pointer-events: none;
+}
+
+#ct-audio-mini .ct-icon {
+    display: block;
+    flex: 0 0 auto;
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    transition: opacity .2s ease, transform .2s ease;
+}
+
+#ct-audio-mini .ct-am-eq {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 3px;
+    padding-bottom: 17px;
+    opacity: 0;
+    transition: opacity .2s ease;
+}
+
+#ct-audio-mini .ct-am-eq i {
+    display: block;
+    width: 4px;
+    height: 10px;
+    border-radius: 2px;
+    background: currentColor;
+    transform-origin: bottom;
+    animation: ct-ap-eq 1s ease-in-out infinite;
+}
+
+#ct-audio-mini .ct-am-eq i:nth-child(2) { animation-delay: .15s; }
+#ct-audio-mini .ct-am-eq i:nth-child(3) { animation-delay: .3s; }
+#ct-audio-mini .ct-am-eq i:nth-child(4) { animation-delay: .45s; }
+
+#ct-audio-mini.is-playing .ct-icon {
+    opacity: 0;
+    transform: scale(.6);
+}
+
+#ct-audio-mini.is-playing .ct-am-eq {
+    opacity: 1;
+}
+
+@keyframes ct-am-in {
+    from { opacity: 0; transform: translateY(16px) scale(.8); }
+    to { opacity: 1; transform: none; }
+}
+
 /* جای خالی پایین صفحه تا پلیر روی محتوا نیفتد */
 body.ct-audio-player-open {
     padding-bottom: 96px;
@@ -849,6 +992,12 @@ body.ct-audio-player-open {
         display: none;
     }
 
+    #ct-audio-mini {
+        --ct-am-size: 54px;
+        bottom: 14px;
+        inset-inline-start: 14px;
+    }
+
     .ct-audio-track .ct-audio-play__label {
         max-width: 200px;
     }
@@ -861,8 +1010,14 @@ body.ct-audio-player-open {
         transition: none;
     }
 
+    #ct-audio-mini {
+        animation: none;
+        transition: none;
+    }
+
     #ct-audio-player .ct-ap-eq i,
-    #ct-audio-player .ct-ap-item__eq i {
+    #ct-audio-player .ct-ap-item__eq i,
+    #ct-audio-mini .ct-am-eq i {
         animation: none;
         transform: scaleY(1);
     }

@@ -2920,3 +2920,11 @@ msgid ""
 msgstr ""
 "Les informations de l’extension n’ont pas pu être récupérées depuis le "
 "serveur de mises à jour CloudTart. Veuillez réessayer plus tard."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php
+msgid "Minimize player"
+msgstr "Réduire le lecteur"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php
+msgid "Open audio player"
+msgstr "Ouvrir le lecteur audio"

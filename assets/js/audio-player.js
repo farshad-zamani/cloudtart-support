@@ -44,6 +44,7 @@
     root.setAttribute('data-ready', '1');
 
     var audio = root.querySelector('audio');
+    var mini = document.getElementById('ct-audio-mini');
     var els = {
         title: root.querySelector('.ct-ap-title'),
         product: root.querySelector('.ct-ap-product'),
@@ -119,17 +120,37 @@
         root.hidden = false;
         root.classList.add('is-open');
         document.body.classList.add('ct-audio-player-open');
+        if (mini) {
+            mini.hidden = true;
+        }
     }
 
-    function closePlayer() {
-        audio.pause();
+    /**
+     * «بستن» فقط پلیر را کوچک می‌کند: پخش ادامه دارد و پلیر به دکمه‌ی شناور پایین صفحه
+     * تبدیل می‌شود (برای توقف، کاربر دکمه‌ی توقف را می‌زند).
+     */
+    function minimizePlayer() {
         root.classList.remove('is-open');
         root.hidden = true;
         document.body.classList.remove('ct-audio-player-open');
+        if (mini) {
+            mini.hidden = false;
+            mini.focus({ preventScroll: true });
+        }
+    }
+
+    function restorePlayer() {
+        openPlayer();
+        if (els.toggle) {
+            els.toggle.focus({ preventScroll: true });
+        }
     }
 
     function setPlayingState(playing) {
         root.classList.toggle('is-playing', playing);
+        if (mini) {
+            mini.classList.toggle('is-playing', playing);
+        }
         if (els.toggle) {
             els.toggle.setAttribute('aria-label', playing ? t('pause', 'Pause') : t('play', 'Play'));
         }
@@ -177,6 +198,9 @@
             els.timeDuration.textContent = '0:00';
             showMessage('');
             updateMediaSession(track);
+            if (mini) {
+                mini.setAttribute('title', t('openPlayer', 'Open audio player') + ' — ' + track.title);
+            }
         }
 
         openPlayer();
@@ -310,6 +334,8 @@
         button.addEventListener('click', function (event) {
             event.preventDefault();
             if (index === current) {
+                // پلیر کوچک‌شده با هر کلیک روی دکمه‌ی یک ترک دوباره باز می‌شود.
+                openPlayer();
                 togglePlayback();
             } else {
                 load(index, true);
@@ -320,7 +346,13 @@
     els.toggle.addEventListener('click', togglePlayback);
     els.prev.addEventListener('click', function () { step(-1); });
     els.next.addEventListener('click', function () { step(1); });
-    els.close.addEventListener('click', closePlayer);
+    els.close.addEventListener('click', minimizePlayer);
+    if (mini) {
+        mini.addEventListener('click', restorePlayer);
+        mini.addEventListener('contextmenu', function (event) {
+            event.preventDefault();
+        });
+    }
 
     els.listToggle.addEventListener('click', function () {
         var expanded = els.listToggle.getAttribute('aria-expanded') === 'true';
@@ -375,7 +407,9 @@
         if (target && (target.tagName === 'INPUT' || target.tagName === 'LI')) {
             return;
         }
-        if (event.key === ' ' || event.key === 'k') {
+        if (event.key === 'Escape') {
+            minimizePlayer();
+        } else if (event.key === ' ' || event.key === 'k') {
             event.preventDefault();
             togglePlayback();
         } else if (event.key === 'ArrowRight' && isFinite(audio.duration)) {
@@ -411,6 +445,9 @@
         els.seek.value = Math.round(ratio * 1000);
         els.fill.style.width = (ratio * 100) + '%';
         els.timeCurrent.textContent = formatTime(audio.currentTime);
+        if (mini) {
+            mini.style.setProperty('--ct-am-progress', (ratio * 360).toFixed(1) + 'deg');
+        }
     });
 
     audio.addEventListener('progress', function () {

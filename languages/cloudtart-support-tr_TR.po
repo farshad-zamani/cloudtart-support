@@ -2849,3 +2849,11 @@ msgid ""
 msgstr ""
 "Eklenti bilgileri CloudTart güncelleme sunucusundan alınamadı. Lütfen daha "
 "sonra tekrar deneyin."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php
+msgid "Minimize player"
+msgstr "Oynatıcıyı küçült"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php
+msgid "Open audio player"
+msgstr "Ses oynatıcısını aç"

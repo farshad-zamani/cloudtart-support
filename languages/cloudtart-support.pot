@@ -2663,3 +2663,11 @@ msgid ""
 "Plugin information could not be retrieved from the CloudTart update server. "
 "Please try again later."
 msgstr ""
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php
+msgid "Minimize player"
+msgstr ""
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php
+msgid "Open audio player"
+msgstr ""

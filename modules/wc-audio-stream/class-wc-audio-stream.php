@@ -557,6 +557,7 @@ if (!class_exists('CloudTart_Support_WC_Audio_Stream')) {
                     'pauseTrack' => __('Pause %s', 'cloudtart-support'),
                     'error' => __('This track could not be played. Please reload the page and try again.', 'cloudtart-support'),
                     'nowPlaying' => __('Now playing', 'cloudtart-support'),
+                    'openPlayer' => __('Open audio player', 'cloudtart-support'),
                     'trackCount' => __('%d tracks', 'cloudtart-support'),
                 ],
             ]);
@@ -603,7 +604,8 @@ if (!class_exists('CloudTart_Support_WC_Audio_Stream')) {
                             <input type="range" class="ct-ap-volume-slider" min="0" max="100" value="100" aria-label="<?php echo esc_attr__('Volume', 'cloudtart-support'); ?>">
                         </div>
                         <button type="button" class="ct-ap-btn ct-ap-list-toggle" aria-label="<?php echo esc_attr__('Playlist', 'cloudtart-support'); ?>" aria-expanded="false"><?php echo $this->icon('list'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?><span class="ct-ap-count"></span></button>
-                        <button type="button" class="ct-ap-btn ct-ap-close" aria-label="<?php echo esc_attr__('Close player', 'cloudtart-support'); ?>"><?php echo $this->icon('close'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></button>
+                        <?php /* کوچک کردن پلیر (نه توقف پخش): پلیر به دکمه‌ی شناور پایین صفحه تبدیل می‌شود. */ ?>
+                        <button type="button" class="ct-ap-btn ct-ap-close" aria-label="<?php echo esc_attr__('Minimize player', 'cloudtart-support'); ?>" title="<?php echo esc_attr__('Minimize player', 'cloudtart-support'); ?>"><?php echo $this->icon('minimize'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></button>
                     </div>
                 </div>
 
@@ -612,6 +614,14 @@ if (!class_exists('CloudTart_Support_WC_Audio_Stream')) {
 
                 <audio preload="metadata" controlslist="nodownload noplaybackrate" disableremoteplayback></audio>
             </div>
+
+            <button type="button" id="ct-audio-mini" class="ct-audio-mini" data-theme="<?php echo esc_attr($this->theme); ?>" aria-label="<?php echo esc_attr__('Open audio player', 'cloudtart-support'); ?>" title="<?php echo esc_attr__('Open audio player', 'cloudtart-support'); ?>" hidden>
+                <span class="ct-am-ring" aria-hidden="true"></span>
+                <span class="ct-am-face" aria-hidden="true">
+                    <?php echo $this->icon('note'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+                    <span class="ct-am-eq"><i></i><i></i><i></i><i></i></span>
+                </span>
+            </button>
             <?php
         }
 
@@ -625,6 +635,7 @@ if (!class_exists('CloudTart_Support_WC_Audio_Stream')) {
                 'muted' => '<path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5H4Z"/><path d="M15.5 9.5l5 5M20.5 9.5l-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>',
                 'list' => '<path d="M4 6.5h10M4 12h10M4 17.5h10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M17 10.5v7.2a2.2 2.2 0 1 1-1.5-2.1V8l4.5-1.2v2.5L17 10.5Z"/>',
                 'close' => '<path d="M6.5 6.5l11 11M17.5 6.5l-11 11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+                'minimize' => '<path d="M6.5 9.5l5.5 5.5 5.5-5.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>',
                 'download' => '<path d="M12 4v10m0 0l-4-4m4 4l4-4M5 17.5v1A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5v-1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>',
                 'note' => '<path d="M10 17.5a3 3 0 1 1-2-2.83V5.8l10-2.5v11.2a3 3 0 1 1-2-2.83V7.1l-6 1.5v8.9Z"/>',
             ];

@@ -2899,3 +2899,11 @@ msgid ""
 msgstr ""
 "Die Plugin-Informationen konnten nicht vom CloudTart-Update-Server abgerufen"
 " werden. Bitte versuchen Sie es später erneut."
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php
+msgid "Minimize player"
+msgstr "Player minimieren"
+
+#: modules/wc-audio-stream/class-wc-audio-stream.php
+msgid "Open audio player"
+msgstr "Audioplayer öffnen"
