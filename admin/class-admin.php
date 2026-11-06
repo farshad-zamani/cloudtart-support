@@ -57,32 +57,12 @@ class CloudTart_Support_Admin {
             'check_interval' => 'hourly'
         ]);
 
-        $this->plugins_settings = wp_parse_args(
-            get_option('cloudtart_plugins_settings', []),
-            [
-                'enable_digits_iranpayamak' => '0',
-                'enable_dokan_fix' => '0',
-                'enable_wallet_withdraw_orders' => '0',
-                'enable_pwsms_iranpayamak' => '0',
-                'enable_wc_audio_stream' => '0',
-                'wc_audio_allow_download' => '0',
-                'wc_audio_show_player' => '1',
-                'wc_audio_player_theme' => 'dark',
-            ]
-        );
+        $this->plugins_settings = CloudTart_Support_Plugin_Settings::all();
 
         $this->internal_cdn_settings = wp_parse_args(
             get_option('cloudtart_internal_cdn_settings', []),
             $this->get_default_internal_cdn_settings()
         );
-
-        // مهاجرت سازگار با تنظیمات قبلی
-        if (
-            !isset($this->plugins_settings['enable_digits_iranpayamak']) &&
-            isset($this->plugins_settings['enable_digits_ippanel'])
-        ) {
-            $this->plugins_settings['enable_digits_iranpayamak'] = $this->plugins_settings['enable_digits_ippanel'] === '1' ? '1' : '0';
-        }
     }
 
     private function get_default_internal_cdn_settings() {
@@ -240,6 +220,13 @@ class CloudTart_Support_Admin {
         );
     }
 
+    private function is_digits_active() {
+        return $this->is_plugin_active_by_files(
+            ['digits/digit.php', 'digits/digits.php', 'digits-pro/digit.php', 'digits-pro/digits-pro.php', 'digits-pro/digits.php'],
+            [defined('DIGITS_VERSION'), class_exists('Digits'), function_exists('digits_version')]
+        );
+    }
+
     private function is_plugin_active_by_files(array $plugin_files, array $fallbacks = []) {
         if (!function_exists('is_plugin_active')) {
             require_once ABSPATH . 'wp-admin/includes/plugin.php';
@@ -280,6 +267,21 @@ class CloudTart_Support_Admin {
         add_action('admin_post_cloudtart_internal_cdn_delete_log', [$this, 'delete_internal_cdn_log']);
         add_action('admin_post_cloudtart_save_all_settings', [$this, 'save_all_settings']);
         add_action('admin_notices', [$this, 'maybe_show_connector_notice']);
+        add_action('admin_notices', [$this, 'maybe_show_digits_gateway_notice']);
+    }
+
+    /** Warn about a selected gateway whose sending filter is not loaded. */
+    public function maybe_show_digits_gateway_notice() {
+        if (!current_user_can('manage_options') || !$this->is_digits_active()
+            || $this->plugins_settings['enable_digits_iranpayamak'] === '1'
+            || !in_array(get_option('digit_tapp'), [1000, '1000'], true)) {
+            return;
+        }
+
+        echo '<div class="notice notice-error"><p><strong>' . esc_html__('CloudTart Support', 'cloudtart-support') . ':</strong> '
+            . esc_html__('Digits is configured to use the IranPayamak SMS gateway (1000), but the CloudTart gateway module is disabled. SMS verification codes cannot be sent through this gateway. Enable the module in Other Plugin Settings or select another gateway in Digits.', 'cloudtart-support')
+            . ' <a href="' . esc_url(admin_url('options-general.php?page=cloudtart-support&tab=plugins')) . '">'
+            . esc_html__('Other Plugin Settings', 'cloudtart-support') . '</a></p></div>';
     }
 
     /**
@@ -484,6 +486,12 @@ class CloudTart_Support_Admin {
         $file_info = wp_check_filetype(basename($file_name), $allowed_mimes);
         if (empty($file_info['ext'])) {
             wp_send_json_error(['message' => __('Invalid file type.', 'cloudtart-support')], 400);
+        }
+
+        // Active CDN assets can execute in the site's origin. A role with only
+        // manage_options (notably a multisite site admin) must not gain that power.
+        if (in_array($file_info['ext'], ['js', 'css', 'html', 'htm', 'svg'], true) && !current_user_can('unfiltered_html')) {
+            wp_send_json_error(['message' => __('You do not have permission to perform this action.', 'cloudtart-support')], 403);
         }
 
         $upload_info = $this->get_internal_cdn_upload_dir();
@@ -941,12 +949,7 @@ class CloudTart_Support_Admin {
             $this->logger->log(__('Started validating plugin settings', 'cloudtart-support'));
         }
 
-        $settings = is_array($settings) ? $settings : [];
-
-        // مهاجرت سازگار با ورودی قدیمی
-        if (!isset($settings['enable_digits_iranpayamak']) && isset($settings['enable_digits_ippanel'])) {
-            $settings['enable_digits_iranpayamak'] = $settings['enable_digits_ippanel'];
-        }
+        $settings = CloudTart_Support_Plugin_Settings::migrate_legacy(is_array($settings) ? $settings : []);
 
         // فعال/غیرفعال کردن درگاه ایران پیامک برای Digits
         $settings['enable_digits_iranpayamak'] = isset($settings['enable_digits_iranpayamak']) && $settings['enable_digits_iranpayamak'] === '1' ? '1' : '0';
@@ -1028,6 +1031,12 @@ class CloudTart_Support_Admin {
         }
 
         foreach (['replacements', 'blocked_domains', 'allowed_domains', 'allowed_keywords'] as $key) {
+            // The rules can inject remote JS/CSS into admin pages as well as the
+            // front end. Protect rule edits too, not only the upload endpoint.
+            if ($key === 'replacements' && !current_user_can('unfiltered_html')) {
+                $settings[$key] = isset($existing[$key]) && is_array($existing[$key]) ? $existing[$key] : (array) $defaults[$key];
+                continue;
+            }
             $submitted = !empty($present[$key]) || array_key_exists($key, $settings);
 
             if (!$submitted) {
@@ -1253,6 +1262,10 @@ class CloudTart_Support_Admin {
      * نمایش فیلد قوانین جایگزینی CDN
      */
     public function render_cdn_replacements_field() {
+        if (!current_user_can('unfiltered_html')) {
+            echo '<p class="description">' . esc_html__('You do not have permission to perform this action.', 'cloudtart-support') . '</p>';
+            return;
+        }
         $redirect_enabled = isset($this->internal_cdn_settings['enabled']) && $this->internal_cdn_settings['enabled'] === '1';
         $replacements = isset($this->internal_cdn_settings['replacements']) ? $this->internal_cdn_settings['replacements'] : [];
         $upload_info = $this->get_internal_cdn_upload_dir();
@@ -1486,16 +1499,17 @@ class CloudTart_Support_Admin {
     public function render_enable_digits_iranpayamak_field() {
         $enable_digits_iranpayamak = isset($this->plugins_settings['enable_digits_iranpayamak']) && $this->plugins_settings['enable_digits_iranpayamak'] == '1';
         
-        $is_digits_active = $this->is_plugin_active_by_files(
-            ['digits/digits.php', 'digits-pro/digits-pro.php', 'digits-pro/digits.php'],
-            [defined('DIGITS_VERSION'), class_exists('Digits'), function_exists('digits_version')]
-        );
+        $is_digits_active = $this->is_digits_active();
+
+        // Disabled checkboxes are not submitted. Keep the saved preference while
+        // Digits is unavailable; an active checkbox still submits 0 when cleared.
+        $hidden_value = !$is_digits_active && $enable_digits_iranpayamak ? '1' : '0';
         
         $disabled_attr = $is_digits_active ? '' : 'disabled';
         $label_style = $is_digits_active ? '' : 'style="opacity: 0.6; cursor: not-allowed;"';
         ?>
         <label class="ct-check" <?php echo $label_style; ?>>
-            <input type="hidden" name="cloudtart_plugins_settings[enable_digits_iranpayamak]" value="0">
+            <input type="hidden" name="cloudtart_plugins_settings[enable_digits_iranpayamak]" value="<?php echo esc_attr($hidden_value); ?>">
             <input type="checkbox" name="cloudtart_plugins_settings[enable_digits_iranpayamak]" value="1" <?php checked($enable_digits_iranpayamak); ?> <?php echo $disabled_attr; ?>>
             <span><?php echo esc_html__('Enable the IranPayamak (FarazSMS) SMS gateway inside the "Digits" plugin', 'cloudtart-support'); ?></span>
         </label>

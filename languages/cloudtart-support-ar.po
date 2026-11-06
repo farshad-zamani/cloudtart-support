@@ -2800,3 +2800,7 @@ msgstr "تصغير المشغّل"
 #: modules/wc-audio-stream/class-wc-audio-stream.php
 msgid "Open audio player"
 msgstr "فتح مشغّل الصوت"
+
+#: admin/class-admin.php:282
+msgid "Digits is configured to use the IranPayamak SMS gateway (1000), but the CloudTart gateway module is disabled. SMS verification codes cannot be sent through this gateway. Enable the module in Other Plugin Settings or select another gateway in Digits."
+msgstr "تم ضبط Digits لاستخدام بوابة رسائل IranPayamak (1000)، لكن وحدة هذه البوابة في CloudTart معطلة. لا يمكن إرسال رموز التحقق عبر هذه البوابة. فعّل الوحدة في إعدادات الإضافات الأخرى أو اختر بوابة أخرى في Digits."

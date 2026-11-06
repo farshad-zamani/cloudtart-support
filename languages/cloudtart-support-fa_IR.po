@@ -2826,3 +2826,7 @@ msgstr "کوچک کردن پلیر"
 #: modules/wc-audio-stream/class-wc-audio-stream.php
 msgid "Open audio player"
 msgstr "باز کردن پلیر صوتی"
+
+#: admin/class-admin.php:282
+msgid "Digits is configured to use the IranPayamak SMS gateway (1000), but the CloudTart gateway module is disabled. SMS verification codes cannot be sent through this gateway. Enable the module in Other Plugin Settings or select another gateway in Digits."
+msgstr "درگاه پیامک Digits روی ایران‌پیامک (۱۰۰۰) تنظیم شده، اما ماژول این درگاه در کلادتارت خاموش است. کدهای تأیید پیامکی از طریق این درگاه ارسال نمی‌شوند. ماژول را در «تنظیمات سایر افزونه‌ها» روشن کنید یا در Digits درگاه دیگری انتخاب کنید."

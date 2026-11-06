@@ -2857,3 +2857,7 @@ msgstr "Oynatıcıyı küçült"
 #: modules/wc-audio-stream/class-wc-audio-stream.php
 msgid "Open audio player"
 msgstr "Ses oynatıcısını aç"
+
+#: admin/class-admin.php:282
+msgid "Digits is configured to use the IranPayamak SMS gateway (1000), but the CloudTart gateway module is disabled. SMS verification codes cannot be sent through this gateway. Enable the module in Other Plugin Settings or select another gateway in Digits."
+msgstr "Digits, IranPayamak SMS ağ geçidini (1000) kullanacak şekilde ayarlanmış, ancak CloudTart ağ geçidi modülü devre dışı. SMS doğrulama kodları bu ağ geçidi üzerinden gönderilemez. Diğer Eklenti Ayarları bölümünde modülü etkinleştirin veya Digits içinde başka bir ağ geçidi seçin."

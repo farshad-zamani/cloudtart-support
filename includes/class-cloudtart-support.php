@@ -62,24 +62,7 @@ class CloudTart_Support {
             'debug' => '0'
         ]);
 
-        $this->plugins_settings = get_option('cloudtart_plugins_settings', [
-            'enable_digits_iranpayamak' => '0',
-            'enable_dokan_fix' => '0',
-            'enable_wallet_withdraw_orders' => '0',
-            'enable_pwsms_iranpayamak' => '0',
-            'enable_wc_audio_stream' => '0',
-            'wc_audio_allow_download' => '0',
-            'wc_audio_show_player' => '1',
-            'wc_audio_player_theme' => 'dark'
-        ]);
-
-        // مهاجرت سازگار با تنظیمات قبلی
-        if (
-            !isset($this->plugins_settings['enable_digits_iranpayamak']) &&
-            isset($this->plugins_settings['enable_digits_ippanel'])
-        ) {
-            $this->plugins_settings['enable_digits_iranpayamak'] = $this->plugins_settings['enable_digits_ippanel'] === '1' ? '1' : '0';
-        }
+        $this->plugins_settings = CloudTart_Support_Plugin_Settings::all();
 
         $this->debug = isset($this->settings['debug']) && $this->settings['debug'] == '1';
     }

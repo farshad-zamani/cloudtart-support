@@ -124,6 +124,9 @@ class Digits_IranPayamak_API
     -----------------------------------------------------*/
     private function execute_curl($endpoint, $params)
     {
+        if (!function_exists('curl_init')) {
+            return json_encode(['meta' => ['status' => false, 'message' => 'CURL is not available']]);
+        }
         if (empty($this->apikey)) {
             return json_encode([
                 'meta' => [
@@ -145,9 +148,20 @@ class Digits_IranPayamak_API
                 "Content-Type: application/json",
                 "Api-Key: " . $this->apikey
             ],
-            CURLOPT_SSL_VERIFYPEER => false,
-            CURLOPT_SSL_VERIFYHOST => false
+            CURLOPT_SSL_VERIFYPEER => true,
+            CURLOPT_SSL_VERIFYHOST => 2,
+            CURLOPT_CONNECTTIMEOUT => 10,
+            CURLOPT_TIMEOUT        => 30
         ]);
+
+        // Use WordPress's CA bundle on hosts without a system CA configuration.
+        $ca_bundle = ABSPATH . WPINC . '/certificates/ca-bundle.crt';
+        if (is_readable($ca_bundle)) { curl_setopt($curl, CURLOPT_CAINFO, $ca_bundle); }
+        if (defined('CURLOPT_PROTOCOLS_STR')) {
+            curl_setopt($curl, CURLOPT_PROTOCOLS_STR, 'HTTPS');
+        } else {
+            curl_setopt($curl, CURLOPT_PROTOCOLS, CURLPROTO_HTTPS);
+        }
 
         $response = curl_exec($curl);
         $error    = curl_error($curl);

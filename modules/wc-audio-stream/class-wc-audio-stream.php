@@ -459,6 +459,9 @@ if (!class_exists('CloudTart_Support_WC_Audio_Stream')) {
          * اگر cURL در دسترس نباشد، مثل خود ووکامرس به آدرس اصلی هدایت می‌کند.
          */
         private function proxy_remote_file($url, $mime, $filename) {
+            if (!preg_match('#^https?://#i', $url)) {
+                $this->deny(__('Invalid streaming link.', 'cloudtart-support'), 400);
+            }
             if (!function_exists('curl_init')) {
                 wp_redirect($url); // phpcs:ignore WordPress.Security.SafeRedirect.wp_redirect_wp_redirect
                 exit;
@@ -510,6 +513,13 @@ if (!class_exists('CloudTart_Support_WC_Audio_Stream')) {
                 },
             ]);
 
+            if (defined('CURLOPT_PROTOCOLS_STR')) {
+                curl_setopt($ch, CURLOPT_PROTOCOLS_STR, 'HTTP,HTTPS');
+                curl_setopt($ch, CURLOPT_REDIR_PROTOCOLS_STR, 'HTTP,HTTPS');
+            } else {
+                curl_setopt($ch, CURLOPT_PROTOCOLS, CURLPROTO_HTTP | CURLPROTO_HTTPS);
+                curl_setopt($ch, CURLOPT_REDIR_PROTOCOLS, CURLPROTO_HTTP | CURLPROTO_HTTPS);
+            }
             curl_exec($ch);
             if (PHP_VERSION_ID < 80000) {
                 curl_close($ch); // از PHP 8 خودکار آزاد می‌شود؛ curl_close در PHP 8.5 منسوخ است

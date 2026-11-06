@@ -2928,3 +2928,7 @@ msgstr "Réduire le lecteur"
 #: modules/wc-audio-stream/class-wc-audio-stream.php
 msgid "Open audio player"
 msgstr "Ouvrir le lecteur audio"
+
+#: admin/class-admin.php:282
+msgid "Digits is configured to use the IranPayamak SMS gateway (1000), but the CloudTart gateway module is disabled. SMS verification codes cannot be sent through this gateway. Enable the module in Other Plugin Settings or select another gateway in Digits."
+msgstr "Digits est configuré pour utiliser la passerelle SMS IranPayamak (1000), mais le module de cette passerelle dans CloudTart est désactivé. Les codes de vérification par SMS ne peuvent pas être envoyés par cette passerelle. Activez le module dans les réglages des autres extensions ou sélectionnez une autre passerelle dans Digits."

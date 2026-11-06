@@ -70,36 +70,20 @@ if (!class_exists('CloudTart_Support_Dokan_Fix')) {
                 if (isset($wp_filter[$hook])) {
                     foreach ($wp_filter[$hook]->callbacks as $priority => $callbacks) {
                         foreach ($callbacks as $key => $callback) {
-                            if (is_array($callback['function']) && is_object($callback['function'][0])) {
-                                $class_name = get_class($callback['function'][0]);
-                                $method_name = isset($callback['function'][1]) ? $callback['function'][1] : '';
-
-                                // Remove only specific Dokan coupon validation methods
-                                if (strpos($class_name, 'Dokan') !== false || strpos($class_name, 'dokan') !== false) {
-                                    // Try to use remove_filter first
-                                    remove_filter($hook, array($callback['function'][0], $method_name), $priority);
-                                    // Also unset directly from the global array as a fallback
-                                    unset($wp_filter[$hook]->callbacks[$priority][$key]);
-                                }
+                            $handler = $callback['function'];
+                            $owner = is_array($handler)
+                                ? (is_object($handler[0]) ? get_class($handler[0]) : (string) $handler[0])
+                                : (is_string($handler) ? $handler : '');
+                            if ($owner !== __CLASS__ && stripos($owner, 'Dokan') !== false) {
+                                remove_filter($hook, $handler, $priority);
                             }
                         }
                     }
                 }
             }
 
-            // Second approach: Remove all filters at priority 10 as a fallback
-            remove_all_filters('woocommerce_coupon_is_valid', 10);
-            remove_all_filters('woocommerce_coupon_is_valid_for_cart', 10);
-
-            // Remove Dokan Pro hooks if they exist (with more priorities)
-            if (class_exists('Dokan_Pro_Coupons')) {
-                foreach ($hooks_to_check as $hook) {
-                    // Try multiple common priorities
-                    foreach (array(5, 10, 15, 20, 25, 30) as $priority) {
-                        remove_all_filters($hook, $priority);
-                    }
-                }
-            }
+            // Keep every other plugin's eligibility/fraud/discount restrictions.
+            // Broad remove_all_filters() calls could silently bypass those rules.
             
             // Alternative method: Try to access Dokan instance directly
             $this->remove_dokan_instance_hooks();
